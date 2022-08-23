@@ -1,2 +1,2 @@
 # sunnydigital.github.io
-Repository for Sunny's Website
+Repository for Sunny's website
