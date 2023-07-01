@@ -1,4 +1,36 @@
-baseURL = "https://sunnydigital.github.io"
-languageCode = "en-us"
-title = "Sunny's Sentiments"
-theme = "paper"
+# Site settings
+baseURL = 'https://sunnydigital.github.io'
+languageCode = 'en-us'
+title = 'Sunny's Site'
+theme = 'paper'
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ''
+
+[params]
+
+    description = 'Sunny's website'
+
+    # Color style
+    color = 'light'
+
+    # Header social icons
+    twitter = '__sunnyson__'                  # twitter.com/YOUR_TWITTER_ID
+    github = 'sunnydigital'                   # github.com/YOUR_GITHUB_ID
+    instagram = ''                            # instagram.com/YOUR_INSTAGRAM_ID
+    linkedin = 'sunny-son'                    # linkedin.com/in/YOUR_LINKEDIN_ID
+    mastodon = ''                             # e.g. 'https://mastodon.instance/@xxx'
+    rss = true                                # show rss icon
+
+    # Home page profile
+    avatar = 'sunnys2327@gmail.com'           # gravatar email or image url
+    name = 'Sunny Son'
+    bio = 'CS/DS Grad interested in AI/ML; Thoughts are my own'
+
+
+    # Misc
+    disableHLJS = true                        # disable highlight.js
+    monoDarkIcon = true                       # show monochrome dark mode icon
+    gravatarCdn = ''                          # e.g. 'https://cdn.v2ex.com/gravatar/'
+    graphCommentId = ''                       # use graph comment (disqus alternative)
+    math = true                               # enable KaTex math typesetting globally
