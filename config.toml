@@ -30,7 +30,7 @@ googleAnalytics = ''
 
     # Misc
     disableHLJS = true                        # disable highlight.js
-    monoDarkIcon = true                       # show monochrome dark mode icon
+    monoDarkIcon = false                      # show monochrome dark mode icon
     gravatarCdn = ''                          # e.g. 'https://cdn.v2ex.com/gravatar/'
     graphCommentId = ''                       # use graph comment (disqus alternative)
     math = true                               # enable KaTex math typesetting globally
