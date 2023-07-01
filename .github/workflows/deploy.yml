@@ -23,8 +23,7 @@ jobs:
 
       - name: Setup Hugo
         run: |
-          curl -L -o /tmp/hugo.tar.gz 
-'https://github.com/gohugoio/hugo/releases/download/v0.110.0/hugo_extended_0.110.0_linux-amd64.tar.gz'
+          curl -L -o /tmp/hugo.tar.gz 'https://github.com/gohugoio/hugo/releases/download/v0.110.0/hugo_extended_0.110.0_linux-amd64.tar.gz'
           tar -C ${RUNNER_TEMP} -zxvf /tmp/hugo.tar.gz hugo          
       - name: Build
         run: ${RUNNER_TEMP}/hugo
@@ -37,6 +36,5 @@ jobs:
           git add .
           git config user.name 'sunnydigital'
           git config user.email 'sunnys2327@gmail.com'
-          git diff --quiet && git diff --staged --quiet || git commit -m 
-'Updated site'
+          git diff --quiet && git diff --staged --quiet || git commit -m 'Updated site'
           git push
