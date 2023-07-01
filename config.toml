@@ -9,7 +9,7 @@ googleAnalytics = ''
 
 [params]
 
-    description = 'Sunny's website'
+    description = "Sunny's website"
 
     # Color style
     color = 'light'
