@@ -1,7 +1,7 @@
 # Site settings
 baseURL = 'https://sunnydigital.github.io'
 languageCode = 'en-us'
-title = "Sunny's Site"
+title = "Sunny's Side"
 theme = 'paper'
 
 # Enter your tracking code to enable Google Analytics
