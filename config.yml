@@ -57,6 +57,23 @@ params:
   defaultTheme: auto
   disableThemeToggle: false
 
+  # Post settings
+  post:
+    showAuthor: true  # Show the author of posts
+    showDate: true  # Show the date of posts
+    showTags: true  # Show the tags of posts
+    showCover: true  # Show the cover image of posts
+    showNextPrev: true  # Show links to the next and previous posts
+  # Footer settings
+  footer:
+    copyright: "Copyright © 2023 Sunny Son"  # The copyright notice to show in the footer
+    poweredBy: "Powered by Chips and Caffeine"  # The "powered by" notice to show in the footer, defaults to Hugo & PaperMod
+  social:
+    twitter: "__sunnyson__"  # Your Twitter username
+    github: "sunnydigital"  # Your GitHub username
+    linkedin: "sunny-son"
+    email: "sunnys2327@gmail.com"  # Your email address
+
   # Misc
   disableHLJS: true
   monoDarkIcon: false
