@@ -5,7 +5,7 @@ publishDir = "public"
 
 # Site settings
 buildDrafts = false
-baseURL = 'https://sunnydigital.github.io'
+baseURL = 'https://sunnyson.dev/'
 canonifyURLs = true
 languageCode = 'en-us'
 title = "Sunny's Digital"
