@@ -23,8 +23,8 @@ googleAnalytics = ''
     color = 'light'
 
     # Header social icons
-    github = 'sunnydigital'                   # github.com/YOUR_GITHUB_ID
     twitter = '__sunnyson__'                  # twitter.com/YOUR_TWITTER_ID
+    github = 'sunnydigital'                   # github.com/YOUR_GITHUB_ID    
     # instagram = ''                          # instagram.com/YOUR_INSTAGRAM_ID
     linkedin = 'sunny-son'                    # linkedin.com/in/YOUR_LINKEDIN_ID
     # mastodon = ''                           # e.g. 'https://mastodon.instance/@xxx'
