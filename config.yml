@@ -19,7 +19,7 @@ params:
   profileMode:
     enabled: true
     title: Sunny's Digital # optional default will be site title
-    subtitle: "Hi! Welcome to my website! (Thoughts are my own)"
+    subtitle: "Hi, welcome to my website! Here I post some occasional musings, projects I'm working on, thoughts on books I've read, and PC builds. Thoughts are my own."
     imageUrl: "https://en.gravatar.com/userimage/237046188/62122b946d153a7018b666085c8ae6b1?size=original" # optional
     imageTitle: "Feelin' Sunny" # optional
     imageWidth: 120 # custom size
@@ -102,21 +102,21 @@ menu:
     - name: Projects
       url: /projects/
       weight: 3
-    - name: CV
-      url: /cv/
-      weight: 4
     - name: Readings
       url: /readings/
-      weight: 5
+      weight: 4
     - name: Builds
       url: /builds/
+      weight: 5
+    - name: CV
+      url: /cv/
       weight: 6
     - name: Search
       url: /search/
       weight: 7
     - name: Archive
       url: /archive/
-      eright: 8
+      weight: 8
     - name: Tags
       url: /tags/
       weight: 9
