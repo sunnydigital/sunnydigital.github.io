@@ -27,28 +27,17 @@ params:
     buttons:
       - name: Archive
         url: "/archive"
-      - name: Twitter
-        url: "https://twitter.com/__sunnyson__"
-      - name: Github
-        url: "https://github.com/sunnydigital"
-      - name: LinkedIn
-        url: "https://www.linkedin.com/in/sunny-son/"
-      - name: Google Scholar
-        url: "https://scholar.google.com/citations?user=tGaMcikAAAAJ&hl=en"
-
-  # Color style
-  color: light
 
 #  #Social icon URLs
-#  socialIcons:
-#    - name: "Twitter"
-#      url: "https://twitter.com/__sunnyson__"
-#    - name: "GitHub"
-#      url: "https://github.com/sunnydigital"
-#    - name: "LinkedIn"
-#      url: "https://www.linkedin.com/in/sunny-son/"
-#    - name: "Google Scholar"
-#      url: "https://scholar.google.com/citations?user=tGaMcikAAAAJ&hl=en"
+  socialIcons:
+    - name: "Twitter"
+      url: "https://twitter.com/__sunnyson__"
+    - name: "GitHub"
+      url: "https://github.com/sunnydigital"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/sunny-son/"
+    - name: "Google Scholar"
+      url: "https://scholar.google.com/citations?user=tGaMcikAAAAJ&hl=en"
   
   # Theme settings
   defaultTheme: auto
