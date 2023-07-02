@@ -16,25 +16,25 @@ googleAnalytics: ''
 
 # Home page config
 params:
-    profileMode:
-        enabled: true
-        title: "Sunny's Digital" # optional default will be site title
-        subtitle: "Sunny Son's Website"
-        imageUrl: "https://en.gravatar.com/userimage/237046188/62122b946d153a7018b666085c8ae6b1?size=original" # optional
-        imageTitle: "Feelin' Sunny" # optional
-        imageWidth: 120 # custom size
-        imageHeight: 120 # custom size
-        buttons:
-            - name: Archive
-              url: "/archive"
-            - name: Twitter
-              url: "https://twitter.com/__sunnyson__"
-            - name: Github
-              url: "https://github.com/sunnydigital"
-            - name: LinkedIn
-              url: "https://www.linkedin.com/in/sunny-son/"
-            - name: Google Scholar
-              url: "https://scholar.google.com/citations?user=tGaMcikAAAAJ&hl=en"
+  profileMode:
+    enabled: true
+    title: "Sunny's Digital" # optional default will be site title
+    subtitle: "Sunny Son's Website"
+    imageUrl: "https://en.gravatar.com/userimage/237046188/62122b946d153a7018b666085c8ae6b1?size=original" # optional
+    imageTitle: "Feelin' Sunny" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Archive
+        url: "/archive"
+      - name: Twitter
+        url: "https://twitter.com/__sunnyson__"
+      - name: Github
+        url: "https://github.com/sunnydigital"
+      - name: LinkedIn
+        url: "https://www.linkedin.com/in/sunny-son/"
+      - name: Google Scholar
+        url: "https://scholar.google.com/citations?user=tGaMcikAAAAJ&hl=en"
 
   # Color style
   color: light
@@ -64,6 +64,14 @@ params:
 taxonomies:
   category: categories
   tag: tags
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # Necessary
+
+
 
 menu:
   main:
