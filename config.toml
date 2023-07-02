@@ -75,3 +75,11 @@ googleAnalytics = ''
   name = "Builds"
   url = "/builds/"
   weight = 7
+[[menu.main]]
+  name = "Search"
+  url = "/search/"
+  weight = 8
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 9
