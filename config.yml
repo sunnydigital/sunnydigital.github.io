@@ -14,29 +14,46 @@ theme: PaperMod
 # Enter your tracking code to enable Google analytics
 googleAnalytics: ''
 
+# Home page config
 params:
-  subtitle: The Personal Website for Sunny Son
-  description: Sunny's website
-  author: Sunny Son
+    profileMode:
+        enabled: true
+        title: "Sunny's Digital" # optional default will be site title
+        subtitle: "Sunny Son's Website"
+        imageUrl: "https://en.gravatar.com/userimage/237046188/62122b946d153a7018b666085c8ae6b1?size=original" # optional
+        imageTitle: "Feelin' Sunny" # optional
+        imageWidth: 120 # custom size
+        imageHeight: 120 # custom size
+        buttons:
+            - name: Archive
+              url: "/archive"
+            - name: Twitter
+              url: "https://twitter.com/__sunnyson__"
+            - name: Github
+              url: "https://github.com/sunnydigital"
+            - name: LinkedIn
+              url: "https://www.linkedin.com/in/sunny-son/"
+            - name: Google Scholar
+              url: "https://scholar.google.com/citations?user=tGaMcikAAAAJ&hl=en"
 
   # Color style
   color: light
 
-  # Header social icons
-  twitter: __sunnyson__
-  github: sunnydigital
-  # instagram: 
-  linkedin: sunny-son
-  # mastodon: 
-  rss: true
+  #Social icon URLs
+  socialIcons:
+    - name: "Twitter"
+      url: "https://sunnyson.dev/static/img/twitter-logo.png"
+    - name: "GitHub"
+      url: "https://sunnyson.dev/static/img/github-logo.png"
+    - name: "LinkedIn"
+      url: "https://sunnyson.dev/static/img/linkedin-logo.png"
+    - name: "Google Scholar"
+      url: "https://sunnyson.dev/static/img/googlescholar-logo.png"
   
-  # Home page profile
-  avatar: sunnys2327@gmail.com
-  name: Sunny Son
-  bio: >-
-    CS/DS grad interested in AI/ML; Thoughts are my own (hover over my propic
-    for a surprise)
-  
+  # Theme settings
+  defaultTheme: auto
+  disableThemeToggle: false
+
   # Misc
   disableHLJS: true
   monoDarkIcon: false
