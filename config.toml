@@ -48,7 +48,8 @@ googleAnalytics = ''
   tag = "tags"
 
 [[menu.main]]
-  url = "/"
+  name = "About"
+  url = "/about/"
   weight = 1
 [[menu.main]]
   name = "Posts"
