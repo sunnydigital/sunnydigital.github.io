@@ -1,0 +1,55 @@
+contentDir: content
+layoutDir: layouts
+publishDir: public
+buildDrafts: false
+baseURL: 'https://sunnyson.dev/'
+canonifyURLs: true
+languageCode: en-us
+title: Sunny's Digital
+theme: paper
+googleAnalytics: ''
+params:
+  subtitle: The Personal Website for Sunny Son
+  description: Sunny's website
+  author: Sunny Son
+  color: light
+  twitter: __sunnyson__
+  github: sunnydigital
+  linkedin: sunny-son
+  rss: true
+  avatar: sunnys2327@gmail.com
+  name: Sunny Son
+  bio: >-
+    CS/DS grad interested in AI/ML; Thoughts are my own (hover over my propic
+    for a surprise)
+  disableHLJS: true
+  monoDarkIcon: false
+  gravatarCdn: ''
+  graphCommentId: ''
+  math: true
+taxonomies:
+  category: categories
+  tag: tags
+menu:
+  main:
+    - name: About
+      url: /about/
+      weight: 1
+    - name: Posts
+      url: /posts/
+      weight: 2
+    - name: Projects
+      url: /projects/
+      weight: 3
+    - name: CV
+      url: /cv/
+      weight: 4
+    - name: FAQ
+      url: /faq/
+      weight: 5
+    - name: Readings
+      url: /readings/
+      weight: 6
+    - name: Builds
+      url: /builds/
+      weight: 7
