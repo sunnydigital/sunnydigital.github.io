@@ -1,35 +1,53 @@
+# Site directories
 contentDir: content
 layoutDir: layouts
 publishDir: public
+
+# Build drafts
 buildDrafts: false
 baseURL: 'https://sunnyson.dev/'
 canonifyURLs: true
 languageCode: en-us
 title: Sunny's Digital
-theme: paper
+theme: PaperMod
+
+# Enter your tracking code to enable Google analytics
 googleAnalytics: ''
+
 params:
   subtitle: The Personal Website for Sunny Son
   description: Sunny's website
   author: Sunny Son
+
+  # Color style
   color: light
+
+  # Header social icons
   twitter: __sunnyson__
   github: sunnydigital
+  # instagram: 
   linkedin: sunny-son
+  # mastodon: 
   rss: true
+  
+  # Home page profile
   avatar: sunnys2327@gmail.com
   name: Sunny Son
   bio: >-
     CS/DS grad interested in AI/ML; Thoughts are my own (hover over my propic
     for a surprise)
+  
+  # Misc
   disableHLJS: true
   monoDarkIcon: false
   gravatarCdn: ''
   graphCommentId: ''
   math: true
+
 taxonomies:
   category: categories
   tag: tags
+
 menu:
   main:
     - name: About
