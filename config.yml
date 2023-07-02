@@ -24,11 +24,8 @@ params:
     imageTitle: "Feelin' Sunny" # optional
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
-    buttons:
-      - name: Archive
-        url: "/archive"
 
-#  #Social icon URLs
+  # Social icon URLs
   socialIcons:
     - name: "Twitter"
       url: "https://twitter.com/__sunnyson__"
@@ -39,6 +36,23 @@ params:
     - name: "Google Scholar"
       url: "https://scholar.google.com/citations?user=tGaMcikAAAAJ&hl=en"
   
+  # Share button on posts
+  ShowShareButtons: true
+
+  # Shows read time for posts
+  ShowReadingTime: true
+
+  # Shows breadcrumbs
+  ShowBreadCrumbs: true
+
+  # Allow copy button for code
+  ShowCodeCopyButtons: true
+
+  # Generation of images and hyperlinks
+  cover:
+    responsiveImages: true
+    linkFullImages: true
+
   # Theme settings
   defaultTheme: auto
   disableThemeToggle: false

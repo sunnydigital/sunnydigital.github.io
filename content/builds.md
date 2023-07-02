@@ -1,5 +1,5 @@
 ---
-title: "Builds"
+title: "PC Builds"
 Description: "This is all of my PC creations!"
 layout: "builds"
 ---
