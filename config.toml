@@ -25,7 +25,7 @@ googleAnalytics = ''
     # Home page profile
     avatar = 'sunnys2327@gmail.com'           # gravatar email or image url
     name = 'Sunny Son'
-    bio = 'CS/DS Grad interested in AI/ML; Thoughts are my own'
+    bio = 'CS/DS grad interested in AI/ML; Thoughts are my own'
 
 
     # Misc
