@@ -1,15 +1,23 @@
+# Site directories
+contentDir = "content"
+layoutDir = "layouts"
+publishDir = "public"
+
 # Site settings
+buildDrafts = false
 baseURL = 'https://sunnydigital.github.io'
+canonifyURLs = true
 languageCode = 'en-us'
-title = "Sunny's Side"
+title = "Sunny's Digital"
 theme = 'paper'
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ''
 
 [params]
-
+    subtitle = "The Personal Website for Sunny Son"
     description = "Sunny's website"
+    author = "Sunny Son"
 
     # Color style
     color = 'light'
@@ -25,7 +33,7 @@ googleAnalytics = ''
     # Home page profile
     avatar = 'sunnys2327@gmail.com'           # gravatar email or image url
     name = 'Sunny Son'
-    bio = 'CS/DS grad interested in AI/ML; Thoughts are my own'
+    bio = 'CS/DS grad interested in AI/ML; Thoughts are my own (hover over my propic for a surprise)'
 
 
     # Misc
@@ -34,3 +42,44 @@ googleAnalytics = ''
     gravatarCdn = ''                          # e.g. 'https://cdn.v2ex.com/gravatar/'
     graphCommentId = ''                       # use graph comment (disqus alternative)
     math = true                               # enable KaTex math typesetting globally
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[[menu.main]]
+  name ="Home"
+  url = "/"
+  weight = 1
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 2
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 3
+[[menu.main]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 4
+[[menu.main]]
+  name = "CV"
+  url = "/cv/"
+  weight = 5
+[[menu.main]]
+  name = "FAQ"
+  url = "/faq/"
+  weight = 6
+[[menu.main]]
+  name = "Readings"
+  url = "/readings/"
+  weight = 7
+[[menu.main]]
+  name = "Builds"
+  url = "/builds/"
+  weight = 8
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 9
