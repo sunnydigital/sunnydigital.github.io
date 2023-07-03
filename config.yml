@@ -8,7 +8,7 @@ buildDrafts: false
 baseURL: 'https://sunnyson.dev/'
 canonifyURLs: true
 languageCode: en-us
-paginate: 10
+# paginate: 10
 title: Sunny's Digital
 theme: PaperMod
 
@@ -20,7 +20,7 @@ params:
   profileMode:
     enabled: true
     title: Sunny Son # optional default will be site title
-    subtitle: "👋 Hi, welcome to my website! Here I post some occasional musings, details of projects I'm working on, thoughts on books I'm reading, and my desktop PC creations. Thoughts are my own."
+    subtitle: "👋 Hi, welcome to my website! Here I post some occasional musings, details of projects I'm working on, sentiments on books I'm reading, and my desktop PC creations. Thoughts are my own."
     imageUrl: "https://en.gravatar.com/userimage/237046188/62122b946d153a7018b666085c8ae6b1?size=original" # optional
     imageTitle: "Feelin' Sunny" # optional
     imageWidth: 128 # custom size
