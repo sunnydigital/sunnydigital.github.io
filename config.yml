@@ -43,6 +43,9 @@ params:
     - name: "huggingface"
       title: "Hugging Face"
       url: "https://huggingface.co/sunnydigital"
+    - name: "kaggle"
+      title: "Kaggle"
+      url: "https://www.kaggle.com/sunnyson"
 
   # Share button on posts
   shareButtons: ["linkedin", "twitter", "facebook", "reddit"]
