@@ -1,5 +1,5 @@
 ---
-title: "Builds 2"
+title: "Readings 2"
 date: 2023-07-01T03:49:04-04:00
 draft: false
 ShowToc: true

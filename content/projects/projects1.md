@@ -1,8 +1,9 @@
 ---
-title: "Builds 2"
+title: "Projects 1"
 date: 2023-07-01T03:49:04-04:00
 draft: false
 ShowToc: true
+tags: ["PC", "building", "custom", "watercooling"]
 cover:
   image: "<image path/url>"
   # can also paste direct link from external site
