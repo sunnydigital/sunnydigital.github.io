@@ -27,16 +27,21 @@ params:
 
   # Social icon URLs
   socialIcons:
-    - name: "Twitter"
+    - name: "twitter"
+      title: "Twitter"
       url: "https://twitter.com/__sunnyson__"
-    - name: "GitHub"
+    - name: "github"
+      title: "GitHub"
       url: "https://github.com/sunnydigital"
-    - name: "LinkedIn"
+    - name: "linkedin"
+      title: "LinkedIn"
       url: "https://www.linkedin.com/in/sunny-son/"
-    - name: "Google Scholar"
+    - name: "googlescholar"
+      title: "Google Scholar"
       url: "https://scholar.google.com/citations?user=tGaMcikAAAAJ&hl=en"
   
   # Share button on posts
+  shareButtons: ["linkedin", "twitter", "facebook", "reddit"]
   ShowShareButtons: true
 
   # Shows read time for posts
