@@ -1,44 +1,41 @@
-# With much help from https://github.com/jesse-wei/jessewei.dev-PaperMod/blob/main/config.yml
-# And 
+## With much help from https://github.com/jesse-wei/jessewei.dev-PaperMod/blob/main/config.yml
 
-title: Sunny's Digital
+# Site directories
+contentDir: content
+layoutDir: layouts
+publishDir: public
+
+# Build drafts
+buildDrafts: false
 baseURL: 'https://sunnyson.dev/'
+canonifyURLs: true
+languageCode: en-us
+title: Sunny's Digital
 theme: PaperModX
+# paginate: 10
 
+# Robots and build information
 enableRobotsTXT: true
-enableEmoji: true
+buildDrafts: true
+buildFuture: false
+buildExpired: false
+pluralizeListTitles: false
 
+# Enter your tracking code to enable Google analytics
+googleAnalytics: ''
+
+# Home page config
 params:
-  env: production
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
 
-  description: "Sunny Son's website"
-  author: Sunny Son
-  images:
-    - sun-with-face-emoji.png
-  favicon: favicon.ico
-  # logo:
-  # icon: images/logo.svg
-  # DateFormat: "2006-01-02"
-  useCustomAnalytics: true
-  mainSections:
-    - posts
-    - notes
-
-  # theme params
-  DisableLanguageSwitch: false
-  TocOpen: true
-  TocSide: left
-  EnableInstantClick: false
-  EnableImageZoom: true
-  ShowShareButtons: true
-  ShareButtons:
-    - linkedin
-    - twitter
-    - facebook
-    - reddit
-  ShowCodeCopyButtons: true
-  ShowPostNavLinks: true
-  Email: sunnys2327@gmail.com
+  profileMode:
+    enabled: true
+    title: Sunny Son # optional default will be site title
+    subtitle: "👋 Hi, welcome to my website! Here I post some occasional musings, details of projects I'm working on, sentiments on books I'm reading, and my desktop PC creations. Thoughts are my own."
+    imageUrl: "https://en.gravatar.com/userimage/237046188/62122b946d153a7018b666085c8ae6b1?size=original" # optional
+    imageTitle: "Feelin' Sunny" # optional
+    imageWidth: 128 # custom size
+    imageHeight: 128 # custom size
 
   # Social icon URLs
   socialIcons:
@@ -60,38 +57,19 @@ params:
     - name: "kaggle"
       title: "Kaggle"
       url: "https://www.kaggle.com/sunnyson"
-    - name: rss-simple
-      url: "feed.xml"
 
-  socialAccounts:
-    twitter:
-      username: __sunnyson__
-    github:
-      username: sunnydigital
-    linkedin:
-      username: sunny-son
-    googlescholar:
-      username: Sunny Son
-    huggingface:
-      username: sunnydigital
-    kaggle: 
-      username: sunnyson
+  # Logo and name shown on top left of site
+  label:
+    text: # "Sunny's Website"
+    icon: # /static/favicon.ico
+    iconHeight: # 35
 
-    profileMode:
-      enabled: true
-      title: Sunny Son # optional default will be site title
-      subtitle: |
-        👋 Hi, welcome to my website! 
-        
-        Here I post some occasional musings, details of projects I'm working on, sentiments on books I'm reading, and my desktop PC creations. 
-        
-        Thoughts are my own."
+  # Image displayed when sharing website link
+  images: ["static/sun-with-face-emoji.png"]
 
-      imageUrl: "https://en.gravatar.com/userimage/237046188/62122b946d153a7018b666085c8ae6b1?size=original" # optional
-      imageTitle: "Feelin' Sunny" # optional
-      imageWidth: 128 # custom size
-      imageHeight: 128 # custom size  
-
+  # Share button on posts
+  shareButtons: ["linkedin", "twitter", "facebook", "reddit"]
+  ShowShareButtons: true
 
   # Shows read time for posts
   ShowReadingTime: true
@@ -107,6 +85,13 @@ params:
 
   # Shows word count or not
   ShowWordCount: false
+
+  # Show TOC (Table of Contents)
+  showtoc: true
+  tocopen: true
+
+  # Show TOC, scrolling, on left side
+  TocSide: "left"
 
   # Changes Archive to show all posts
   ShowAllPagesInArchive: true
@@ -129,6 +114,12 @@ params:
     showNextPrev: true  # Show links to the next and previous posts
   # Footer settings
   footercontent: "Copyright © 2023 Sunny Son Powered by Chips and Caffeine"  # The copyright notice to show in the footer
+  
+  social:
+    twitter: "__sunnyson__"  # Your Twitter username
+    github: "sunnydigital"  # Your GitHub username
+    linkedin: "sunny-son"
+    email: "sunnys2327@gmail.com"  # Your email address
 
   # Misc
   disableHLJS: true
@@ -136,28 +127,6 @@ params:
   gravatarCdn: ''
   graphCommentId: ''
   math: true
-
-  #commentSystems:
-  #  disqus:
-  #    shortname: reorx
-  #  remark42:
-  #    url: https://remark42.reorx.com
-  #    site: reorx.github.io
-  #  telegramWidget:
-  #    channel: reorx_share
-  #    accentColor: "9077e1"
-  #    limit: 20
-  #defaultCommentSystems:
-  #  remark42: true
-
-permalinks:
-  notes: /:section/:year/:month/:slugorfilename
-
-# prefer feed.xml rather than index.xml
-outputFormats:
-  RSS:
-    mediatype: "application/rss"
-    baseName: "feed"
 
 # Manages categories and tags
 taxonomies:
@@ -171,10 +140,7 @@ outputs:
     - RSS
     - JSON # Necessary
 
-languages:
-  en:
-    languageName: "English"
-
+# Sets menu items (URL links)
 menu:
   main:
     - name: About
@@ -205,11 +171,10 @@ menu:
       url: /faq/
       weight: 9
 
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-  highlight:
-    style: dracula
-    lineNos: false
-    noClasses: false
+#  footer:
+#    - name: Privacy Policy
+#      url: /privacy/
+#      weight: 1
+#    - name: Terms of Service
+#      url: /terms/
+#      weight: 2
