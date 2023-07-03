@@ -167,9 +167,9 @@ menu:
     - name: Tags
       url: /tags/
       weight: 9
-    - name: FAQ
-      url: /faq/
-      weight: 10
+#    - name: FAQ
+#      url: /faq/
+#      weight: 10
 
 markup:
   goldmark:
