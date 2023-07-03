@@ -177,5 +177,5 @@ markup:
       unsafe: true
   highlight:
     style: dracula
-    lineNos: false
+    lineNos: true
     noClasses: false
