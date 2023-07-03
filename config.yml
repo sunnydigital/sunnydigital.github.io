@@ -87,13 +87,12 @@ params:
   # Shows word count or not
   ShowWordCount: false
 
-  # Using Hugo TOC (Table of Contents) format, with TOC in general
-  UseHugoToc: true
+  # Show TOC (Table of Contents)
   showtoc: true
   tocopen: true
 
   # Show TOC, scrolling, on left side
-  TocSide: left
+  TocSide: "left"
 
   # Changes Archive to show all posts
   ShowAllPagesInArchive: true
