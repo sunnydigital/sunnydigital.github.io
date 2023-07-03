@@ -84,7 +84,7 @@ params:
   ShowReadingTime: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
-  ShowWordCount: false
+  ShowWordCount: true
   ShowAllPagesInArchive: true
 
   # Post settings
