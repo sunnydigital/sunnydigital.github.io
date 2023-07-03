@@ -8,6 +8,7 @@ buildDrafts: false
 baseURL: 'https://sunnyson.dev/'
 canonifyURLs: true
 languageCode: en-us
+paginate: 10
 title: Sunny's Digital
 theme: PaperMod
 
