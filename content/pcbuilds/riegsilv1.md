@@ -14,4 +14,6 @@ cover:
 
 ## Initial Conception
 
-This is a test
+RIEGSIL v1 was a project during the early days of COVID-19 to curb the boredom of not being able to go outside much
+
+Back then, support of multi-GPU schemes was still avilable (via NVIDIA SLI), and a major player in the graphical computing space was the Titan RTX, and so that was what was settled on

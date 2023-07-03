@@ -12,10 +12,10 @@ cover:
   relative: false # To use relative path for cover image, used in hugo Page-bundles
 ---
 
-# Testing Testing, 1, 2, 3
+## Initial Conception
 
-## TEST
+This build is currently a work-in-progress making used of some parts that used to house RIEGSIL v1
 
-### SUUUPER Test
+Currently too lazy (and a bit out of practice) to bend the PETG necessary for this build 
 
-This is a test
+In relationship to my last point, I will soon be posting an article relating the statistical concept of degrees of freedom and the linear algebra of *tube bending* STAY TUNED!
