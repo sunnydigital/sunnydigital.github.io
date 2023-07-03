@@ -1,6 +1,6 @@
 ---
-title: "RIEGSIL HAHA"
-date: 2023-07-03T03:49:04-04:00
+title: "RIEGSIL v2"
+date: 2023-07-03T05:50:05-04:00
 draft: false
 ShowToc: true
 cover:
