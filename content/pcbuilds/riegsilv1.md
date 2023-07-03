@@ -1,6 +1,6 @@
 ---
-title: "Builds 3"
-date: 2023-07-01T03:49:04-04:00
+title: "RIEGSIL v1"
+date: 2023-07-01
 draft: false
 ShowToc: true
 cover:
@@ -8,7 +8,7 @@ cover:
   # can also paste direct link from external site
   # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
   alt: "<alt text>"
-  caption: "<text>"
+  caption: "RIEGSIL v1"
   relative: false # To use relative path for cover image, used in hugo Page-bundles
 ---
 
