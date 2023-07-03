@@ -1,6 +1,6 @@
 ---
 title: "IEGSIL"
-date: 2023-07-02
+date: 2023-07-02T03:49:04-04:00
 draft: false
 ShowToc: true
 cover:
@@ -12,10 +12,10 @@ cover:
   relative: false # To use relative path for cover image, used in hugo Page-bundles
 ---
 
-# Testing Testing, 1, 2, 3
+## Initial Conception
 
-## TEST
+In all honesty, whilst building RIEGSIL v2 for ML applications, I just happened to have left over Graphics Processors, a CPU, and a power supply
 
-### SUUUPER Test
+So, in the interest of reusability, I headed over to the local Micro Center and bought a few parts to assemble a smaller form-factor PC than the original RIEGSIL v1
 
-This is a test
+This was quite the process as it turned out

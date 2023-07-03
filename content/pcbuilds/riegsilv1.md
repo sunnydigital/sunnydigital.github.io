@@ -1,6 +1,6 @@
 ---
 title: "RIEGSIL v1"
-date: 2023-07-01
+date: 2023-07-01T03:49:04-04:00
 draft: false
 ShowToc: true
 cover:
@@ -12,10 +12,6 @@ cover:
   relative: false # To use relative path for cover image, used in hugo Page-bundles
 ---
 
-# Testing Testing, 1, 2, 3
-
-## TEST
-
-### SUUUPER Test
+## Initial Conception
 
 This is a test
