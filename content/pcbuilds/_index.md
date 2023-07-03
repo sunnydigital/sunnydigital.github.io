@@ -9,6 +9,6 @@ I've been building PC's since my junior year of high school, and it's been a hob
 
 Attached is an image of IEGSIL, a custom water-loop Micro-ATX build using the Lian-Li/Bitspower collaboration: TITAN One MINI 2.0 featuring dual Titan RTX's:
 
-![IEGSIL](/img/iegsil-demo-pic.jpeg)
+![](img/iegsil-demo-pic.jpg)
 
 (I might or might not need a better picture for this)
