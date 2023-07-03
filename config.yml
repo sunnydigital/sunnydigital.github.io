@@ -65,9 +65,8 @@ params:
     showCover: true  # Show the cover image of posts
     showNextPrev: true  # Show links to the next and previous posts
   # Footer settings
-  footer:
-    copyright: "Copyright © 2023 Sunny Son"  # The copyright notice to show in the footer
-    poweredBy: "Powered by Chips and Caffeine"  # The "powered by" notice to show in the footer, defaults to Hugo & PaperMod
+  footercontent:
+  "Copyright © 2023 Sunny Son Powered by Chips and Caffeine"  # The copyright notice to show in the footer
   social:
     twitter: "__sunnyson__"  # Your Twitter username
     github: "sunnydigital"  # Your GitHub username
@@ -81,16 +80,19 @@ params:
   graphCommentId: ''
   math: true
 
+# Manages categories and tags
 taxonomies:
   category: categories
   tag: tags
 
+# Changes types of outputs
 outputs:
   home:
     - HTML
     - RSS
     - JSON # Necessary
 
+# Sets menu items (URL links)
 menu:
   main:
     - name: About
@@ -123,3 +125,11 @@ menu:
     - name: FAQ
       url: /faq/
       weight: 10
+
+#  footer:
+#    - name: Privacy Policy
+#      url: /privacy/
+#      weight: 1
+#    - name: Terms of Service
+#      url: /terms/
+#      weight: 2
