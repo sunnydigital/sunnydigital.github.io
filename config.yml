@@ -47,6 +47,15 @@ params:
       title: "Kaggle"
       url: "https://www.kaggle.com/sunnyson"
 
+  # Logo and name shown on top left of site
+  label:
+    text: # "Sunny's Website"
+    icon: # /static/favicon.ico
+    iconHeight: # 35
+
+  # Image displayed when sharing website link
+  images: ["static/sun-with-face-emoji.png"]
+
   # Share button on posts
   shareButtons: ["linkedin", "twitter", "facebook", "reddit"]
   ShowShareButtons: true
@@ -125,8 +134,8 @@ menu:
     - name: Search
       url: /search/
       weight: 6
-    - name: Archive
-      url: /archive/
+    - name: Archives
+      url: /archives/
       weight: 7
     - name: Tags
       url: /tags/
