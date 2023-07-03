@@ -155,18 +155,21 @@ menu:
     - name: PC Builds
       url: /pcbuilds/
       weight: 5
+    - name: Newsletter
+      url: /newsletter/
+      weight: 6
     - name: Search
       url: /search/
-      weight: 6
+      weight: 7
     - name: Archives
       url: /archives/
-      weight: 7
+      weight: 8
     - name: Tags
       url: /tags/
-      weight: 8
+      weight: 9
     - name: FAQ
       url: /faq/
-      weight: 9
+      weight: 10
 
 markup:
   goldmark:
