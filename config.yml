@@ -171,39 +171,6 @@ menu:
       url: /faq/
       weight: 9
 
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-pygmentsUseClasses: true
-# Source: https://gohugo.io/getting-started/configuration-markup/#highlight
-# Parameter meanings: https://gohugo.io/functions/highlight/
-markup:
-  tableOfContents:
-    # Without this, Hugo ToC doesn't show h4 and higher
-    # https://github.com/alex-shpak/hugo-book/issues/52
-    endLevel: 6
-
-  highlight:
-    anchorLineNos: false
-    codeFences: true
-    guessSyntax: true
-    hl_Lines: ""
-    hl_inline: false
-    lineAnchors: ""
-    lineNoStart: 1
-    # highlight.js also doesn't use line numbers by default.
-    # The rationale is that doing so improves readability
-    # (https://highlightjs.readthedocs.io/en/latest/line-numbers.html).
-    # Therefore, I disable it by default.
-    # Note: It's possible to enable it on a specific code block by specifying
-    # ``` {lineNos=true}
-    # ```
-    lineNos: false
-    lineNumbersInTable: true
-    # false means use external CSS file
-    noClasses: false
-    noHl: false
-    # style: monokai
-    tabWidth: 4
-
 #  footer:
 #    - name: Privacy Policy
 #      url: /privacy/
