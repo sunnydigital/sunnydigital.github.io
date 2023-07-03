@@ -39,7 +39,10 @@ params:
     - name: "googlescholar"
       title: "Google Scholar"
       url: "https://scholar.google.com/citations?user=tGaMcikAAAAJ&hl=en"
-  
+    - name: "huggingface"
+      title: "Hugging Face"
+      url: "https://huggingface.co/sunnydigital"
+
   # Share button on posts
   shareButtons: ["linkedin", "twitter", "facebook", "reddit"]
   ShowShareButtons: true
