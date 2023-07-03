@@ -27,7 +27,6 @@ googleAnalytics: ''
 # Home page config
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  DateFormat: "January 1, 2000"
 
   profileMode:
     enabled: true
