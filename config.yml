@@ -11,7 +11,7 @@ baseURL: 'https://sunnyson.dev/'
 canonifyURLs: true
 languageCode: en-us
 title: Sunny's Digital
-theme: PaperMod
+theme: PaperModX
 # paginate: 10
 
 # Robots and build information
