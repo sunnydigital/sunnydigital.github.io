@@ -1,3 +1,5 @@
+## With much help from https://github.com/jesse-wei/jessewei.dev-PaperMod/blob/main/config.yml
+
 # Site directories
 contentDir: content
 layoutDir: layouts
@@ -8,15 +10,25 @@ buildDrafts: false
 baseURL: 'https://sunnyson.dev/'
 canonifyURLs: true
 languageCode: en-us
-# paginate: 10
 title: Sunny's Digital
 theme: PaperMod
+# paginate: 10
+
+# Robots and build information
+enableRobotsTXT: true
+buildDrafts: true
+buildFuture: false
+buildExpired: false
+pluralizeListTitles: false
 
 # Enter your tracking code to enable Google analytics
 googleAnalytics: ''
 
 # Home page config
 params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  DateFormat: "January 1, 2000"
+
   profileMode:
     enabled: true
     title: Sunny Son # optional default will be site title
@@ -68,6 +80,23 @@ params:
 
   # Allow copy button for code
   ShowCodeCopyButtons: true
+
+  # Shows RSS Button
+  ShowRssButtonInSectionTermList: true
+
+  # Shows word count or not
+  ShowWordCount: false
+
+  # Using Hugo TOC (Table of Contents) format, with TOC in general
+  UseHugoToc: true
+  showtoc: true
+  tocopen: true
+
+  # Show TOC, scrolling, on left side
+  TocSide: left
+
+  # Changes Archive to show all posts
+  ShowAllPagesInArchive: true
 
   # Generation of images and hyperlinks
   cover:
@@ -143,6 +172,39 @@ menu:
     - name: FAQ
       url: /faq/
       weight: 9
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+# Source: https://gohugo.io/getting-started/configuration-markup/#highlight
+# Parameter meanings: https://gohugo.io/functions/highlight/
+markup:
+  tableOfContents:
+    # Without this, Hugo ToC doesn't show h4 and higher
+    # https://github.com/alex-shpak/hugo-book/issues/52
+    endLevel: 6
+
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: true
+    hl_Lines: ""
+    hl_inline: false
+    lineAnchors: ""
+    lineNoStart: 1
+    # highlight.js also doesn't use line numbers by default.
+    # The rationale is that doing so improves readability
+    # (https://highlightjs.readthedocs.io/en/latest/line-numbers.html).
+    # Therefore, I disable it by default.
+    # Note: It's possible to enable it on a specific code block by specifying
+    # ``` {lineNos=true}
+    # ```
+    lineNos: false
+    lineNumbersInTable: true
+    # false means use external CSS file
+    noClasses: false
+    noHl: false
+    # style: monokai
+    tabWidth: 4
 
 #  footer:
 #    - name: Privacy Policy
