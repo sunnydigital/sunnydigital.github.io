@@ -19,7 +19,7 @@ params:
   # logo:
   # icon: images/logo.svg
   # DateFormat: "2006-01-02"
-  useCustomAnalytics: true
+  # useCustomAnalytics: true
   mainSections:
     - posts
     - notes
