@@ -65,8 +65,7 @@ params:
     showCover: true  # Show the cover image of posts
     showNextPrev: true  # Show links to the next and previous posts
   # Footer settings
-  footercontent:
-  "Copyright © 2023 Sunny Son Powered by Chips and Caffeine"  # The copyright notice to show in the footer
+  footercontent: "Copyright © 2023 Sunny Son Powered by Chips and Caffeine"  # The copyright notice to show in the footer
   social:
     twitter: "__sunnyson__"  # Your Twitter username
     github: "sunnydigital"  # Your GitHub username
