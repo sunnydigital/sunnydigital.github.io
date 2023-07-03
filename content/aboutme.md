@@ -1,7 +1,7 @@
 ---
-title: "About"
+title: "About Me"
 Description: "This is all about me!"
-layout: "about"
+layout: "aboutme"
 disableShare: true
 ---
 
