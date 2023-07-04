@@ -12,7 +12,7 @@ tags:
   - rgb
   - custom-waterloop
 cover:
-  image: images/iegsil-demo-pic.jpg
+  image: static/iegsil-demo-pic.jpg
   # can also paste direct link from external site
   # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
   # alt: 
@@ -28,7 +28,7 @@ With the GPUs having already been fitted with waterblocks, they were made very d
 
 I may have been gassing up how simple this whole process was, as the whole procedure of buying, returning, guaging, and building took a few months. However, the result was well worth it:
 
-![IEGSIL](images/iegsil-demo-pic.jpg)
+![IEGSIL](static/iegsil-demo-pic.jpg)
 
 ## Parts list
 
