@@ -3,7 +3,7 @@ title: Projects
 description: | 
     These sections of my webpage are the living quarters of my current and past projects
 
-    Producted and housed, with creativity and love, of course
+    Made and housed, with creativity and love, of course
 
     💞💡
 ---

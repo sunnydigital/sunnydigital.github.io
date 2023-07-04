@@ -1,7 +1,7 @@
 ---
 title: Web Summarizer
 date: 2023-07-04T07:00:55-04:00
-draft: false
+draft: true
 ShowToc: true
 cover:
   image: images/
