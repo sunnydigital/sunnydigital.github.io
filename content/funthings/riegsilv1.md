@@ -1,7 +1,7 @@
 ---
-title: "RIEGSIL v1"
-date: 2023-07-01T03:49:04-04:00
-draft: false
+title: There and Back Again (Part 1)
+date: 2023-07-10T07:00:05-04:00
+draft: true
 ShowToc: true
 cover:
   image: "<image path/url>"
