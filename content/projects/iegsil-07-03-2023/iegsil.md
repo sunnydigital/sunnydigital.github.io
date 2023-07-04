@@ -4,7 +4,7 @@ date: 2023-07-02T03:49:04-04:00
 draft: false
 ShowToc: true
 cover:
-  image: /images/iegsil-demo-pic.jpg
+  image: images/iegsil-demo-pic.jpg
   # can also paste direct link from external site
   # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
   alt: Photo of the completed build
@@ -20,7 +20,7 @@ With the GPUs having already been fitted with waterblocks it was near impossible
 
 This was quite the process as it turned out:
 
-![IEGSIL](/images/iegsil-demo-pic.jpg)
+![IEGSIL](images/iegsil-demo-pic.jpg)
 
 ## Parts list
 
