@@ -1,11 +1,10 @@
 ---
 title: Touched with Fire
-date: 2023-07-11T07:00:00-04:00
+date: 2023-07-04T07:00:00-04:00
 draft: false
 ShowToc: true
 tags:
   - fire
-  - illness
   - creativity
 cover:
   image: dalle-touched-with-fire.jpg
