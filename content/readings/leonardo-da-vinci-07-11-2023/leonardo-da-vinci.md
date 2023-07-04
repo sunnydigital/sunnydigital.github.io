@@ -1,6 +1,6 @@
 ---
 title: Leonardo da Vinci
-date: 2023-07-04T07:00:00-04:00
+date: 2023-07-09T07:00:00-04:00
 draft: false
 ShowToc: true
 tags:
