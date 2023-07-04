@@ -32,7 +32,7 @@ I may have been gassing up how simple this whole process was, as the whole proce
 
 ## Parts list
 
-This is an attempted exhaustive list of parts used in the build
+This is an exhaustive list of parts used in this build:
 
 | Type | Item | Link |
 | :---- | :----: | ----: |
@@ -40,6 +40,7 @@ This is an attempted exhaustive list of parts used in the build
 | **Motherboard** | ASRock X570M Pro4 Micro ATX AM4 Motherboard | [@ Newegg](https://www.newegg.com/asrock-x570m-pro4/p/N82E16813157887) |
 | **Memory** | 2x G.Skill Trident Z Royal 32 GB (2 x 16 GB) DDR4-3600 CL19 Memory | [@ Amazon](https://www.amazon.com/dp/B07SQ3T4X3?tag=pcpapi-20&linkCode=ogi&th=1&psc=1) |
 | **Storage** | 2x Seagate IronWolf NAS 12 TB 3.5" 7200 RPM Internal Hard Drive | [@ Newegg](https://www.newegg.com/seagate-ironwolf-st12000vn0008-12tb/p/1JW-001N-00027?Item=1JW-001N-00027&nm_mc=AFC-RAN-COM&cm_mmc=afc-ran-com-_-PCPartPicker&utm_medium=affiliate&utm_campaign=afc-ran-com-_-PCPartPicker&utm_source=afc-PCPartPicker&AFFID=2558510&AFFNAME=PCPartPicker&ACRID=1&ASID=https%3a%2f%2fpcpartpicker.com%2f&ranMID=44583&ranEAID=2558510&ranSiteID=8BacdVP0GFs-HPYWcPc.wqLNeIWmTYX2aQ) |
+| **Storage** | Samsung 980 Pro SSD 1TB PCIe 4.0 NVMe Gen 4 Gaming M.2 Internal Solid State Drive Memory Card | [@ Amazon](https://www.amazon.com/SAMSUNG-PCIe-Internal-Gaming-MZ-V8P1T0B/dp/B08GLX7TNT?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=ATVPDKIKX0DER) |
 | **Video Card** | 2x NVIDIA TITAN RTX TITAN RTX 24 GB Video Card | [@ Amazon](https://www.amazon.com/dp/B07L8YGDL5?tag=pcpapi-20&linkCode=ogi&th=1&psc=1) |
 | **Cable Management** | ARGB Hub 5V 3Pin SYNC 11 Ports Splitter w/ Magnetic Standoff & PMMA Case,SATA to 3pin Addressable RGB Adpater | [@ Newegg](https://www.newegg.com/p/1W7-005X-00093?Item=9SIACJFCAZ4145) |
 | **Networking** | Intel WiFi 6 AX200 Gig M2.2230 Kit | [@ Micro Center](https://www.microcenter.com/product/636193/intel-wifi-6-ax200-gig-m22230-kit) |

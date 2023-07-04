@@ -18,4 +18,4 @@ Here's to fixing that.
 
 Credits to DALLE for the above image, made using a prompt of:
 
-*rennaissance image of a quill, ink, and parchment (with equations on it) on a high-tech, sci-fi desk and background, perspective from near directly above*
+*rennaissance image of a quill, ink, and parchment on a high-tech, sci-fi desk and background, perspective from near directly above*
