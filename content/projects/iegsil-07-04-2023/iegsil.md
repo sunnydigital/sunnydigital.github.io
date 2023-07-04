@@ -20,7 +20,7 @@ cover:
   # relative: true # To use relative path for cover image, used in hugo Page-bundles
 ---
 
-## Reduce... reuse?
+## Reduce, reuse?
 
 In all honesty, whilst building RIEGSIL v2 for ML applications, I just happened to have leftover graphics processors, a CPU, and power supply
 
