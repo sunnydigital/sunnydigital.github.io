@@ -14,7 +14,7 @@ From PC Builds to personal ML Projects I guess I'm always working on *something*
 
 Enjoy!
 
-![Workshop](dalle-workshop.png)
+![Workshop](dalle-workshop.jpg)
 
 Credits to DALLE for the above image, made using a prompt of:
 
