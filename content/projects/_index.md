@@ -1,17 +1,21 @@
 ---
-title: "Projects"
+title: Projects
 description: | 
-    This page is kind of like the living quarters of my current and past projects
+    These sections of my webpage are the living quarters of my current and past projects
 
     Producted and housed, with creativity and love, of course
+
+    💞💡
 ---
 
 ## What's this?
 
-From PC Builds to personal ML Projects, I guess a lot is on my mind, but yet what I *don't mind* is sharing all that I have built, with the hopes that **you**, the reader, take slight of interest in what I have made (am making?)
+From PC Builds to personal ML Projects I guess I'm always working on *something*. So here are my projects, to share all that I have built, with the hopes that *you*, the reader, take slight joy and interest in what I have to make.
 
 Enjoy!
 
-![Gaming PC](mj-gaming-pc.png)
+![Workshop](dalle-workshop.png)
 
-(Although my PCs will never be as cool as what Midjourney can dream of such as above, they still rock)
+Credits to DALLE for the above image, made using a prompt of:
+
+*anime style depiction of a high-tech workshop with light coming in from the window, reminiscent of the movie suzume*
