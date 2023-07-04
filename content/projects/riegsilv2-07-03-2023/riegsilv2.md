@@ -1,5 +1,5 @@
 ---
-title: "RIEGSIL v2"
+title: RIEGSIL v2 (Work in Progress)
 date: 2023-07-03T01:45:05-04:00
 draft: false
 ShowToc: true
@@ -7,12 +7,12 @@ cover:
   image: "<image path/url>"
   # can also paste direct link from external site
   # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
-  alt: "<alt text>"
-  caption: "RIEGSIL v2"
+  alt: A next-gen DL workstation
+  caption: RIEGSIL v2
   relative: false # To use relative path for cover image, used in hugo Page-bundles
 ---
 
-## Initial Conception
+## Initial conception
 
 This build is currently a work-in-progress making used of some parts that used to house RIEGSIL v1
 

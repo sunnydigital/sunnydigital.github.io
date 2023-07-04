@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 description: | 
-    This is kind of like the living quarters of my current and past projects
+    This page is kind of like the living quarters of my current and past projects
 
     Producted and housed, with creativity and love, of course
 ---
