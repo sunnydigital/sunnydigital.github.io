@@ -1,10 +1,10 @@
 ---
 title: IEGSIL
 date: 2023-07-04T05:00:00-04:00
-draft: false
+draft: true
 ShowToc: true
 tags:
-  - gamingpc
+  - gaming-pc
   - custom-build
   - watercooling
   - bitspower
