@@ -28,8 +28,10 @@ Apart from the good doctor (who was *never even* a doctor, nor did he *ever* go 
 
 Here's to ya'll out there, who terraform worlds and create realities beyond what we share.
 
-![Reading](dalle-book.jpg)
-
-Credits to DALLE for the above image, made using a prompt of:
-
-*a good book, in pixel style but very intricate, read by a person under a tree with a swing on it on a sunny day*
+<figure>
+    <img src="dalle-book.jpg">
+    <figcaption>
+        Credits to DALLE for the above image, made using a prompt of: 
+        <br><i>a good book, in pixel style but very intricate, read by a person under a tree with a swing on it on a sunny day</i>
+    </figcaption>
+</figure>

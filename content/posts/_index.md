@@ -20,13 +20,10 @@ Personally, it was always a shame in the fleeting nature of such things, sometim
 
 Here's to fixing that.
 
-![Creativity](dalle-creativity.png)
-
 <figure>
     <img src="dalle-creativity.png">
     <figcaption>
-        Credits to DALLE for the above image, made using a prompt of:
-        <i>rennaissance image of a quill, ink, and parchment on a high-tech, sci-fi desk and background, perspective from near directly above</i>
+        Credits to DALLE for the above image, made using a prompt of: 
+        <br><i>rennaissance image of a quill, ink, and parchment on a high-tech, sci-fi desk and background, perspective from near directly above</i>
     </figcaption>
-
 </figure>
