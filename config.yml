@@ -116,6 +116,11 @@ params:
   #defaultCommentSystems:
   #  remark42: true
 
+  # Site style (for About Me CV)
+  cv_template: kjhealy
+
+# <!-- ### End of params -->
+
 permalinks:
   notes: /:section/:year/:month/:slugorfilename
 
