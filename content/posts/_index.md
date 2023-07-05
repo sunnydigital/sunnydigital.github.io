@@ -20,7 +20,7 @@ Personally, it was always a shame in the fleeting nature of such things, sometim
 
 Here's to fixing that.
 
-{{< rawhtml >}}
-<img src="dalle-creativity-2.jpg">
-<p aligh="center">Credits to DALLE for the above image, made using a prompt of: <i>post-its with quill and ink, in a futuristic technologists style</i></p>
-{{< /rawhtml >}}
+<figure>
+    <img src="dalle-creativity-2.jpg">
+    <figcaption>Credits to DALLE for the above image, made using a prompt of: <i>post-its with quill and ink, in a futuristic technologists style</i></figcaption>
+</figure>

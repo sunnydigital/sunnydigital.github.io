@@ -13,10 +13,8 @@ tags:
   - custom-waterloop
 cover:
   image: images/iegsil-demo-pic.jpg
-  # can also paste direct link from external site
-  # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
   # alt: 
-  caption: A photo of the completed build for IEGSIL
+  # caption: A photo of the completed build for IEGSIL
   relative: true # To use relative path for cover image, used in hugo Page-bundles
 ---
 
