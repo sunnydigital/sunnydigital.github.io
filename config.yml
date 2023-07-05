@@ -47,7 +47,7 @@ params:
       url: "https://huggingface.co/sunnydigital"
     - name: kaggle
       url: "https://www.kaggle.com/sunnyson"
-    - name: rss-simple
+    - name: rss
       url: "feed.xml"
 
   socialAccounts:
@@ -130,8 +130,8 @@ permalinks:
 # prefer feed.xml rather than index.xml
 outputFormats:
   RSS:
-    mediatype: "application/rss"
-    baseName: "feed"
+    mediatype: application/rss
+    baseName: rss
 
 # Manages categories and tags
 taxonomies:
