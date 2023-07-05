@@ -1,7 +1,7 @@
 ---
 title: Projects
 description: | 
-    These sections of my webpage act as the living quarters of my current and past projects
+    This section of my webpage act as the living quarters of my current and past projects
 
     Made and housed, with creativity and love, of course
 
@@ -17,7 +17,6 @@ Enjoy!
 <figure>
     <img src="dalle-workshop.jpg">
     <figcaption>
-        Credits to DALLE for the above image, made using a prompt of: 
-        <br><i>anime style depiction of a high-tech workshop with light coming in from the window, reminiscent of the movie suzume</i>
+        Credits to DALLE for the above image, made using a prompt of: <i>anime style depiction of a high-tech workshop with light coming in from the window, reminiscent of the movie suzume</i>
     </figcaption>
 </figure>

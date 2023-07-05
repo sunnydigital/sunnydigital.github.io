@@ -31,7 +31,6 @@ Here's to ya'll out there, who terraform worlds and create realities beyond what
 <figure>
     <img src="dalle-book.jpg">
     <figcaption>
-        Credits to DALLE for the above image, made using a prompt of: 
-        <br><i>a good book, in pixel style but very intricate, read by a person under a tree with a swing on it on a sunny day</i>
+        Credits to DALLE for the above image, made using a prompt of: <i>a good book, in pixel style but very intricate, read by a person under a tree with a swing on it on a sunny day</i>
     </figcaption>
 </figure>
