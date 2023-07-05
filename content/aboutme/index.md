@@ -17,7 +17,7 @@ showAuthor: true
 
 <figure>
     <img style="border-radius:75%;margin-left:auto;margin-right:auto;" width="75%" src="images/dalle-sunflower.jpg" alt="Sunflower">
-    <figcaption>A lovely sunflower in the style of Van Gogh</figcaption>
+    <figcaption align="center">A lovely sunflower in the style of Van Gogh</figcaption>
 </figure>
 
 ## 👋 Hi! I'm Sunny
