@@ -19,5 +19,3 @@ cover:
 ---
 
 ![Touched with fire](dalle-touched-with-fire.jpg)
-
-Will now use this to test the image setting process...
