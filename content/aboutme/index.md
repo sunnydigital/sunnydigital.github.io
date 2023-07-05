@@ -1,11 +1,9 @@
 ---
 title: About Me
 Description: | 
-    This page is a bit about me, from what I've been up to,
+    This page is a bit about me, from what I've been up to, to what I'm doing,
 
-    to what I'm doing,
-
-    and what I'm interested in
+    and what I'm interested in, and where I'm going
 
 layout: aboutme
 disableShare: true
