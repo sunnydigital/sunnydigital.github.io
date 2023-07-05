@@ -1,9 +1,11 @@
 ---
 title: Projects
 description: | 
-    This section of my webpage acts as the living quarters of my current and past projects
+    This section of my webpage acts as the living quarters of my current and past projects.
 
-    Made and housed, with creativity and love, of course
+
+    Made and housed, with creativity and love, of course.
+
 
     💞💡
 ---

@@ -12,6 +12,12 @@
     <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">Sunny Son</a></span>
     {{- end }}
 
+    <!-- Add Privacy Policy link on every page -->
+    <span>
+        •
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY SA</a>
+    </span>
+
     <!-- Don't display Powered by Hugo & PaperMod on homepage -->
     {{- if not .IsHome }}
     <span>
@@ -24,11 +30,6 @@
         <a href="https://github.com/adityatelange/hugo-PaperMod/">PaperMod</a>
     </span>
     {{- end }}
-    <!-- Add Privacy Policy link on every page -->
-    <span>
-        •
-        <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY SA</a>
-    </span>
 </footer>
 {{- end }}
 
@@ -69,7 +70,7 @@
             }
         });
     });
-
+    
 </script>
 
 {{- if (not site.Params.disableScrollToTop) }}

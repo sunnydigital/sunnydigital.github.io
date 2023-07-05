@@ -3,7 +3,7 @@ title: Reading
 description: | 
     This is the section of my webpage dedicated to all the oftentimes tiny words on the 
     
-    sometimes big, othertimes bulky, and rarelytimes loose-leafed pages
+    sometimes big, othertimes bulky, and rarelytimes loose-leafed pages,
 
     That have changed me in hard-to-enumerate ways: 
     
