@@ -8,9 +8,9 @@ description: |
     🖋️📄
 ---
 
-## Like a Post-It, with images and fancy graphs
+## Like Post-Its, with images and sometimes fancy graphs
 
-From time to time, I'd like to think we all have thoughts we'd like to enumerate. For me, it was always a shame in the fleeting nature of such thoughts, sometimes jotted in my iPhone on the notes app, without context nor specification. 
+From time to time, I'd like to think we all have thoughts we'd like to remember. Personally, it was always a shame in the fleeting nature of such things, sometimes relegated to a quick jot on the notes app in my phone, without context nor specification. 
 
 Here's to fixing that.
 
