@@ -172,8 +172,8 @@ menu:
     - name: Search
       url: /search/
       weight: 4
-    - name: Archive
-      url: /archive/
+    - name: Archives
+      url: /archives/
       weight: 5
     - name: Tags
       url: /tags/
