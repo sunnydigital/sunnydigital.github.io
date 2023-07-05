@@ -6,6 +6,7 @@ Description: |
     and what I'm interested in, and where I'm going
 
 layout: aboutme
+isResume: true
 disableShare: true
 ---
 
