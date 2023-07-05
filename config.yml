@@ -160,8 +160,8 @@ menu:
     - name: Projects
       url: /projects/
       weight: 3
-    - name: Readings
-      url: /readings/
+    - name: Reading
+      url: /reading/
       weight: 4
 #    - name: PC Builds
 #      url: /pcbuilds/
