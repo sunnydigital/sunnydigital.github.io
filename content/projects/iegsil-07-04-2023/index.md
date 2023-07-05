@@ -17,7 +17,7 @@ cover:
   # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
   # alt: 
   caption: A photo of the completed build for IEGSIL
-  relative: true # To use relative path for cover image, used in hugo Page-bundles
+  # relative: true # To use relative path for cover image, used in hugo Page-bundles
 ---
 
 ## Reduce, reuse?

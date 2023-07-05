@@ -15,7 +15,5 @@ cover:
     Touched with fire, by another with the same
     Credits to DALLE for the above image, made using a prompt of:
     touched with fire, in the style of starry night
-  # relative: true # To use relative path for cover image, used in hugo Page-bundles
+  relative: true # To use relative path for cover image, used in hugo Page-bundles
 ---
-
-![Touched with fire](dalle-touched-with-fire.jpg)
