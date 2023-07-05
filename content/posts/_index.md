@@ -8,7 +8,7 @@ description: |
     🖋️📄
 ---
 
-## Like a Post-It, with images
+## Like a Post-It, with images and fancy graphs
 
 From time to time, I'd like to think we all have thoughts we'd like to enumerate. For me, it was always a shame in the fleeting nature of such thoughts, sometimes jotted in my iPhone on the notes app, without context nor specification. 
 
