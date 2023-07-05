@@ -79,6 +79,8 @@ params:
     imageWidth: 128 # custom size
     imageHeight: 128 # custom size  
 
+  hideFooter: false
+
   cover:
     responsiveImages: false
     linkFullImages: true
