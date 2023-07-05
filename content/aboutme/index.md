@@ -8,6 +8,8 @@ Description: |
 layout: aboutme
 isResume: true
 disableShare: true
+ShowReadingTime: false
+ShowWordCount: true
 ---
 
 # Isaac Newton
