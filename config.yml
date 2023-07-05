@@ -3,7 +3,7 @@
 
 title: Sunny's Digital
 baseURL: 'https://sunnyson.dev/'
-theme: PaperModX
+theme: PaperMod
 
 enableRobotsTXT: true
 enableEmoji: true
