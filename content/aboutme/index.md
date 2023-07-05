@@ -15,10 +15,10 @@ ShowWordCount: false
 showAuthor: true
 ---
 
-{{< rawhtml >}}
-<img style="border-radius:75%;margin-left:auto;margin-right:auto;" width="75%" src="images/dalle-sunflower.jpg" alt="Sunflower">
-<figcaption>A lovely sunflower in the style of Van Gogh</figcaption>
-{{< /rawhtml >}}
+<figure>
+    <img style="border-radius:75%;margin-left:auto;margin-right:auto;" width="75%" src="images/dalle-sunflower.jpg" alt="Sunflower">
+    <figcaption>A lovely sunflower in the style of Van Gogh</figcaption>
+</figure>
 
 ## 👋 Hi! I'm Sunny
 
@@ -26,28 +26,28 @@ I grew up in a small town with a bustling perhiphery, hosting at one end one of 
 
 The below is our *historic* view overlooking New York:
 
-{{< rawhtml >}}
-<img src="images/historic-park.jpg" alt="Historic Park GWB">
-<figcaption>A lovely sunflower in the style of Van Gogh</figcaption>
-{{< /rawhtml >}}
+<figure>
+    <img src="images/historic-park.jpg" alt="Historic Park GWB">
+    <figcaption>Our <i>historic</i> view overlooking the GW Bridge</figcaption>
+</figure>
 
 I went to both primary and secondary school in my hometown, where I found an interest in STEM and participated in sports as well as band (where I played the Trumpet 🎺).
 
 Thereafter, I went to NYU where I majored in Business with concentrations in Finance, and Computing & Data Science, with a Minor in Mathematics.
 
-{{< rawhtml >}}
-<img src="images/nyu-stern.jpg" width="110%" alt="NYU Stern Gould Plaza">
-<figcaption>The daily view on the NYU campus</figcaption>
-{{< /rawhtml >}}
+<figure>
+    <img src="images/nyu-stern.jpg" width="110%" alt="NYU Stern Gould Plaza">
+    <figcaption>The daily view on the NYU campus</figcaption>
+</figure>
 
 However, I actually started out as an Accounting major, intending for examination as a CPA, but realized that I did not truly love the field as much as I had thought/hoped.
 
 Over my freshman year summer, I studied abroad in Cape Town, South Africa where I worked for a creative consulting company help launch a cosmetics company, and the summer thereafter, I worked for Brookfield, where I helped with low frequency trading using language models.
 
-{{< rawhtml >}}
-<img src="images/brookfield-place.jpg" alt="Brookfield Place Toronto">
-<figcaption>Brookfield Place was always so refined</figcaption>
-{{< /rawhtml >}}
+<figure>
+    <img src="images/brookfield-place.jpg" alt="Brookfield Place Toronto">
+    <figcaption>Brookfield Place was always so refined</figcaption>
+</figure>
 
 It was during this time that I fell deeply in love with Data Science and its multidisciplinary nature, realizing the importance of recording a true part fo the world.
 
@@ -55,10 +55,10 @@ I took two years off working odd jobs here and there, from an Analyst at Two Sig
 
 I then returned to classes, working part-time as a Data Scientist at NYU's Medical School, where I processed, pipelined, and used pseudo-temporal methods to analyze genetic data.
 
-{{< rawhtml >}}
-<img src="images/nyu-langone.jpg" alt="NYU Langone Main Building">
-<figcaption>NYU Langone's Lobby, always friendly for conversation</figcaption>
-{{< /rawhtml >}}
+<figure>
+    <img src="images/nyu-langone.jpg" alt="NYU Langone Main Building">
+    <figcaption>NYU Langone's Lobby, always friendly for conversation</figcaption>
+</figure>
 
 The classes that I took, to say excellent would be an understatement. It was really a feeling of eased understanding, the three things of *the real world*, *mathematics*, and *code* symbiotically assisting one another. It was also an exteme mix of the visual and the expressive; as I took classes, learned techniques, and was made to understand technologies that allowed computers to (in a way) *perceive* the world as we do. 
 
