@@ -8,19 +8,13 @@ tags:
   - leonardo
   - learning
 cover:
-  image: dalle-leonardo-da-vinci.jpg
+  image: images/dalle-leonardo-da-vinci.jpg
   # can also paste direct link from external site
   # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
   # alt:
-  caption: Leonardo da Vinci in Tech
-  # relative: true # To use relative path for cover image, used in hugo Page-bundles
+  caption: Leonardo da Vinci with technology
+  relative: true # To use relative path for cover image, used in hugo Page-bundles
 ---
-
-![Leonardo da Vinci](dalle-leonardo-da-vinci.jpg)
-
-Credits to DALLE for the above image, made using a prompt of:
-
-*leonardo davinci with technology*
 
 # Testing Testing, 1, 2, 3
 

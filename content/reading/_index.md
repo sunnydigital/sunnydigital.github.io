@@ -7,9 +7,7 @@ description: |
 
     That have changed me in hard-to-enumerate ways: 
     
-    some large, some small, 
-    
-    and some;
+    some large, some small, and some;
     
     not at all..
 

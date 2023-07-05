@@ -1,15 +1,15 @@
 ---
 title: Financial BERT - ESG
-date: 2023-07-10T07:00:10-04:00
-draft: true
+date: 2023-07-04T07:00:10-04:00
+draft: false
 ShowToc: true
 cover:
-  image: images/<some-image>.jpg
+  image: images/angry-bert.gif
   # can also paste direct link from external site
   # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
   # alt: alt text
-  caption: text
-  # relative: false # To use relative path for cover image, used in hugo Page-bundles
+  caption: Angery BERT
+  relative: true # To use relative path for cover image, used in hugo Page-bundles
 ---
 
 # Testing Testing, 1, 2, 3
