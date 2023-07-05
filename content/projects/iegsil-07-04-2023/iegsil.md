@@ -16,7 +16,7 @@ cover:
   # can also paste direct link from external site
   # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
   # alt: 
-  caption: Photo of the completed build for IEGSIL
+  caption: A photo of the completed build for IEGSIL
   relative: true # To use relative path for cover image, used in hugo Page-bundles
 ---
 
@@ -27,8 +27,6 @@ In all honesty, whilst building RIEGSIL v2 for ML applications, I just happened 
 With the GPUs having already been fitted with waterblocks, they were made very difficult to sell and as in the interest of reusability, I headed over to the local Micro Center (and a quick browse of the web) and bought a few parts to assemble a smaller form-factor PC than the original RIEGSIL v1.
 
 I may have been gassing up how simple this whole process was, as the whole procedure of buying, returning, guaging, and building took a few months. However, the result was well worth it:
-
-![IEGSIL](iegsil-demo-pic.jpg)
 
 ## Parts list
 
