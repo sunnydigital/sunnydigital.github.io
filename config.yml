@@ -11,7 +11,7 @@ enableEmoji: true
 params:
   env: production
 
-  description: "Sunny Son's website"
+  description: Sunny's website
   author: Sunny Son
   images:
     - sun-with-face-emoji.png
@@ -172,8 +172,8 @@ menu:
     - name: Search
       url: /search/
       weight: 4
-    - name: Archives
-      url: /archives/
+    - name: Archive
+      url: /archive/
       weight: 5
     - name: Tags
       url: /tags/
