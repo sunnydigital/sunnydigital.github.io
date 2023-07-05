@@ -16,7 +16,7 @@ showAuthor: true
 ---
 
 {{< rawhtml >}}
-<img style="border-radius:100%;margin-left:auto;margin-right:auto;" width="100%" src="images/dalle-sunflower.jpg" alt="Sunflower">
+<img style="border-radius:75%;margin-left:auto;margin-right:auto;" width="75%" src="images/dalle-sunflower.jpg" alt="Sunflower">
 <p align="center">A lovely sunflower in the style of Van Gogh</p>
 {{< /rawhtml >}}
 
@@ -36,7 +36,7 @@ I went to both primary and secondary school in my hometown, where I found an int
 Thereafter, I went to NYU where I majored in Business with concentrations in Finance, and Computing & Data Science, with a Minor in Mathematics.
 
 {{< rawhtml >}}
-<img src="images/nyu-stern.jpg" alt="NYU Stern Gould Plaza">
+<img src="images/nyu-stern.jpg" width="110%" alt="NYU Stern Gould Plaza">
 <p align="center">The daily view on the NYU campus</p>
 {{< /rawhtml >}}
 
