@@ -1,10 +1,9 @@
-<!doctype html>
-<html>
+{{ define "main" }}
 <head>
   <meta charset=utf-8 />
   <title> {{ if .Title }} {{ .Title }} | {{ end }} CV</title>
-  <link href="media/{{ .Site.Params.style }}-screen.css" type="text/css" rel="stylesheet" media="screen">
-  <link href="media/{{ .Site.Params.style }}-print.css" type="text/css" rel="stylesheet" media="print">
+  <link href="/media/{{ .Site.Params.style }}-screen.css" type="text/css" rel="stylesheet" media="screen">
+  <link href="/media/{{ .Site.Params.style }}-print.css" type="text/css" rel="stylesheet" media="print">
 </head>
 <body>
   <div id="main">
@@ -13,4 +12,4 @@
     </div>
   </div>
 </body>
-</html>
+{{ end }}
