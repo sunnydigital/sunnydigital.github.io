@@ -1,5 +1,5 @@
 ---
-title: "Post 1"
+title: Reverse Graph Embeddings and the DDR Tree Algorithm
 date: 2023-07-01T03:49:04-04:00
 draft: true
 ShowToc: true

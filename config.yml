@@ -117,7 +117,7 @@ params:
   #  remark42: true
 
   # Site style (for About Me CV)
-  cv_template: kjhealy
+  style: kjhealy
 
 # <!-- ### End of params -->
 
