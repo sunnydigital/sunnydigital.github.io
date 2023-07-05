@@ -101,7 +101,8 @@ params:
     showNextPrev: true  # Show links to the next and previous posts
   
   # Misc
-  disableHLJS: true
+  assets:
+    disableHLJS: true
   monoDarkIcon: false
   math: true
 
@@ -186,6 +187,7 @@ markup:
     renderer:
       unsafe: true
   highlight:
+    # anchorLineNos: true
     style: dracula
     lineNos: true
-    noClasses: false
+    # noClasses: false
