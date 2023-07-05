@@ -28,7 +28,7 @@ The below is our *historic* view overlooking New York:
 
 <figure>
     <img src="images/historic-park.jpg" alt="Historic Park GWB">
-    <figcaption>Our <i>historic</i> view overlooking the GW Bridge</figcaption>
+    <figcaption align="center">Our <i>historic</i> view overlooking the GW Bridge</figcaption>
 </figure>
 
 I went to both primary and secondary school in my hometown, where I found an interest in STEM and participated in sports as well as band (where I played the Trumpet 🎺).
@@ -37,7 +37,7 @@ Thereafter, I went to NYU where I majored in Business with concentrations in Fin
 
 <figure>
     <img src="images/nyu-stern.jpg" width="110%" alt="NYU Stern Gould Plaza">
-    <figcaption>The daily view on the NYU campus</figcaption>
+    <figcaption align="center">The daily view on the NYU campus</figcaption>
 </figure>
 
 However, I actually started out as an Accounting major, intending for examination as a CPA, but realized that I did not truly love the field as much as I had thought/hoped.
@@ -46,7 +46,7 @@ Over my freshman year summer, I studied abroad in Cape Town, South Africa where 
 
 <figure>
     <img src="images/brookfield-place.jpg" alt="Brookfield Place Toronto">
-    <figcaption>Brookfield Place was always so refined</figcaption>
+    <figcaption align="center">Brookfield Place was always so refined</figcaption>
 </figure>
 
 It was during this time that I fell deeply in love with Data Science and its multidisciplinary nature, realizing the importance of recording a true part fo the world.
@@ -57,7 +57,7 @@ I then returned to classes, working part-time as a Data Scientist at NYU's Medic
 
 <figure>
     <img src="images/nyu-langone.jpg" alt="NYU Langone Main Building">
-    <figcaption>NYU Langone's Lobby, always friendly for conversation</figcaption>
+    <figcaption align="center">NYU Langone's Lobby, always friendly for conversation</figcaption>
 </figure>
 
 The classes that I took, to say excellent would be an understatement. It was really a feeling of eased understanding, the three things of *the real world*, *mathematics*, and *code* symbiotically assisting one another. It was also an exteme mix of the visual and the expressive; as I took classes, learned techniques, and was made to understand technologies that allowed computers to (in a way) *perceive* the world as we do. 
