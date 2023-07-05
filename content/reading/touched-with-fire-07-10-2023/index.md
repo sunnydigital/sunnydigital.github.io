@@ -1,7 +1,7 @@
 ---
 title: Touched with Fire
 date: 2023-06-25T07:00:00-04:00
-draft: false
+draft: true
 ShowToc: true
 tags:
   - fire
