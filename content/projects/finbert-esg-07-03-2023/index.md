@@ -8,7 +8,7 @@ cover:
   # can also paste direct link from external site
   # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
   # alt: alt text
-  caption: Angery BERT
+  caption: Angeerrryyyy BERT
   relative: true # To use relative path for cover image, used in hugo Page-bundles
 ---
 
