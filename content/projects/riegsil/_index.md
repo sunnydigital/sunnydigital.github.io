@@ -1,5 +1,5 @@
 ---
-title: PC Build Log | RIEGSIL
+title: PC Build | RIEGSIL
 description: |
   The build log for RIEGSIL, what I hope will be my
 
