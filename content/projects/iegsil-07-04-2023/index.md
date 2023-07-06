@@ -56,16 +56,20 @@ The first step involved a bit of cleaning, actually - a lot of cleaning.
 Due to the Titan RTX GPUs having been removed from their original [EKWB](https://www.ekwb.com/) waterblocks used in RIEGSIL v1 (post coming shortly), and repurposed with [Bitspower](https://bitspower.com/) waterblocks I bought on sale (thanks to the outdated nature of the Titan RTX), extensive cleaning was needed on the GPU chip.
 
 <figure>
-    <img src="images/titan-without-waterblock.jpg" alt="Titan RTX without Bitspower waterblock"> <img src="images/titan-with-waterblock.jpg" alt="Titan RTX with Bitspower waterblock">
-    <figcaption align="center">The before and after for attaching the Bitspower waterblock to a Titan RTX</figcaption>
+    <img src="images/titan-without-waterblock.jpg" alt="Titan RTX without Bitspower waterblock">
+    <figcaption align="center">The disassembled GPU, air cooler removed, processing chip cleaned, and thermal pads attached</figcaption>
 </figure>
 
+<figure>
+    <img src="images/titan-with-waterblock.jpg" alt="Titan RTX with Bitspower waterblock">
+    <figcaption align="center">The Titan RTX after attaching the Bitspower waterblock</figcaption>
+</figure>
 Wanting to try an new PC parts company and utilizing that company's parts throughout the build, I settled on Lian Li's [TITAN ONE MINI 2.0](https://bitspower.com/titanseries/titan_one_mini_2.0/) for its simplicity and present integration with Bitspower watercooling parts, as well the brands innovative daisychain [Uni Fan SL v2s](https://lian-li.com/product/uni-fan-sl-v2/), of which there are 7x 120mm and 2x 140mm (for side ventilation).
 
 For the CPU, I went with one already present for a previous build, the ever-so-trusty Ryzen 9 3900X, with 12-core, 24-thread capabilities:
 
 <figure>
-    <img src="images/ryzen-9-3900x.jpg" alt="Ryzen 9 3900X" width="70%">
+    <img src="images/ryzen-9-3900x.jpg" align="center" alt="Ryzen 9 3900X" width="70%">
     <figcaption align="center">The CPU, featuring my left thumb</figcaption>
 </figure>
 
@@ -77,5 +81,5 @@ That was the completion of a PC, with a name I don't know the meaning of, only b
 
 <figure>
     <img src="images/iegsil-final.jpg" alt="IEGSIL">
-    <figcaption align="center">The CPU, featuring my left thumb</figcaption>
+    <figcaption align="center">IEGSIL, completed</figcaption>
 </figure>
