@@ -22,7 +22,7 @@ showAuthor: true
 
 ## 👋 Hi! I'm Sunny
 
-I grew up in a small town with a bustling perhiphery, hosting (at one end) **the** busiest bridges in the world.
+I grew up in a small town with a bustling perhiphery, hosting (at one end) **the** busiest bridge in the world.
 
 The below is our *historic* view overlooking New York City from the west:
 
