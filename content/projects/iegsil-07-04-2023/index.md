@@ -62,6 +62,7 @@ Due to the Titan RTX GPUs having been removed from their original [EKWB](https:/
     <img src="images/titan-with-waterblock.jpg" alt="Titan RTX with Bitspower waterblock">
     <figcaption align="center">The Titan RTX after attaching the Bitspower waterblock</figcaption>
 </figure>
+
 Wanting to try an new PC parts company and utilizing that company's parts throughout the build, I settled on Lian Li's [TITAN ONE MINI 2.0](https://bitspower.com/titanseries/titan_one_mini_2.0/) for its simplicity and present integration with Bitspower watercooling parts, as well the brands innovative daisychain [Uni Fan SL v2s](https://lian-li.com/product/uni-fan-sl-v2/), of which there are 7x 120mm and 2x 140mm (for side ventilation).
 
 For the CPU, I went with one already present for a previous build, the ever-so-trusty Ryzen 9 3900X, with 12-core, 24-thread capabilities:
@@ -72,10 +73,9 @@ For the CPU, I went with one already present for a previous build, the ever-so-t
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
     }
   </style>
-  <img src="images/ryzen-9-3900x.jpg" class="center" alt="Ryzen 9 3900X">
+  <img src="images/ryzen-9-3900x.jpg" class="center" alt="Ryzen 9 3900X" width="70%">
   <figcaption align="center">The CPU, featuring my left thumb</figcaption>
 </figure>
 
