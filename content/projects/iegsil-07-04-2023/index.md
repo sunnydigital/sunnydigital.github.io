@@ -12,7 +12,7 @@ tags:
   - rgb
   - custom-waterloop
 cover:
-  image: images/iegsil-demo-pic.jpg
+  image: images/iegsil.jpg
   # alt: 
   # caption: A photo of the completed build for IEGSIL
   relative: true # To use relative path for cover image, used in hugo Page-bundles
@@ -52,6 +52,11 @@ This is an exhaustive list of parts used in this build:
 The first step involved a bit of cleaning, actually - a lot of cleaning. 
 
 Due to the Titan RTX GPUs having been removed from their original [EKWB](https://www.ekwb.com/) waterblocks used in RIEGSIL v1 (post coming shortly), and repurposed with [Bitspower](https://bitspower.com/) waterblocks I bought on sale (thanks to the outdated nature of the Titan RTX), extensive cleaning was needed on the GPU chip.
+
+<figure>
+    <img src="images/titan-without-waterblock.jpg" alt="Titan RTX without Bitspower waterblock"> <img src="images/titan-with-waterblock.jpg" alt="Titan RTX with Bitspower waterblock">
+    <figcaption align="center">The before and after for attaching the Bitspower waterblock to a Titan RTX</figcaption>
+</figure>
 
 Wanting to try an new PC parts company and utilizing that company's parts throughout the build, I settled on Lian Li's [TITAN ONE MINI 2.0](https://bitspower.com/titanseries/titan_one_mini_2.0/) for its simplicity and integration with Bitspower watercooling parts, as well as innovative daisychain [Uni Fan SL v2s](https://lian-li.com/product/uni-fan-sl-v2/), of which there are 7x 120mm and 2x 140mm (for side ventilation).
 
