@@ -75,7 +75,7 @@ For the CPU, I went with one already present for a previous build, the ever-so-t
         margin-right: auto;
     }
   </style>
-  <img src="images/ryzen-9-3900x.jpg" class="center" alt="Ryzen 9 3900X" width="70%">
+  <img src="images/ryzen-9-3900x.jpg" class="center" alt="Ryzen 9 3900X">
   <figcaption align="center">The CPU, featuring my left thumb</figcaption>
 </figure>
 
