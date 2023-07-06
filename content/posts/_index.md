@@ -1,13 +1,13 @@
 ---
 title: Posts
 description: |
-    This is the section of my webpage is dedicated to the small thoughts in life
+    This section of my webpage is dedicated to the small thoughts in life.
     
-    Sentiments however trivial and fleeting are yet deserving of pen and paper
+    Sentiments however ephemeral are yet deserving of pen and paper,
     
-    Because you never know, even the faintest spark of thought
+    because you never know: even the faintest synaptic tension,
     
-    Can bring about an inferno of change.
+    can bring about an inferno of change.
     
     🖋️📄
 ---
