@@ -67,16 +67,9 @@ Wanting to try an new PC parts company and utilizing that company's parts throug
 
 For the CPU, I went with one already present for a previous build, the ever-so-trusty Ryzen 9 3900X, with 12-core, 24-thread capabilities:
 
-<figure>
-  <style>
-    img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-  </style>
-  <img src="images/ryzen-9-3900x.jpg" class="center" alt="Ryzen 9 3900X">
-  <figcaption align="center">The CPU, featuring my left thumb</figcaption>
+<figure style="text-align: center;">
+  <img src="images/ryzen-9-3900x.jpg" alt="Ryzen 9 3900X" style="width: 70%; height: auto; margin: 0 auto;">
+  <figcaption>The CPU, featuring my left fingers</figcaption>
 </figure>
 
 ## Final steps
@@ -85,9 +78,7 @@ Unfortunately, I have no media for the rest of the installation process, but at 
 
 After careful testing (and at one point even painstakingly draining all of the liquid *already* in the system), everything was connected and thankfully, the build POSTed.
 
-That was the completion of a PC, with a name I don't know the meaning of, only because I thought it would be cool.
-
 <figure>
     <img src="images/iegsil-final.jpg" alt="IEGSIL">
-    <figcaption align="center">IEGSIL, completed</figcaption>
+    <figcaption align="center">IEGSIL, a completed build</figcaption>
 </figure>

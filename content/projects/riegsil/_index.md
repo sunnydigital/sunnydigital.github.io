@@ -1,13 +1,13 @@
 ---
-title: PC Build Log | RIEGSIL v2
+title: PC Build Log | RIEGSIL
 description: |
-  The build log for RIEGSIL v2, what I hope will be my
+  The build log for RIEGSIL, what I hope will be my
 
   next generation DL workstation
 
   🤖💻
 cover:
-  image: riegsil-v2-wip.jpg
+  image: riegsil-wip.jpg
   relative: true # To use relative path for cover image, used in hugo Page-bundles
 ---
 
@@ -20,5 +20,5 @@ Currently too lazy (and a bit out of practice) to bend the PETG necessary for th
 In relationship to my last point, I will soon be posting an article relating the statistical concept of *degrees of freedom* and the linear algebra of *tube bending* STAY TUNED!
 
 <figure>
-    <img src="riegsil-v2-wip.jpg">
+    <img src="riegsil-wip.jpg">
 </figure>
