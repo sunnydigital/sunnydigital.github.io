@@ -69,9 +69,19 @@ Wanting to try an new PC parts company and utilizing that company's parts throug
 For the CPU, I went with one already present for a previous build, the ever-so-trusty Ryzen 9 3900X, with 12-core, 24-thread capabilities:
 
 <figure>
-    <img src="images/ryzen-9-3900x.jpg" align="center" alt="Ryzen 9 3900X" width="70%">
-    <figcaption align="center">The CPU, featuring my left thumb</figcaption>
+  <style>
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+  </style>
+  <img src="images/ryzen-9-3900x.jpg" class="center" alt="Ryzen 9 3900X">
+  <figcaption align="center">The CPU, featuring my left thumb</figcaption>
 </figure>
+
+## Final steps
 
 Unfortunately, I have no media for the rest of the installation process, but at one point, there were fears of one or both of the GPUs having been bricked, given that the reason for the disassembly of its previous housing (RIEGSIL v1) was water leakage.
 

@@ -6,6 +6,11 @@ description: |
   next generation DL workstation
 
   🤖💻
+cover:
+  image: riegsil-v2-wip.jpg
+  # alt: A next-gen DL workstation
+  caption: RIEGSIL v2 as a work-in-progress
+  # relative: false # To use relative path for cover image, used in hugo Page-bundles
 ---
 
 ## The journey so far:
