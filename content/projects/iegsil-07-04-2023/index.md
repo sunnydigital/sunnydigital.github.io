@@ -13,8 +13,6 @@ tags:
   - custom-waterloop
 cover:
   image: images/iegsil.jpg
-  # alt: 
-  # caption: A photo of the completed build for IEGSIL
   relative: true # To use relative path for cover image, used in hugo Page-bundles
 ---
 

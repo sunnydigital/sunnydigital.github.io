@@ -8,7 +8,7 @@ tags:
   - creativity
 cover:
   image: images/dalle-touched-with-fire.jpg
-  caption: | 
-    Touched with fire, by another of the same
+  #caption: | 
+  #  Touched with fire, by another of the same
   relative: true # To use relative path for cover image, used in hugo Page-bundles
 ---
