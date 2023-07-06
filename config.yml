@@ -119,9 +119,6 @@ params:
   #defaultCommentSystems:
   #  remark42: true
 
-  # Site style (for About Me CV)
-  style: kjhealy
-
 # <!-- ### End of params -->
 
 permalinks:
@@ -154,8 +151,8 @@ menu:
     - name: About Me
       url: /aboutme/
       weight: 1
-    - name: Posts
-      url: /posts/
+    - name: Notes
+      url: /notes/
       weight: 2
     - name: Projects
       url: /projects/

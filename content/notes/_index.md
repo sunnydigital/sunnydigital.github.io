@@ -1,13 +1,13 @@
 ---
-title: Posts
+title: Notes
 description: |
     This section of my webpage is dedicated to the small thoughts in life.
     
     Sentiments however ephemeral are yet deserving of pen and paper,
     
-    because you never know: even the faintest synaptic tension,
+    because you never know: even the faintest synaptic pulse,
     
-    can bring about an inferno of change.
+    can bring about a world of change.
     
     🖋️📄
 ---
