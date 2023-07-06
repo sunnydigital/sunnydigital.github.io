@@ -12,7 +12,7 @@ description: |
     🖋️📄
 ---
 
-## Like Post-its, but with images and at times fancy graphs
+## Like Post-its, but with images and sometimes fancy graphs
 
 From time to time, I'd like to think we all have thoughts we'd like to remember. 
 

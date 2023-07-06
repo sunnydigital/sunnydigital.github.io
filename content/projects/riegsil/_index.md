@@ -13,7 +13,7 @@ cover:
 
 ## The journey so far:
 
-This build is currently a work-in-progress, making used of some parts that used to be a part of RIEGSIL v1.
+This build is currently a work-in-progress, making used of some parts that used to be a part of the older RIEGSIL.
 
 Currently too lazy (and a bit out of practice) to bend the PETG necessary for this build, but most of the build has already been assembled with GPU waterblocks attached and  
 
