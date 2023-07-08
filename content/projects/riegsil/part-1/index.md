@@ -61,4 +61,4 @@ Et, voilà: a pair of cool, black, waterblock-fitted 4090s!
     <figcaption align="center">Two Strix 4090s, form fitted with waterblocks</figcaption>
 </figure>
 
-The rest is to be continued!
+To be continued, as I take the parts from the desk top (PC pun) to the case!
