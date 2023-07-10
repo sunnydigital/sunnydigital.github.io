@@ -69,4 +69,4 @@ The classes that I took during this time were.. to say excellent would be an und
 
 Most of these experiences were definitely challenging, however trepidation and persistence were key.
 
-There is much more out there, and this website is my hope to be able to document all the in-betweens and through-outs for all that I encounter from here on out.
+There is much more out there, and this website is my hope to be able to document all the in-betweens and through-outs for all that I encounter from here on.
