@@ -8,7 +8,6 @@ Description: |
     and where I'm going
 
 layout: aboutme
-isResume: true
 disableShare: true
 ShowReadingTime: false
 ShowWordCount: false
@@ -20,7 +19,7 @@ showAuthor: false
     <figcaption align="center">Credits to DALLE for the above image, made using a prompt of: <i>a lovely sunflower in the style of Van Gogh<i></figcaption>
 </figure>
 
-## <img src="/waving-emoji.jpg" alt="Waving emoji" height="20"> Hi! I'm Sunny
+## <img src="waving-emoji.jpg" alt="Waving emoji" width="20"> Hi! I'm Sunny
 
 I grew up in a small town with a bustling perhiphery, hosting (at one end) **the** busiest bridge in the world.
 
