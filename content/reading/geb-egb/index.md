@@ -1,7 +1,7 @@
 ---
 title: "Gödel, Escher, Bach: an Eternal Golden Braid"
 date: 2023-07-07T07:00:00-04:00
-draft: false
+draft: true
 ShowToc: true
 tags:
   - book

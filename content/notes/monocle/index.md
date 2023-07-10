@@ -29,5 +29,6 @@ The analogy that helped me better understand how reverse graph embeddings operat
 
 I just took a total of *N* pictures (make this number as arbitrarily large or small as you would like), and from the instantaneous timeframe of the picture, each would be an accurate representation of where the ball was at that time and as such, the representation would then be:
 
-[INSERT GRAPH OF SNAPSHOTS OF BALL AT DIFFERENT TIMESTAMPS, WITH A STICK FIGURE VIEWING THE PROCESSION]
+[INSERT GRAPH OF SNAPSHOTS OF BALL AT DIFFERENT TIMESTAMPS, WITH A STICK FIGURE VIEWING THE PROGRESSION]
 
+To put math towards the intuition of images, we use a simple equation 

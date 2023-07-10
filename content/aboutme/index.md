@@ -17,7 +17,7 @@ showAuthor: true
 
 <figure>
     <img style="border-radius:75%;margin-left:auto;margin-right:auto;" width="75%" src="images/dalle-sunflower.jpg" alt="Sunflower">
-    <figcaption align="center">A lovely sunflower in the style of Van Gogh</figcaption>
+    <figcaption align="center">Credits to DALLE for the above image, made using a prompt of: <i>a lovely sunflower in the style of Van Gogh<i></figcaption>
 </figure>
 
 ## 👋 Hi! I'm Sunny
@@ -33,16 +33,16 @@ The below is our *historic* view overlooking New York City from the west:
 
 I went to both primary and secondary school in my hometown, where I found an interest in STEM and participated in sports (Track and Field) as well as band (where I played the Trumpet 🎺).
 
-Thereafter, I went to NYU where I majored in Business with concentrations in Finance, and Computing & Data Science, with a Minor in Mathematics.
+Thereafter, I went to NYU where I majored in Business with concentrations in Finance, Computing & Data Science, and a Minor in Mathematics.
 
 <figure>
     <img src="images/nyu-stern.jpg" width="110%" alt="NYU Stern Gould Plaza">
     <figcaption align="center">The daily view on the NYU campus</figcaption>
 </figure>
 
-However, I actually started out as an Accounting major, intending for examination as a CPA, but realized that I did not deeply enjoy the field as much as I had thought/hoped.
+However, I actually started out as an Accounting major, intending for examination as a CPA, but realized that I did not deeply enjoy the field as much as I had hoped.
 
-Over my freshman year summer, I studied abroad in Cape Town, South Africa where I worked for a creative consulting company help with logistics for a cosmetics startup. The summer thereafter, I worked for Brookfield, where I helped with low frequency trading using language models.
+Over my freshman year summer, I studied abroad in Cape Town, South Africa where I worked for a creative consulting company running logistics for a cosmetics startup. The summer thereafter, I worked for Brookfield, where I worked on low frequency trading.
 
 <figure>
     <img src="images/brookfield-place.jpg" alt="Brookfield Place Toronto">
@@ -51,7 +51,7 @@ Over my freshman year summer, I studied abroad in Cape Town, South Africa where 
 
 It was during this time that I found Data Science and enjoyed its multidisciplinary nature, realizing the importance of quantizing a true part of the world.
 
-I took two years off working odd jobs here and there, acting as an Analyst at Two Sigma to a consultant at Deloitte. These roles (some with a negative reinforcement) only reaffirmed my decision that Data Science was for me.
+I took two years off working odd jobs here and there, acting as an Analyst at Two Sigma to a consultant at Deloitte. These roles (some with a negative reinforcement) only reaffirmed my decision that I wanted something more data-driven.
 
 I then returned to classes, working part-time as a Data Scientist at NYU Langone, where I processed, pipelined, and used semi/supervised methods to analyze genetic data.
 
@@ -69,4 +69,4 @@ The classes that I took during this time were.. to say excellent would be an und
 
 Most of these experiences were definitely challenging, however trepidation and persistence were key.
 
-There is much more out there, and this website is my hope to be able to document all the in-betweens and through-outs for all that I experience
+There is much more out there, and this website is my hope to be able to document all the in-betweens and through-outs for all that I encounter from here on out.
