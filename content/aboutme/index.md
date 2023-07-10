@@ -39,7 +39,7 @@ Thereafter, I went to NYU where I majored in Business with concentrations in Fin
     <figcaption align="center">The daily view on the NYU campus</figcaption>
 </figure>
 
-However, I actually started out as an Accounting major, intending for examination as a CPA, but realized that I did not deeply enjoy the field as much as I had hoped.
+However, I actually started out as an Accounting major, intending for examination as a CPA, but realized that I did not learn to love the field as much as I had originally hoped.
 
 Over my freshman year summer, I studied abroad in Cape Town, South Africa where I worked for a creative consulting company running logistics for a cosmetics startup. The summer thereafter, I worked for Brookfield, where I worked on low frequency trading.
 
@@ -48,18 +48,18 @@ Over my freshman year summer, I studied abroad in Cape Town, South Africa where 
     <figcaption align="center">Brookfield Place was always so refined</figcaption>
 </figure>
 
-It was during this time that I found Data Science and enjoyed its multidisciplinary nature, realizing the importance of quantizing a true part of the world.
+It was during this time that I found Data Science and enjoyed its multidisciplinary nature, realizing the importance of quantizing the truth in our world.
 
-I took two years off working odd jobs here and there, acting as an Analyst at Two Sigma to a consultant at Deloitte. These roles (some with a negative reinforcement) only reaffirmed my decision that I wanted something more data-driven.
+I took two years off working odd jobs here and there, from an analyst at Two Sigma to a consultant at Deloitte. With these roles (and some potentially negative reinforcement along the way) only reaffirmed my decision that I wanted to pursue something more data-driven.
 
-I then returned to classes, working part-time as a Data Scientist at NYU Langone, where I processed, pipelined, and used semi/supervised methods to analyze genetic data.
+I then returned to classes, working part-time as a Data Scientist at NYU Langone, where I processed, pipelined, and used semi/supervised methods to analyze genetic data across the cardiovascular and lyphatic systems.
 
 <figure>
     <img src="images/nyu-langone.jpg" alt="NYU Langone Main Building">
     <figcaption align="center">NYU Langone's Lobby, looking friendly for conversation</figcaption>
 </figure>
 
-The classes that I took during this time were.. to say excellent would be an understatement. They really pushed for a feeling of eased understanding, focused into three things being: *the real world*, *mathematics*, and *code* assisting one another to bring about insights. It was also an exteme mix of the visual and the expressive; as I took classes, learned techniques, and was made to understand concepts that allowed computers to (in a way) *perceive* the world as we do, and more importantly for us to interact with such machines. 
+The classes that I took during this time were.. to say excellent would be an understatement. They really pushed for a feeling of *natural* understanding, focused into three categories being: *the real world*, *mathematics*, and *code* assisting one another to bring about insights that a normal pen, paper, and brain cannot. It was also an exteme mix of the visual and the expressive; as I took classes, learned techniques, and was made to understand concepts that allowed computers to (in a way) *perceive* the world as we do, and more importantly, for us to understand and interact with such machines. 
 
 <figure>
     <img src="images/nyu-cds.jpg" alt="NYU CDS on 5th Ave">
