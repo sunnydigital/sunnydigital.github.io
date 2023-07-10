@@ -12,7 +12,7 @@ isResume: true
 disableShare: true
 ShowReadingTime: false
 ShowWordCount: false
-showAuthor: true
+showAuthor: false
 ---
 
 <figure>
