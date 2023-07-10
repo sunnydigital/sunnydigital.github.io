@@ -10,7 +10,7 @@ description: |
 
 ## What's this?
 
-From PC Builds to personal ML Projects I guess I'm always working on *something*. So here are my projects, to share all that I have built, with the hopes that *you*, the reader, take slight joy and interest in what I have to make.
+From PC builds to programming, I guess I'm always working on *something*. So here are my projects, to share all that I have built, with the hopes that *you*, the reader, take slight joy and interest in what I have to make.
 
 Enjoy!
 
