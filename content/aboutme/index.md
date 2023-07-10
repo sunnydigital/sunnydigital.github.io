@@ -1,7 +1,6 @@
 ---
 title: About Me
 
-layout: aboutme
 disableShare: true
 ShowReadingTime: false
 ShowWordCount: false
@@ -13,7 +12,7 @@ description: |
     what I'm doing to what I'm interested in, and where I'm going.
 
     Definitely a page where the words "stay tuned" applies!
-    
+
     💁‍♂️💭
 ---
 
