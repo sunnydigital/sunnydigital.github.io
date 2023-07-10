@@ -3,9 +3,9 @@ title: About Me
 Description: | 
     This page is a bit about me, from where I'm from to what I've been up to, 
     
-    what I'm doing, to what I'm interested in, 
-    
-    and where I'm going
+    what I'm doing, to what I'm interested in, and where I'm going
+
+    definitely a page where the words "stay tuned" applies!
 
 layout: aboutme
 disableShare: true
@@ -14,10 +14,7 @@ ShowWordCount: false
 showAuthor: false
 ---
 
-<figure>
-    <img style="border-radius:75%;margin-left:auto;margin-right:auto;" width="75%" src="images/dalle-sunflower.jpg" alt="Sunflower">
-    <figcaption align="center">Credits to DALLE for the above image, made using a prompt of: <i>a lovely sunflower in the style of Van Gogh<i></figcaption>
-</figure>
+
 
 ## 👋 Hi! I'm Sunny
 
