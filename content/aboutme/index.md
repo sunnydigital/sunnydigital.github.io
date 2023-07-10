@@ -1,11 +1,5 @@
 ---
 title: About Me
-
-disableShare: true
-ShowReadingTime: false
-ShowWordCount: false
-showAuthor: false
-
 description: |
     This page is a bit about me: where I'm from to what I've been up to,
 
