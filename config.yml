@@ -74,7 +74,7 @@ params:
     imageUrl: "https://en.gravatar.com/userimage/237046188/62122b946d153a7018b666085c8ae6b1?size=original" # optional
     imageTitle: "Feelin' Sunny" # optional
     imageWidth: 128 # custom size
-    imageHeight: 128 # custom size  
+    imageHeight: 128 # custom size
 
   hideFooter: false
 
