@@ -8,12 +8,9 @@ ShowWordCount: false
 showAuthor: false
 
 description: | 
-    This page is a bit about me: where I'm from to what I've been up to, 
-    
+    This page is a bit about me: where I'm from to what I've been up to,
     what I'm doing to what I'm interested in, and where I'm going.
-
-    definitely a page where the words "stay tuned" applies!
-
+    Definitely a page where the words "stay tuned" applies!
     💁‍♂️💭
 ---
 
