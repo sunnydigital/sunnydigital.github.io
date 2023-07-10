@@ -27,7 +27,7 @@ The below is our *historic* view overlooking New York City from the west:
 
 <figure>
     <img src="images/historic-park.jpg" alt="Historic Park GWB">
-    <figcaption align="center">Our historic view overlooking the GW Bridge</figcaption>
+    <figcaption align="center">Our <i>historic</i> view overlooking the GW Bridge</figcaption>
 </figure>
 
 I went to both primary and secondary school in my hometown, where I found an interest in STEM and participated in sports (Track and Field) as well as band (where I played the Trumpet 🎺).
