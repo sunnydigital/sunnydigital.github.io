@@ -59,7 +59,9 @@ I then returned to classes, working part-time as a Data Scientist at NYU Langone
     <figcaption align="center">NYU Langone's Lobby, looking friendly for conversation</figcaption>
 </figure>
 
-The classes that I took during this time were.. to say excellent would be an understatement. They really pushed for a feeling of *natural* understanding, focused into three categories being: *the real world*, *mathematics*, and *code* assisting one another to bring about insights that a normal pen, paper, and brain cannot. It was also an exteme mix of the visual and the expressive; as I took classes, learned techniques, and was made to understand concepts that allowed computers to (in a way) *perceive* the world as we do, and more importantly, for us to understand and interact with such machines. 
+The classes that I took during this time were.. to say excellent would be an understatement. They really pushed for a feeling of *natural* understanding, focused into three categories being: *the real world*, *mathematics*, and *code* assisting one another to bring about insights that a normal pen, paper, and brain cannot. 
+
+They were also exteme mixes of the visual and the expressive; as I took classes, learned techniques, and was made to understand concepts that allowed computers to (in a way) *perceive* the world as we do, and more importantly, for us to understand and interact with such machines. 
 
 <figure>
     <img src="images/nyu-cds.jpg" alt="NYU CDS on 5th Ave">
