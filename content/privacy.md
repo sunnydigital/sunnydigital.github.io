@@ -22,4 +22,4 @@ While efforts have been made to ensure the privacy and security of user informat
 
 The website owners are committed to safeguarding user privacy and maintaining transparency regarding data collection practices. Should you have any concerns or queries regarding the privacy of your information or the functioning of this website, please feel free to reach out through the provided contact information.
 
-Thank you for visiting this website, and hope you enjoy!
+Thank you for visiting my website!
