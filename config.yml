@@ -146,7 +146,7 @@ outputs:
 
 languages:
   en:
-    languageName: "English"
+    languageName: English
 
 menu:
   main:
