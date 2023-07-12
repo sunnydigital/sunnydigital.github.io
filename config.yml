@@ -103,10 +103,10 @@ params:
   monoDarkIcon: false
   math: true
 
-  editPost:
-    URL: https://github.com/sunnyson.dev/edit/main/content
-    Text: Suggest edit
-    appendFilePath: true
+  #editPost:
+  #  URL: https://github.com/sunnyson.dev/edit/main/content
+  #  Text: Suggest edit
+  #  appendFilePath: true
 
   #commentSystems:
   #  disqus:
