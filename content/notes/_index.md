@@ -22,5 +22,5 @@ Here's to fixing that.
 
 <figure>
     <img src="dalle-creativity-2.jpg">
-    <figcaption>Credits to DALLE for the above image, made using a prompt of: <i>post-its with quill and ink, in a futuristic technologists style</i></figcaption>
+    <figcaption>Credits to DALL•E for the above image, made using a prompt of: <i>post-its with quill and ink, in a futuristic technologists style</i></figcaption>
 </figure>

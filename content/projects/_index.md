@@ -17,6 +17,6 @@ Enjoy!
 <figure>
     <img src="dalle-workshop.jpg">
     <figcaption>
-        Credits to DALLE for the above image, made using a prompt of: <i>anime style depiction of a high-tech workshop with light coming in from the window, reminiscent of the movie suzume</i>
+        Credits to DALL•E for the above image, made using a prompt of: <i>anime style depiction of a high-tech workshop with light coming in from the window, reminiscent of the movie suzume</i>
     </figcaption>
 </figure>

@@ -16,7 +16,7 @@ description: |
 
 <figure>
     <img style="border-radius:75%;margin-left:auto;margin-right:auto;" width="75%" src="images/dalle-sunflower.jpg" alt="Sunflower">
-    <figcaption align="center">Credits to DALLE for the above image, made using a prompt of: <i>a lovely sunflower in the style of Van Gogh</i></figcaption>
+    <figcaption align="center">Credits to DALL•E for the above image, made using a prompt of: <i>a lovely sunflower in the style of Van Gogh</i></figcaption>
 </figure>
 
 ## 👋 Hi! I'm Sunny
