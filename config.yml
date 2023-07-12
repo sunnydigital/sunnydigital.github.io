@@ -185,6 +185,9 @@ menu:
 #    - name: FAQ
 #      url: /faq/
 #      weight: 10
+    - name: web-sum
+      url: https://web-sum.sunnyson.dev/
+      weight: 7
 
 markup:
   goldmark:
