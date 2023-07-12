@@ -15,8 +15,8 @@ params:
   favicon: favicon.ico
 
   label:
-    text: Sun with face emoji
-    icon: /sun-with-face-emoji.png
+    text: Sunny's Digital
+    icon: /sun-with-face-emoji.gif
     iconHeight: 35
 
   # Themes params
