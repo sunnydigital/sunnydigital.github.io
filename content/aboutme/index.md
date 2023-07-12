@@ -41,7 +41,7 @@ Thereafter, I went to NYU where I majored in Business with concentrations in Fin
 
 However, I actually started out as an Accounting major, intending for examination as a CPA, but realized that I did not learn to love the field as much as I had originally hoped.
 
-Over my freshman year summer, I studied abroad in Cape Town, South Africa where I worked for a creative consulting company running logistics for a cosmetics startup. The summer thereafter, I worked for Brookfield, where I worked on low frequency trading.
+Over my freshman year summer, I studied abroad in Cape Town, South Africa where I worked for a creative consulting company running logistics for a cosmetics startup. The summer thereafter, I worked for Brookfield as an analyst.
 
 <figure>
     <img src="images/brookfield-place.jpg" alt="Brookfield Place Toronto">
