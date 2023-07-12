@@ -5,8 +5,8 @@ theme: PaperMod
 enableRobotsTXT: true
 enableEmoji: true
 
-## To enable Google Analytics
-# googleAnalytics:
+# To enable Google Analytics
+googleAnalytics: G-QT6QEKVLDM
 
 minify:
   disableXML: true
