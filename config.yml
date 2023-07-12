@@ -5,6 +5,13 @@ theme: PaperMod
 enableRobotsTXT: true
 enableEmoji: true
 
+## To enable Google Analytics
+# googleAnalytics:
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
 params:
   env: production
 
@@ -107,6 +114,15 @@ params:
     disableHLJS: true
   monoDarkIcon: false
   math: true
+
+  # Analytics site tags
+  analytics:
+    google:
+      SiteVerificationTag: XYZabc
+    bing:
+      SiteVerificationTag: XYZabc
+    yandex:
+      SiteVerificationTag: XYZabc
 
   #editPost:
   #  URL: https://github.com/sunnyson.dev/edit/main/content
