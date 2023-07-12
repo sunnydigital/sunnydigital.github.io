@@ -7,6 +7,7 @@ tags:
   - book
   - leonardo
   - learning
+  - da-vinci
 cover:
   image: images/dalle-leonardo-da-vinci.jpg
   # can also paste direct link from external site

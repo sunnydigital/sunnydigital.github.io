@@ -13,6 +13,10 @@ params:
   images:
     - sun-with-face-emoji.png
   favicon: favicon.ico
+  label:
+    text: Sun with face emoji
+    icon: sun-with-face-emoji.png
+    iconHeight: 35
 
   # Themes params
   DisableLanguageSwitch: false
