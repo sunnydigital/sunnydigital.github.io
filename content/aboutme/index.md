@@ -50,7 +50,7 @@ Over my freshman year summer, I studied abroad in Cape Town, South Africa where 
 
 It was during this time that I found Data Science and enjoyed its multidisciplinary nature, realizing the importance of quantizing the truth in our world.
 
-I took two years off working odd jobs here and there, from an analyst at Two Sigma to a consultant at Deloitte. With these roles (and some potentially negative reinforcement along the way) only reaffirmed my decision that I wanted to pursue something more data-driven.
+I took two years off working odd jobs here and there, from an analyst at Two Sigma to a tax consultant at Deloitte. With these roles (and some potentially negative reinforcement along the way) only reaffirmed my decision that I wanted to pursue something more data-driven.
 
 I then returned to classes, working part-time as a Data Scientist at NYU Langone, where I processed, pipelined, and used semi/supervised methods to analyze genetic data across the cardiovascular and lyphatic systems.
 
