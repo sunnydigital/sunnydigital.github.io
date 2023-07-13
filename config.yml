@@ -115,7 +115,7 @@ params:
   monoDarkIcon: false
   math: true
 
-  # Analytics site tags
+  # Analytics site tags (not really sure how to use..?)
   analytics:
     google:
       SiteVerificationTag: XYZabc
