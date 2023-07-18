@@ -6,4 +6,7 @@
 	url = https://github.com/sunnydigital/hugo-PaperModX.git
 [submodule "themes/PaperMod"]
 	path = themes/PaperMod
-	url = https://github.com/hiddensunny/hugo-PaperMod.git
+	url = https://github.com/sunnyanalogue/hugo-PaperMod.git
+[submodule "hugo-PaperMod"]
+	path = hugo-PaperMod
+	url = https://github.com/sunnyanalogue/hugo-PaperMod.git
