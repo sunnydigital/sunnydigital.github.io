@@ -8,6 +8,7 @@ showReadingTime: false
 editPost:
     disabled: true
 summary: Privacy policy for Sunny's Website
+type: privacypolicy
 ---
 
 This website was built using the static site generator [Hugo](https://gohugo.io), a popular open-source tool that allows for the creation of fast and efficient websites. The site incorporates the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme, which provides a visually appealing and user-friendly design. Throughout the development process, the website took inspiration and received invaluable assistance from [Jesse Wei's](https://github.com/jesse-wei/jessewei.dev-PaperMod) fork of the website. Currently, the website is hosted on GitHub Pages, a reliable and free hosting platform that enables seamless deployment of static websites.
