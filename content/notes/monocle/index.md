@@ -9,20 +9,15 @@ cover:
   relative: true # To use relative path for cover image, used in hugo Page-bundles
 ---
 
-# Everything is not what they seem
+# Everything is not what it seems
 
-I think latent models are quite neat, the idea that there exists a *fundamental* discrepency between what is overtly shown and *how* such patterns came to be.
+I think latent models are quite neat, the idea that there exists a fundamental discrepency between *what* is overtly shown and *how* such patterns came to be.
 
 Nowhere is this as present as the complex systems involved in gene expression, where the phenotypes we see across an organism might (most of the time) or might not make sense given the context of the genes at play.
 
-As it turns out, experimentally the observations of cellular expression (in terms of the genes to each of the cells) lie in a lower dimension (as a generating distribution) than the more complex assortment of observed expression outcomes.
+As it turns out, the experimental observations of cellular expression (in terms of the genes to each of the cells) lie in a lower dimension (as a moment generating function) than the more complex assortment of observed expressions.
 
----
-***NOTE***
-The previous part needs revision, in terms of the cellular expression (genes to each of the cells)
----
-
-# When you throw a ball into the air, is there a different ball every time you blink?
+# When you throw a ball into the air, is it actually a different ball every time you blink?
 
 The analogy that helped me better understand how reverse graph embeddings operate was a simple one you can do at home, with your eyes closed. Imagine tossing a ball into the air, with a camera pointing at the ball from a third-person perspective off of the $z$-axis, taking snapshots every now and then, *snap*, *snap*, *snap*, *snap*, ... , *SNAP*. 
 
@@ -50,4 +45,4 @@ To draw inspiration, we can look at the combined discrete/continuous image (figu
 
 Now what can be asked is: how do we put the question of a difference in background into a quantifiable detail? Well, the background is different only because of a change in the *position* of the ball (from *any* viewpoint of a 3rd party observer). This intuition is *EXACTLY* how graph dimensionality-reduction learning operates at a high level: to find the *path* of the ball (the generalized equation of sorts) that best describes all of the images of the ball, given its position (the discrete images of the ball) at different timepoints.
 
-To generalize, we can consider what the algorithm was meant to describe: cells and expressed genes.
+This is the loose analogy between a simpler, physical representation of the mechanisms at play and what the process is actually explaining (a biological one). Through generalization, we can finally consider what the algorithm was meant to represent: cells and expressed genes. Across all of our given samples of cells marked by expressed genes, we 
