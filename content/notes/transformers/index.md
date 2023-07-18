@@ -1,7 +1,7 @@
 ---
 title: Discriminative Dimensioanlity Reduction via learning a Tree
 date: 2023-07-10T03:49:04-04:00
-draft: false
+draft: true
 ShowToc: true
 cover:
   image: images/dalle-white-ball.png
