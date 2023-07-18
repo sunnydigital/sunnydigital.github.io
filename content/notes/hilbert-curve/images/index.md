@@ -1,5 +1,5 @@
 ---
-title: "Post 3"
+title: Hilbert Curve as a Viable Means of Dimensionality Expansion
 date: 2023-07-01T03:49:04-04:00
 draft: true
 ShowToc: true
