@@ -39,7 +39,7 @@ These two images can then be connected, from discrete snapshots of the ball in m
 To put math towards the intuition of images, we use a simple equation from kinematics representing a point-like object (which will be referred to as a ball from now on):
 
 $$
-x(t) = vt + x_i, t \in \mathbb{R} p,v \in \mathbb{R}^n
+x(t) = vt + x_i, \: t \in \mathbb{R}; \: p,v \in \mathbb{R}^n
 $$
 
 where $x_i$ is the initial position of the ball, $v$ is the velocity of the ball (both in some *hypothetical* $n$-dimensional space), and $t$ is the time passed since the ball was first thrown up in the air.
