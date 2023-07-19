@@ -35,25 +35,25 @@ While you just took a total of five pictures, this number can be generalized to 
     <figcaption align="center"><i>Figure 2</i> Perspective from the z-axis of a ball being thrown into the air, with each ball representing a snapshot in time</figcaption>
 </figure>
 
-These two images can then be connected, from discrete snapshots of the ball in motion to the continuous flow of the ball as shown below:
+For clearer presentation, the previous two images can be concatenated - juxtaposing what can be considered the *discrete* timeframe of the photos you just took and the *continuous* live-demonstration of the ball being thrown. The below image demonstrates this, providing a graphical overlay of the photos at each time:
 
 <figure>
     <img src="images/fig-03.png" alt="Figure 3">
     <figcaption align="center"><i>Figure 3</i> The connected image of both the photos and what is happening</figcaption>
 </figure>
 
-To put math towards the intuition of images, we use a simple equation from kinematics representing a point-like object (which will be referred to as a ball from now on):
+To put math towards the intuition of the previous images, we use a simple equation from kinematics representing a point-like object (which will be referred to as a ball from now on):
 
 $$
 x(t) = vt + x_i, \ t \in \mathbb{R}; \ p,v \in \mathbb{R}^n
 $$
 
-where $x_i$ is the initial position of the ball, $v$ is the velocity of the ball (both in some *hypothetical* $n$-dimensional space), and $t$ is the time passed since the ball was first thrown up in the air.
+where $x_i$ is the initial position of the ball, $v$ is the velocity of the ball (both variables in some *hypothetical* $n$-dimensional space), and $t$ is the time passed since the ball was first thrown up in the air.
 
 For a brief moment, let's assume we know nothing about the *continuous* path that the ball takes, what we consider to be the closed-form solution of the position of the ball (equivalent to $x_i$). Instead let's now ask: how can we feasibly piece together the trajectory of the ball from the discrete images in the third figure?
 
-To draw inspiration, we can look at the combined discrete/continuous image (figure 3), which connects the time embedded and non-time embedded figures shown previously. For each of the smaller, discrete images, we can see that the most stark detail of difference (with the *ball* acting as a common reference frame throughout) is the background of each of the image.
+To draw inspiration, we can look at the combined discrete/continuous image (Figure 3), which connects the time embedded and non-time embedded figures shown previously. For each of the smaller, discrete images, we can see that the most stark detail of difference (with the *ball* acting as a common reference frame throughout) is the background of each of the image.
 
 Now what can be asked is: how do we put the question of a difference in background into a quantifiable detail? Well, the background is different only because of a change in the *position* of the ball (from *any* viewpoint of a 3rd party observer). This intuition is *EXACTLY* how graph dimensionality-reduction learning operates at a high level: to find the *path* of the ball (the generalized equation of sorts) that best describes all of the images of the ball, given its position (the discrete images of the ball) at different timepoints.
 
-This is the loose analogy between a simpler, physical representation of the mechanisms at play and what the process is actually explaining (a biological one). Through generalization, we can finally consider what the algorithm was meant to represent: cells and expressed genes. Across all of our given samples of cells with genes as features, the expressed genes can be interpreted as pictures of individual cells, 
+This is the loose analogy between a simpler, physical representation of the mechanisms at play and what the process is actually explaining (a biological one). Through generalization, we can finally get closer to what the algorithm was meant to represent: cells and expressed genes. Across all of our samples of cells with gene features, the expressed genes can be interpreted as pictures of individual cells, 
