@@ -19,17 +19,28 @@ As it turns out, the experimental observations of cellular expression (in terms 
 
 # When you throw a ball into the air, is it actually a different ball every time you blink?
 
-The analogy that helped me better understand how reverse graph embeddings operate was a simple one you can do at home, with your eyes closed. Imagine tossing a ball into the air, with a camera pointing at the ball from a third-person perspective off of the $z$-axis, taking snapshots every now and then, *snap*, *snap*, *snap*, *snap*, ... , *SNAP*. 
+The analogy that helped me better understand how reverse graph embeddings operate was a simple one you can do at home, with your eyes closed. Imagine someone tossing a ball into the air, with you holding a camera pointing at the ball (tracing it's path through the air) from a third-person perspective off of the $z$-axis, taking snapshots every now and then, *snap*, *snap*, *snap*, *snap*, ... , *SNAP*. The film is developed, and out come five different photos.
 
-[INSERT IMAGE OF MULTIPLE SHOTS OF A BALL THROWN AND FALLING]
+You can imagine the snapshots as allegories of the ball stuck in time, with each picture giving context to where the ball is relative to everything around it. The photos look something like the following:
 
-I just took a total of *N* pictures (make this number as arbitrarily large or small as you would like), and from the instantaneous timeframe of the picture, each would be an accurate representation of where the ball was at that time and as such, the representation would then be:
+<figure>
+    <img src="images/fig-02.png" alt="Figure 1">
+    <figcaption align="center"><i>Figure 1</i> The five distinct photos taken of the ball on it's trajectory through the air... OHhh <i>SNAap</i></figcaption>
+</figure>
 
-[INSERT GRAPH OF SNAPSHOTS OF BALL AT DIFFERENT TIMESTAMPS, WITH A STICK FIGURE VIEWING THE PROGRESSION]
+While you just took a total of five pictures, this number can be generalized to *N*, making it as arbitrarily large or small as you would like. From the instantaneous timeframe of these pictures, each one would be an accurate representation of where the ball was at that time. A more descriptive view can be shown through zooming out and looking at the larger picture:
+
+<figure>
+    <img src="images/fig-01.png" alt="Figure 2">
+    <figcaption align="center"><i>Figure 2</i> Perspective from the z-axis of a ball being thrown into the air, with each ball representing a snapshot in time</figcaption>
+</figure>
 
 These two images can then be connected, from discrete snapshots of the ball in motion to the continuous flow of the ball as shown below:
 
-[OVERLAID IMAGES OF THE BALL IN MOTION AND INDIVIDUAL SNAPSHOTS OF THE BALL]
+<figure>
+    <img src="images/fig-03.png" alt="Figure 3">
+    <figcaption align="center"><i>Figure 3</i> The connected image of both the photos and what is happening</figcaption>
+</figure>
 
 To put math towards the intuition of images, we use a simple equation from kinematics representing a point-like object (which will be referred to as a ball from now on):
 
