@@ -11,13 +11,15 @@ cover:
 
 # Everything is not what it seems
 
-I think latent models are quite neat, the idea that there exists a fundamental discrepency between *what* is overtly shown and *how* such patterns came to be.
+I think latent models are quite neat, the idea that there exists a fundamental discrepency between *what* is overtly shown and *how* the patterns came to be.
 
-Nowhere is this as present as the complex systems involved in gene expression, where the phenotypes we see across an organism might (most of the time) or might not make sense given the context of the genes at play.
+Nowhere is this as present as the complex systems involved in gene expression, where phenotypes (what characteristics we see on an organism, e.g. red hair and a lack of a soul expressed in gingers vs. black hair and a soul expressed in literally anyone else) are not always explained by genotypes (the literal ATCG in DNA). 
+
+However in many cases across the medical field, the phenotypes of a specific organism (most of the time) might or might not make sense given the context of the genes at play.
 
 As it turns out, the experimental observations of cellular expression (in terms of the genes to each of the cells) lie in a lower dimension (as a moment generating function) than the more complex assortment of observed expressions.
 
-# When you throw a ball into the air, is it actually a different ball every time you blink?
+# When You Throw a Ball Into the Air, Is it Really the Same Ball?
 
 The analogy that helped me better understand how reverse graph embeddings operate was a simple one you can do at home, with your eyes closed. Imagine someone tossing a ball into the air, with you holding a camera pointing at the ball (tracing it's path through the air) from a third-person perspective off of the $z$-axis, taking snapshots every now and then, *snap*, *snap*, *snap*, *snap*, ... , *SNAP*. The film is developed, and out come five different photos.
 
@@ -56,4 +58,6 @@ To draw inspiration, we can look at the combined discrete/continuous image (Figu
 
 Now what can be asked is: how do we put the question of a difference in background into a quantifiable detail? Well, the background is different only because of a change in the *position* of the ball (from *any* viewpoint of a 3rd party observer). This intuition is *EXACTLY* how graph dimensionality-reduction learning operates at a high level: to find the *path* of the ball (the generalized equation of sorts) that best describes all of the images of the ball, given its position (the discrete images of the ball) at different timepoints.
 
-This is the loose analogy between a simpler, physical representation of the mechanisms at play and what the process is actually explaining (a biological one). Through generalization, we can finally get closer to what the algorithm was meant to represent: cells and expressed genes. Across all of our samples of cells with gene features, the expressed genes can be interpreted as pictures of individual cells, 
+This is the loose analogy between a simpler, physical representation of the mechanisms at play and what the process is actually explaining (a biological one). Through generalization, we can finally get closer to what the algorithm was meant to represent: cells and expressed genes. Across all of our samples of cells with genes as features, expression can be interpreted as pictures of individual cells and the latent distribution of *possible* outcomes (moderated by time) as the continuous point of view.
+
+## Learning: From High to Low
