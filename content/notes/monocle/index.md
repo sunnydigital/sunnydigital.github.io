@@ -85,3 +85,6 @@ But then what of the genotype? In some terms, the genotype can bs seen as a spid
 </figure>
 
 Now, with a more comprehensive grasp of this allegory, we can begin to add mathematical concepts and numbers to our allegory.
+
+# The Map(ping) to Follow
+
