@@ -97,14 +97,14 @@ As described previously, waves can be used to represent the high-dimensional out
     <figcaption align="center"><i>Fig. 6</i>. Our mathematical model of high-dimensional waves</figcaption>
 </figure>
 
-In this mathematically analogous model, we assume there is some way to ordinally number all states of the expressed genes (phenotypes) in the high dimensional space, set as the variable $X=\{\mathbf{x}_1,\mathbf{x}_2,...,\mathbf{x}_N\}$, where $N \in \mathbb{I}$ is the total number of cells. This is essentially listing out the dimensions involved with each cell (i.e. the vector of genes expressed per cell) for every cell in the sampled tissue.
+In this mathematically analogous model, we assume there is some way to ordinally number all states of the expressed genes (phenotypes) in the high dimensional space, set as the variable $\mathcal{X}=\{\mathbf{x}_1,\mathbf{x}_2,...,\mathbf{x}_N\}$, where $N \in \mathbb{I}$ is the total number of cells. This is essentially listing out the dimensions involved with each cell (i.e. the vector of genes expressed per cell) for every cell in the sampled tissue.
 
 <figure style="text-align: center;" id="fig7">
     <img src="images/fig-07.png" width="50%" alt="Fig. 7" style="display: inline-block;">
     <figcaption align="center"><i>Fig. 7</i>. Our mathematical model of low-dimensional webs</figcaption>
 </figure>
 
-In the lower-dimensional space, we define the variables associated with the diversity of gene expressions (genotypes) across individual cells as $Z=\{\mathbf{z}_1, \mathbf{z}_2,...,\mathbf{z}_N\}$, where $N \in \mathbb{I}$ is the total number of cells. However, in this context, the representation of each variable is less discernible. They are composed of *latent* (unseen) nodes, each depicting a cell's true phenotype generating distribution. In other words, these latent variables are not directly observed but are inferred from the observed gene expressions. They serve as a representation of the underlying biological states/properties of each cell.
+In the lower-dimensional space, we define the variables associated with the diversity of gene expressions (genotypes) across individual cells as $\mathcal{Z}=\{\mathbf{z}_1, \mathbf{z}_2,...,\mathbf{z}_N\}$, where $N \in \mathbb{I}$ is the total number of cells. However, in this context, the representation of each variable is less discernible. They are composed of *latent* (unseen) nodes, each depicting a cell's true phenotype generating distribution. In other words, these latent variables are not directly observed but are inferred from the observed gene expressions. They serve as a representation of the underlying biological states/properties of each cell.
 
 ## A Map(ping) to Guide Us
 
