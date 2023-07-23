@@ -200,3 +200,5 @@ Altogether, the below image best summarizes what is taking place:
     <img src="images/fig-08.png" width="100%" alt="Fig. 8" style="display: inline-block;">
     <figcaption align="center"><i>Fig. 8</i>. Our picturesque model comparing the waves and the webs</figcaption>
 </figure>
+
+Essentially showing the proposed mapping
