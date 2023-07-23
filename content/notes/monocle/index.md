@@ -134,27 +134,29 @@ $$
 
 In the form of a triple nested optimization problem, which is common in machine learning when we're trying to find the best model parameters that minimize a certain loss function. Let's start from the inside and work our way out:
 
-$$
-\argmin_{\mathcal{G} \in \mathcal{G}_b}
-$$
+1. The First $\argmin$ selecting the Optimal Graph $\mathcal{G}$: 
 
-1. The First $\argmin$: Selecting the Optimal Graph $\mathcal{G}$: 
+    $$
+    \argmin_{\mathcal{G} \in \mathcal{G}_b}
+    $$
 
     At the core of Reverse Graph Embeddings lies a graph $\mathcal{G}$ that captures the relationships between data points. However, not all graphs are created equal. The first $\argmin$ allows us to explore different graphs within the set $\mathcal{G}_b$ and identify the one that best represents the underlying structure of the data.
 
-$$
-\argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}}
-$$
+2. The Second $\argmin$ optimizing the Embedding Function $\mathcal{f}{\mathcal{G}}$
 
-2. The Second $\argmin$: Optimizing the Embedding Function $\mathcal{f}{\mathcal{G}}$
+    $$
+    \argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}}
+    $$
 
     Having chosen the optimal graph $\mathcal{G}$, we now need to determine the most suitable embedding function $\mathcal{f}{\mathcal{G}}$. This function maps the data points from the higher-dimensional space to a lower-dimensional space, where relationships between points are preserved and the graph structure is maintained. Through the second $\argmin$, we search for the best $\mathcal{f}_{\mathcal{G}}$ from the set $\mathcal{F}$ of possible functions.
 
-$$
-\argmin_{Z}
-$$
+1. The Third $\argmin$ finds the Optimal Embeddings $Z$:
+   
+    $$
+    \argmin_{Z}
+    $$
 
-1. The Third $\argmin$: Finding the Optimal Embeddings $Z$. With the graph $\mathcal{G}$ and the embedding function $\mathcal{f}_{\mathcal{G}}$ in place, the third $\argmin$ seeks to identify the optimal low-dimensional embeddings $Z$. These embeddings are representations of the data points in the lower-dimensional space that minimize the loss function defined by the summation in the equation.
+   With the graph $\mathcal{G}$ and the embedding function $\mathcal{f}_{\mathcal{G}}$ in place, the third $\argmin$ seeks to identify the optimal low-dimensional embeddings $Z$. These embeddings are representations of the data points in the lower-dimensional space that minimize the loss function defined by the summation in the equation.
 
 ## Simplified Loss Function
 
@@ -176,9 +178,9 @@ The central aim of Reverse Graph Embeddings is to minimize the loss function. As
 
 Preserving Graph Structure:
 
-Through the process of minimizing the loss function, the algorithm ensures that the relationships between data points observed in the original graph $\mathcal{G}$ are maintained in the lower-dimensional space. This preservation of graph structure is essential for extracting meaningful insights and knowledge from the data.
+Through the process of minimizing the loss function, the algorithm ensures that the relationships between data psaoints observed in the original graph $\mathcal{G}$ are maintained in the lower-dimensional space. This preservation of graph structure is essential for extracting meaningful insights and knowledge from the data.
 
-## Complete Loss Function
+## Complete Loss Function and Visualization
 
 This is a simplified version of the complete Reverse Graph Embedding. This previous example *only* considers graph structures in the latent (genotype) state, but not the observed phenotypes within the optimization parameters. To find a way to connect the high and low dimensions, RGE both ensures that
 
@@ -194,11 +196,21 @@ $$
 \sum_{i=1}^{N} || \mathbf{x}_i - \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i) ||^2
 $$
 
-Altogether, the below image best summarizes what is taking place:
+Resulting in the combined equation:
+
+$$
+\argmin_{\mathcal{G} \in \mathcal{G}_b} \argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}} \argmin_{Z} \sum_{i=1}^{N} || \mathbf{x}_i - \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i) ||^2 + \frac{\lambda}{2}\sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} || \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_j)||^2
+$$
+
+Altogether, the below figure best summarizes what is taking place:
 
 <figure style="text-align: center;" id="fig8">
     <img src="images/fig-08.png" width="100%" alt="Fig. 8" style="display: inline-block;">
-    <figcaption align="center"><i>Fig. 8</i>. Our picturesque model comparing the waves and the webs</figcaption>
+    <figcaption align="center"><i>Fig. 8</i>. Our completed model of waves and webs</figcaption>
 </figure>
 
-Essentially showing the proposed mapping
+Where some latent graph of points (some genotype) is found to map onto the observed genotypes of the cells in such a way as to follow the constraints set by the combined equation.
+
+# A Conclusion, Or.. Is It?
+
+With this, we have finally finished our coverage of the theory behind using graph-based online methods for dimensionality reduction. However, the main paper on monocle (which the authors have graciously allowed to be released [here](https://cole-trapnell-lab.github.io/pdfs/papers/qiu-monocle2.pdf)) does delve deeper into how *trees* are utilized to draw a pseudo-temporal mapping of cells in different states of division, that will be saved for another post!
