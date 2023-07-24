@@ -13,6 +13,12 @@ $$
 $$
 
 $$
+\begin{equation}
+\operatorname{argmin}_{G \in G_{b}} \operatorname{argmin}_{f_{G} \in F} \operatorname{argmin}_{Z} \sum_{(V_i, V_j) \in E} b_{i,j} || f_{G}(\mathbf{z}_i)-f_{G}(\mathbf{z}_{j})||^2
+\end{equation}
+$$
+
+$$
 F_{X}(x)=\operatorname{Pr}(X \leq x)= \begin{cases} 
 0 &\text{if } x<0 \\\\ 
 \frac{1}{2} &\text{if } 0 \leq x<1 \\\\ 
