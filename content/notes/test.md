@@ -5,7 +5,7 @@ draft: false
 ShowToc: true
 math: true
 cover:
-    relative: true # To use relative path for cover image, used in hugo Page-bundles
+    relative: true
 ---
 
 $$
