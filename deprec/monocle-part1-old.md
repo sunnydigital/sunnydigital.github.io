@@ -8,6 +8,7 @@ tags:
     - monocle
     - latent-model
     - dimensionality-reduction
+    - learning-via-tree
 cover:
     image: images/dalle-white-ball.png
     relative: true # To use relative path for cover image, used in hugo Page-bundles
