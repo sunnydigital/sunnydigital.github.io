@@ -122,7 +122,7 @@ To put on our math hats for a moment, we can now express that the Graph $\mathca
 Now, let's dive into the actual process of mapping from the higher dimension to the low. For this, we'll employ a nifty tool known as Reverse Graph Embeddings. Here's the equation that makes the magic happen:
 
 $$
-\argmin_{\mathcal{G} \in \mathcal{G}_b}
+\sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} || \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_j)||^2
 $$
 
 $$
