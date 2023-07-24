@@ -14,7 +14,7 @@ $$
 
 $$
 \begin{equation}
-\operatorname{argmin}_{G \in G_{b}} \operatorname{argmin}_{f_{G} \in F} \operatorname{argmin}_{Z} \sum_{(V_i, V_j) \in E} b_{i,j} || f_{G}(\mathbf{z}_i)-f_{G}(\mathbf{z}_{j})||^2
+\operatorname{argmin}_{G \in G_{b}} \operatorname{argmin}_{f_{G} \in F} \operatorname{argmin}_{Z} \sum_{(V_i, V_j) \in E}
 \end{equation}
 $$
 
