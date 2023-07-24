@@ -10,7 +10,7 @@ tags:
     - dimensionality-reduction
     - reverse-graph-embeddings
 cover:
-    image: images/dalle-white-ball.png
+    image: images/dalle-white-ball.jpg
     relative: true # To use relative path for cover image, used in hugo Page-bundles
 ---
 
@@ -51,9 +51,11 @@ For a more holistic understanding, we can juxtapose the *discrete* snapshots wit
 
 To infuse some mathematical intuition into these images, we can use a simple kinematics equation representing a point-like object (our ball):
 
-$$x(t) = \frac{1}{2} a_it^2 + v_it + x_i, \ t \in \mathbb{R}; \ x_i, v_i, a_i \in \mathbb{R}^n$$
+$$
+x(t) = \frac{1}{2} a_it^2 + v_it + x_i, \ t \in \mathbb{R}; \ x_i, v_i, a_i \in \mathbb{R}^n
+$$
 
-Here, $x_i$ is the initial position of the ball, $v_i$ is the initial velocity, and $a_i$ is the initial acceleration, with all variables existing in a *hypothetical* $n$-dimensional space. Here, $t$ represents the time elapsed since the ball was tossed.
+Here, $x_i$ is the initial position of the ball, $v_i$ is the initial velocity, and $a_i$ is the initial acceleration, with all variables existing in a *hypothetical* $n$-dimensional space. $t$ represents the time elapsed since the ball was tossed.
 
 For a moment, let's pretend we know nothing about the *continuous* path that the ball takes, what we consider to be the [*closed-form solution*](https://en.wikipedia.org/wiki/Closed-form_expression), or the above equation that represents the ball's position ($x_i$). Instead, let's ponder: how can we piece together the ball's trajectory from the discrete images shown in [Fig. 1](#fig1)?
 
@@ -187,21 +189,27 @@ This is a simplified version of the complete Reverse Graph Embedding, *only* con
 
 1. The image under the function $\mathcal{f}_{\mathcal{G}}$ (points in the high-dimensional space as a *function* of the low-dimensional space) are close to one another as we described previously, multiplied by the weigbht of the associated edge $\mathcal{E}$, but save for the $\lambda$ hyperparameter which will be explained later on:
 
-$$\frac{\lambda}{2}\sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} || \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_j)||^2$$
+$$
+\frac{\lambda}{2}\sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} || \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_j)||^2
+$$
 
 2. An addended portion states that points which are neighbors on the low-dimensional principal graph are also "neighbors" in the input dimension, meaning for a given $\mathbf{z}_i$ (where $i$ is the index of the vector associated with a specific cell), the *estimated* phenotypes expressed must also be similar to the *real* phenotypes expressed by the cell in the high-dimension:
 
-$$\sum_{i=1}^{N} || \mathbf{x}_i - \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i) ||^2$$
+$$
+\sum_{i=1}^{N} || \mathbf{x}_i - \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i) ||^2
+$$
 
 Resulting in the combined equation:
 
-$$\argmin_{\mathcal{G} \in \mathcal{G}_b} \argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}} \argmin_{Z} \sum_{i=1}^{N} || \mathbf{x}_i - \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i) ||^2 + \frac{\lambda}{2}\sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} || \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_j)||^2$$
+$$
+\argmin_{\mathcal{G} \in \mathcal{G}_b} \argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}} \argmin_{Z} \sum_{i=1}^{N} || \mathbf{x}_i - \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i) ||^2 + \frac{\lambda}{2}\sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} || \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_j)||^2
+$$
 
 Which when held together, represents the optimization constraints required to find and reduce a set of vectors associated with the high number of dimensions for each cell to an optimal number of lower dimensions for each cell. The below figure best summarizes the math behind what is taking place:
 
 <figure style="text-align: center;" id="fig8">
     <img src="images/fig-08.png" width="100%" alt="Fig. 8" style="display: inline-block;">
-    <figcaption align="center"><i>Fig. 8</i>. Our completed model of waves to webs, mathematically sound</figcaption>
+    <figcaption align="center"><i>Fig. 8</i>. Our completed, mathematically sound model of webs to waves</figcaption>
 </figure>
 
 The image essentially illustrates that there is a function $\mathcal{f}_{\mathcal{G}}$ that maps lower-dimensional vectors in $\mathbb{R}^G$ (meaning they have $G$ number of dimensions) to a higher-dimensional space $\mathbb{R}^P$ (meaning they have $P$ number of expressed genes). The lower-dimensional graph, represented as a simpler web, is mapped to the higher-dimensional manifold (a smooth collection of points), depicted as a wave. This is a characteristic process in Monocle, a tool used for single-cell RNA-seq analysis.
