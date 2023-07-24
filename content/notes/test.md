@@ -10,10 +10,26 @@ cover:
 
 $$
 \argmin_{\mathcal{G} \in \mathcal{G}_{b}}
+$$
+
+$$
 \argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}}
+$$
+
+$$
 \argmin_{Z}
-\sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j}
-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_i) - \mathcal{f}_{\mathcal{G}}(\mathbf{z}_{j})
+$$
+
+$$
+ \sum_{(V_i, V_j) \in \mathcal{E}}
+$$
+
+$$
+b_{i,j} \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_{j})
+$$
+
+$$
+\argmin_{\mathcal{G} \in \mathcal{G}_{b}} \argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}} \argmin_{Z} \sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_{j})
 $$
 
 $$
