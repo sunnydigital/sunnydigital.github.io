@@ -21,6 +21,17 @@ $$
 $$
 
 $$
+\argmin_{\mathcal{G} \in \mathcal{G}_{b}}
+\argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}}
+$$
+
+$$
+\argmin_{\mathcal{G} \in \mathcal{G}_{b}}
+\argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}}
+\argmin_{Z}
+$$
+
+$$
  \sum_{(V_i, V_j) \in \mathcal{E}}
 $$
 
