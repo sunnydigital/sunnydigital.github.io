@@ -123,6 +123,7 @@ Now, let's dive into the actual process of mapping from the higher dimension to 
 
 $$
 \begin{aligned}
+    x(t) &= 3x^2 + 2x + 1
     &\argmin_{\mathcal{G} \in \mathcal{G}_b} \argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}} \argmin_{Z} \\
     &\quad \sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} || \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_j)||^2
 \end{aligned}
