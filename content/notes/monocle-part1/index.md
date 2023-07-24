@@ -53,7 +53,7 @@ To infuse some mathematical intuition into these images, we can use a simple kin
 
 $$x(t) = \frac{1}{2}a_it^2 + v_it + x_i, \ t \in \mathbb{R}; \ x_i, v_i, a_i \in \mathbb{R}^n$$
 
-Here, $x_i$ is the initial position of the ball, $v_i$ is the initial velocity, and $a_i$ is the acceleration due to gravity (~$9.98 m/s^2$), with all variables existing in a *hypothetical* $n$-dimensional space. $t$ represents the time elapsed since the ball was launched.
+Here, $x_i$ is the initial position of the ball, $v_i$ is the initial velocity, and $a_i$ is the initial acceleration, with all variables existing in a *hypothetical* $n$-dimensional space. Here, $t$ represents the time elapsed since the ball was tossed.
 
 For a moment, let's pretend we know nothing about the *continuous* path that the ball takes, what we consider to be the [*closed-form solution*](https://en.wikipedia.org/wiki/Closed-form_expression), or the above equation that represents the ball's position ($x_i$). Instead, let's ponder: how can we piece together the ball's trajectory from the discrete images shown in [Fig. 1](#fig1)?
 
@@ -119,7 +119,7 @@ To put on our math hats for a moment, we can now express that the Graph $\mathca
 
 Now, let's dive into the actual process of mapping from the higher dimension to the low. For this, we'll employ a nifty tool known as Reverse Graph Embeddings. Here's the equation that makes the magic happen:
 
-$$\argmin_{\mathcal{G} \in \mathcal{G}_b} \argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}} \argmin_{Z} \sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} || \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_j)||^2$$
+$\argmin_{\mathcal{G} \in \mathcal{G}_b} \argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}} \argmin_{Z} \sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} || \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_j)||^2$
 
 To break it down, this equation is the hero of our adventure that helps us transform (defeat) a complex, high-dimensional data structure into a simpler, low-dimensional representation. It's like turning a spaghetti monster into a neat, orderly pasta. And who doesn't love a good pasta?
 
@@ -185,21 +185,15 @@ This is a simplified version of the complete Reverse Graph Embedding, *only* con
 
 1. The image under the function $\mathcal{f}_{\mathcal{G}}$ (points in the high-dimensional space as a *function* of the low-dimensional space) are close to one another as we described previously, multiplied by the weigbht of the associated edge $\mathcal{E}$, but save for the $\lambda$ hyperparameter which will be explained later on:
 
-$$
-\frac{\lambda}{2}\sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} || \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_j)||^2
-$$
+$$\frac{\lambda}{2}\sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} || \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_j)||^2$$
 
 2. An addended portion states that points which are neighbors on the low-dimensional principal graph are also "neighbors" in the input dimension, meaning for a given $\mathbf{z}_i$ (where $i$ is the index of the vector associated with a specific cell), the *estimated* phenotypes expressed must also be similar to the *real* phenotypes expressed by the cell in the high-dimension:
 
-$$
-\sum_{i=1}^{N} || \mathbf{x}_i - \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i) ||^2
-$$
+$$\sum_{i=1}^{N} || \mathbf{x}_i - \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i) ||^2$$
 
 Resulting in the combined equation:
 
-$$
-\argmin_{\mathcal{G} \in \mathcal{G}_b} \argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}} \argmin_{Z} \sum_{i=1}^{N} || \mathbf{x}_i - \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i) ||^2 + \frac{\lambda}{2}\sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} || \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_j)||^2
-$$
+$$\argmin_{\mathcal{G} \in \mathcal{G}_b} \argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}} \argmin_{Z} \sum_{i=1}^{N} || \mathbf{x}_i - \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i) ||^2 + \frac{\lambda}{2}\sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} || \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_j)||^2$$
 
 Which when held together, represents the optimization constraints required to find and reduce a set of vectors associated with the high number of dimensions for each cell to an optimal number of lower dimensions for each cell. The below figure best summarizes the math behind what is taking place:
 
