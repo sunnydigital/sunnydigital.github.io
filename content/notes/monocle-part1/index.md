@@ -10,7 +10,7 @@ tags:
     - dimensionality-reduction
     - reverse-graph-embeddings
 cover:
-    image: images/dalle-white-ball.png
+    image: images/dalle-white-ball.jpg
     relative: true # To use relative path for cover image, used in hugo Page-bundles
 ---
 
