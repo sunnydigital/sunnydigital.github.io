@@ -122,8 +122,11 @@ To put on our math hats for a moment, we can now express that the Graph $\mathca
 Now, let's dive into the actual process of mapping from the higher dimension to the low. For this, we'll employ a nifty tool known as Reverse Graph Embeddings. Here's the equation that makes the magic happen:
 
 $$
-\begin{aligned} \argmin_{\mathcal{G} \in \mathcal{G}_b} \argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}} & \argmin_{Z} \\\\
-    &\sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} || \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_j)||^2 \end{aligned}
+\begin{aligned} \argmin_{\mathcal{G} \in \mathcal{G}_b} & \\\\
+\argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}} & \argmin_{Z} \\\\
+& \sum_{(V_i, V_j) \in \mathcal{E}} & b_{i,j} \\\\
+& || \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)- \\\\
+& \mathcal{f}_{\mathcal{G}}(\mathbf{z}_j)||^2 \end{aligned}
 $$
 
 $$
@@ -135,13 +138,6 @@ $$
 $$
 \begin{aligned} P\left(X=x | Y=c_{k}\right) &=P\left(X^{(1)}=x^{(1)}, \cdots, X^{(n)}=x^{(n)} | Y=c_{k}\right) \\\\ 
 &=\prod_{j=1}^{n} P\left(X^{(j)}=x^{(j)} | Y=c_{k}\right) \end{aligned}
-$$
-
-$$
-\begin{aligned} 
-\argmin_{\mathcal{G} \in \mathcal{G}_b} & \argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}} \argmin_{Z} \\\\
-& \sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} || \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_j)||^2 
-\end{aligned}
 $$
 
 To break it down, this equation is the hero of our adventure that helps us transform (defeat) a complex, high-dimensional data structure into a simpler, low-dimensional representation. It's like turning a spaghetti monster into a neat, orderly pasta. And who doesn't love a good pasta?
