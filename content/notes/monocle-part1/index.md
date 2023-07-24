@@ -126,10 +126,14 @@ $$
 $$
 
 $$
-\begin{aligned}
-P\left(X=x | Y=c_{k}\right) &=P\left(X^{(1)}=x^{(1)}, \cdots, X^{(n)}=x^{(n)} | Y=c_{k}\right) \\
+\begin{aligned}P\left(X=x | Y=c_{k}\right) &=P\left(X^{(1)}=x^{(1)}, \cdots, X^{(n)}=x^{(n)} | Y=c_{k}\right) \\
 &=\prod_{j=1}^{n} P\left(X^{(j)}=x^{(j)} | Y=c_{k}\right)
 \end{aligned}
+$$
+
+$$
+\begin{aligned} P\left(X=x | Y=c_{k}\right) &=P\left(X^{(1)}=x^{(1)}, \cdots, X^{(n)}=x^{(n)} | Y=c_{k}\right) \\\\ 
+&=\prod_{j=1}^{n} P\left(X^{(j)}=x^{(j)} | Y=c_{k}\right) \end{aligned}
 $$
 
 To break it down, this equation is the hero of our adventure that helps us transform (defeat) a complex, high-dimensional data structure into a simpler, low-dimensional representation. It's like turning a spaghetti monster into a neat, orderly pasta. And who doesn't love a good pasta?
