@@ -51,9 +51,7 @@ For a more holistic understanding, we can juxtapose the *discrete* snapshots wit
 
 To infuse some mathematical intuition into these images, we can use a simple kinematics equation representing a point-like object (our ball):
 
-$$
-x(t) = \frac{1}{2}a_it^2 + v_it + x_i, \ t \in \mathbb{R}; \ x_i, v_i, a_i \in \mathbb{R}^n
-$$
+$$x(t) = \frac{1}{2}a_it^2 + v_it + x_i, \ t \in \mathbb{R}; \ x_i, v_i, a_i \in \mathbb{R}^n$$
 
 Here, $x_i$ is the initial position of the ball, $v_i$ is the initial velocity, and $a_i$ is the acceleration due to gravity (~$9.98 m/s^2$), with all variables existing in a *hypothetical* $n$-dimensional space. $t$ represents the time elapsed since the ball was launched.
 
@@ -121,29 +119,7 @@ To put on our math hats for a moment, we can now express that the Graph $\mathca
 
 Now, let's dive into the actual process of mapping from the higher dimension to the low. For this, we'll employ a nifty tool known as Reverse Graph Embeddings. Here's the equation that makes the magic happen:
 
-$$
-\argmin_{\mathcal{G} \in \mathcal{G}_b} \argmin_{f_{\mathcal{G}} \in \mathcal{F}}
-$$
-
-$$
-\begin{aligned}\argmin_{\mathcal{G} \in \mathcal{G}_b} &= \\\\
-&= \argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}} \\\\
-&= \argmin_{Z} \\\\
-&= \sum_{(V_i, V_j) \in \mathcal{E}} & b_{i,j} \\\\
-&= || \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)- \\\\
-&= \mathcal{f}_{\mathcal{G}}(\mathbf{z}_j)||^2 \end{aligned}
-$$
-
-$$
-\begin{aligned}P\left(X=x | Y=c_{k}\right) &=P\left(X^{(1)}=x^{(1)}, \cdots, X^{(n)}=x^{(n)} | Y=c_{k}\right) \\\\
-&=\prod_{j=1}^{n} P\left(X^{(j)}=x^{(j)} | Y=c_{k}\right)
-\end{aligned}
-$$
-
-$$
-\begin{aligned} P\left(X=x | Y=c_{k}\right) &=P\left(X^{(1)}=x^{(1)}, \cdots, X^{(n)}=x^{(n)} | Y=c_{k}\right) \\\\ 
-&=\prod_{j=1}^{n} P\left(X^{(j)}=x^{(j)} | Y=c_{k}\right) \end{aligned}
-$$
+$$\argmin_{\mathcal{G} \in \mathcal{G}_b} \argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}} \argmin_{Z} \sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} || \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_j)||^2$$
 
 To break it down, this equation is the hero of our adventure that helps us transform (defeat) a complex, high-dimensional data structure into a simpler, low-dimensional representation. It's like turning a spaghetti monster into a neat, orderly pasta. And who doesn't love a good pasta?
 
@@ -151,9 +127,7 @@ To break it down, this equation is the hero of our adventure that helps us trans
 
 Let's delve into the intricacies of a triple nested optimization problem, a prevalent construct in machine learning. This complex structure, akin to a Russian nesting doll, involves the pursuit of optimal model parameters that minimize a specific loss function. Despite its initial complexity, we will systematically dissect it for a clearer understanding.
 
-$$
-\argmin_{\mathcal{G} \in \mathcal{G}_b} \argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}} \argmin_{Z}
-$$
+$$\argmin_{\mathcal{G} \in \mathcal{G}_b} \argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}} \argmin_{Z}$$
 
 The target objective comes in the form of a triple nested optimization problem, which is common in machine learning when we're trying to find the best model parameters that minimize a certain loss function. Let's start from the inside and work our way out:
 
