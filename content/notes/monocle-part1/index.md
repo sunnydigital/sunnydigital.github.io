@@ -51,7 +51,9 @@ For a more holistic understanding, we can juxtapose the *discrete* snapshots wit
 
 To infuse some mathematical intuition into these images, we can use a simple kinematics equation representing a point-like object (our ball):
 
-$$x(t) = \frac{1}{2}a_it^2 + v_it + x_i, \ t \in \mathbb{R}; \ x_i, v_i, a_i \in \mathbb{R}^n$$
+$$
+x(t) = \frac{1}{2}a_it^2 + v_it + x_i, \ t \in \mathbb{R}; \ x_i, v_i, a_i \in \mathbb{R}^n
+$$
 
 Here, $x_i$ is the initial position of the ball, $v_i$ is the initial velocity, and $a_i$ is the acceleration due to gravity (~$9.98 m/s^2$), with all variables existing in a *hypothetical* $n$-dimensional space. $t$ represents the time elapsed since the ball was launched.
 
@@ -118,6 +120,10 @@ To put on our math hats for a moment, we can now express that the Graph $\mathca
 # Reverse Graph Embeddings: The Main Hero of Our Story Appears!
 
 Now, let's dive into the actual process of mapping from the higher dimension to the low. For this, we'll employ a nifty tool known as Reverse Graph Embeddings. Here's the equation that makes the magic happen:
+
+$$
+x(t) = \frac{1}{2}x^2 + 3x - 2 = 0
+$$
 
 $$
 \argmin_{\mathcal{G} \in \mathcal{G}_b} \argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}} \argmin_{Z} \sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} || \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_j)||^2
