@@ -122,6 +122,10 @@ To put on our math hats for a moment, we can now express that the Graph $\mathca
 Now, let's dive into the actual process of mapping from the higher dimension to the low. For this, we'll employ a nifty tool known as Reverse Graph Embeddings. Here's the equation that makes the magic happen:
 
 $$
+\argmin_{\mathcal{G} \in \mathcal{G}_b}
+$$
+
+$$
 \begin{aligned}\argmin_{\mathcal{G} \in \mathcal{G}_b} &= \\\\
 &= \argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}} \\\\
 &= \argmin_{Z} \\\\
