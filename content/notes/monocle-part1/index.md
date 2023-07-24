@@ -51,9 +51,7 @@ For a more holistic understanding, we can juxtapose the *discrete* snapshots wit
 
 To infuse some mathematical intuition into these images, we can use a simple kinematics equation representing a point-like object (our ball):
 
-$$
-x(t) = \frac{1}{2}a_it^2 + v_it + x_i, \ t \in \mathbb{R}; \ x_i, v_i, a_i \in \mathbb{R}^n
-$$
+$$x(t) = \frac{1}{2}a_it^2 + v_it + x_i, \ t \in \mathbb{R}; \ x_i, v_i, a_i \in \mathbb{R}^n$$
 
 Here, $x_i$ is the initial position of the ball, $v_i$ is the initial velocity, and $a_i$ is the acceleration due to gravity (~$9.98 m/s^2$), with all variables existing in a *hypothetical* $n$-dimensional space. $t$ represents the time elapsed since the ball was launched.
 
@@ -111,9 +109,9 @@ As we stand on the precipice of defining the structured relationship between the
 
 If we take a gander at [Fig. 7](#fig7), a few initial qualities jump out at us:
 
-The circular components that house each of the cells, which we'll affectionately dub as *nodes* henceforth.
-The lines that serve as the social glue connecting these circles, playing the role of *edges*.
-The culmination of these elements, which we'll refer to as a *graph*.
+1. The circular components that house each of the cells, which we'll affectionately dub as *nodes* henceforth.
+2. The lines that serve as the social glue connecting these circles, playing the role of *edges*.
+3. The culmination of these elements, which we'll refer to as a *graph*.
 
 To put on our math hats for a moment, we can now express that the Graph $\mathcal{G}=(\mathcal{V}, \mathcal{E})$ comprises a set of vertices $\mathcal{V}=\{\mathcal{V}_1, \mathcal{V}_2,...,\mathcal{V}_N\}$ and a set of weighted, undirected edges $\mathcal{E}$. This is a far cry from unweighted and directed edges. The former lacks a mechanism to represent the numerical degree of connection between any two vertices, while the latter implies a sense of directionality or pointing from one node vertex to another. 
 
