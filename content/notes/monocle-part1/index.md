@@ -65,7 +65,7 @@ Can we now quantify this difference of background? The answer lies in the change
 
 This analogy serves as a bridge between a simpler, physical representation and the complex biological processes it aims to explain. By generalizing, we can align this analogy with what the algorithm was designed to represent: cells and their expressed genes. In this context, gene expression can be likened to the snapshots of individual cells, and the latent distribution of *possible* outcomes (moderated by time) can be viewed as the continuous trajectory. This continuous trajectory (which will be completed in a following post) exists in a lower dimension than the number of dimensions for the expressed phenotype (the total number of expressed genes). But how do we determine this optimal lower dimension to reduce our entire dataset to?
 
-# Riding the Waves and Webs - A Dive into Genotypes and Phenotypes
+# Riding the Waves and Webs: A Dive into Genotypes and Phenotypes
 
 The previous analogy, while effective as a broad concept, is somewhat *deterministic*. Given the parameters $x_i$, $v_i$, and $a_i$, the height $x(t)$ can be calculated with precision. However, this approach doesn't quite capture the randomness inherent in our genotype vs. phenotype conundrum.
 
@@ -87,7 +87,7 @@ So, where does the genotype fit into this picture? Think of the genotype as a sp
 
 With a deeper understanding of this metaphor, we're now ready to introduce mathematical concepts and numbers into our discussion.
 
-# The Peaks and Valleys - A Mathematical Perspective
+# The Peaks and Valleys: A Mathematical Perspective
 
 As previously discussed, waves can represent the high-dimensional output of genes that are expressed as a phenotype.
 
@@ -117,7 +117,7 @@ If we take a gander at [Fig. 7](#fig7), a few initial qualities jump out at us:
 
 To put on our math hats for a moment, we can now express that the Graph $\mathcal{G}=(\mathcal{V}, \mathcal{E})$ comprises a set of vertices $\mathcal{V}=\{\mathcal{V}_1, \mathcal{V}_2,...,\mathcal{V}_N\}$ and a set of weighted, undirected edges $\mathcal{E}$. This is a far cry from unweighted and directed edges. The former lacks a mechanism to represent the numerical degree of connection between any two vertices, while the latter implies a sense of directionality or pointing from one node vertex to another. 
 
-# Reverse Graph Embeddings: The Main Hero of Our Story Appears!
+# Reverse Graph Embeddings: Our Captain Appears!
 
 Now, let's dive into the actual process of mapping from the higher dimension to the low. For this, we'll employ a nifty tool known as Reverse Graph Embeddings. Here's the equation that makes the magic happen:
 
@@ -161,7 +161,7 @@ The target objective comes in the form of a triple nested optimization problem, 
 
    With the graph $\mathcal{G}$ and the embedding function $\mathcal{f}_{\mathcal{G}}$ in place, the third $\argmin$ seeks to identify the optimal low-dimensional embeddings $Z$. These embeddings are representations of the data points in the lower-dimensional space that minimize the loss function defined by the summation in the equation.
 
-## Simplified Loss (Functions)
+## (Simplified) Loss Functions
 
 Now, we get to the simplified loss function, or the part of the equation stated as:
 
