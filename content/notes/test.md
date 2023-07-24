@@ -7,6 +7,35 @@ math: true
 cover:
     relative: true # To use relative path for cover image, used in hugo Page-bundles
 ---
+
 $$
 \argmin_{\mathcal{G} \in \mathcal{G}_{b}} \argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}} \argmin_{Z} \sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} || \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_{j})||^2
+$$
+
+$$
+F_{X}(x)=\operatorname{Pr}(X \leq x)= \begin{cases} 
+0 &\text{if } x<0 \\\\ 
+\frac{1}{2} &\text{if } 0 \leq x<1 \\\\ 
+1 &\text{if } x \geq 1 \end{cases}
+$$
+
+$$
+F_{X}(x)=\operatorname{Pr}(X \leq x)= 
+\left\{ \begin{array}{l}
+0 \text { if } x<0 \\
+\frac{1}{2} \text { if } 0 \leq x<1 \\
+1 \text { if } x \geq 1
+\end{array} \right.
+$$
+
+$$
+\begin{aligned}
+P\left(X=x | Y=c_{k}\right) &=P\left(X^{(1)}=x^{(1)}, \cdots, X^{(n)}=x^{(n)} | Y=c_{k}\right) \\\\ 
+&=\prod_{j=1}^{n} P\left(X^{(j)}=x^{(j)} | Y=c_{k}\right)
+\end{aligned}
+$$
+
+$$
+\begin{aligned} P\left(X=x | Y=c_{k}\right) &=P\left(X^{(1)}=x^{(1)}, \cdots, X^{(n)}=x^{(n)} | Y=c_{k}\right) \\\\ 
+&=\prod_{j=1}^{n} P\left(X^{(j)}=x^{(j)} | Y=c_{k}\right) \end{aligned}
 $$
