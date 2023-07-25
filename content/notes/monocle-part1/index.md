@@ -207,7 +207,9 @@ $$
 \min_{\mathcal{G} \in G_b}{} \min_{f_{\mathcal{G}} \in \mathcal{F}}{} \min_{Z}{} 
 $$
 
+$$
 \sum_{i=1}^{N} || \mathbf{x}_i - f_G (\mathbf{z}_i) ||^2
+$$
 
 $$
 + \frac{\lambda}{2} \sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} || f_G (\mathbf{z}_i) - f_G (\mathbf{z}_j) ||^2
