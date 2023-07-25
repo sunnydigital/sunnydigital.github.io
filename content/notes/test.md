@@ -9,7 +9,7 @@ cover:
 ---
 
 $$
-f_{\mathcal{G}} (\mathbf{z}_i) - f_{\mathcal{G}} (\mathbf{z}_j)
+f_{\mathcal{G}} \left(\mathbf{z}_i \right) - f_{\mathcal{G}} \left(\mathbf{z}_j \right)
 $$
 
 $$
