@@ -7,26 +7,6 @@ math: true
 cover:
     relative: true
 ---
-$$
-(V_i, V_j)
-$$
-
-$$
-\mathcal{G}_{b}
-$$
-
-$$
-\mathcal{G}{}_{b_{\mathcal{g}}}
-$$
-
-???:
-$$
-\mathcal{z}_i
-$$
-
-$$
-\sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} 
-$$
 
 $$
 f_{\mathcal{G}} (\mathbf{z}_i) - f_{\mathcal{G}} (\mathbf{z}_j)
