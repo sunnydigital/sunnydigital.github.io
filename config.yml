@@ -124,10 +124,10 @@ params:
     yandex:
       SiteVerificationTag: XYZabc
 
-  editPost:
-    URL: https://github.com/sunnydigital/sunnydigital.github.io/main/content
-    Text: Suggest edit
-    appendFilePath: true
+  #editPost:
+  #  URL: https://github.com/sunnydigital/sunnydigital.github.io/main/content
+  #  Text: Suggest edit
+  #  appendFilePath: true
 
   #commentSystems:
   #  disqus:
