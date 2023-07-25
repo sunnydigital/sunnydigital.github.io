@@ -117,12 +117,12 @@ If we take a gander at [Fig. 7](#fig7), a few initial qualities jump out at us:
 
 To put on our math hats for a moment, we can now express that the Graph $\mathcal{G}=(\mathcal{V}, \mathcal{E})$ comprises a set of vertices $\mathcal{V}=\{\mathcal{V}_1, \mathcal{V}_2,...,\mathcal{V}_N\}$ and a set of weighted, undirected edges $\mathcal{E}$. This is a far cry from unweighted and directed edges. The former lacks a mechanism to represent the numerical degree of connection between any two vertices, while the latter implies a sense of directionality or pointing from one node vertex to another. 
 
-# Reverse Graph Embeddings: Our Captain Appears!
+# Reverse Graph Embeddings: Setting Sail with Our Captain
 
 Now, let's dive into the actual process of mapping from the higher dimension to the low. For this, we'll employ a nifty tool known as Reverse Graph Embeddings. Here's the equation that makes the magic happen:
 
 $$
-\argmin_{\mathcal{G} \in \mathcal{G}_{b}}{} \argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}}{} \argmin_{Z}{} \sum_{(V_i, V_j) \in \mathcal{E}}{} b_{i,j} {|| \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_{j}) ||}^2
+\min_{\mathcal{G} \in G_b}{} \min_{f_{\mathcal{G}} \in \mathcal{F}}{} \min_{Z}{} \sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j}  || f_G (\mathbf{z}_i) - f_G (\mathbf{z}_j) ||^2
 $$
 
 To break it down, this equation is the hero of our adventure that helps us transform (defeat) a complex, high-dimensional data structure into a simpler, low-dimensional representation. It's like turning a spaghetti monster into a neat, orderly pasta. And who doesn't love a good pasta?
@@ -131,42 +131,44 @@ To break it down, this equation is the hero of our adventure that helps us trans
 
 Let's delve into the intricacies of a triple nested optimization problem, a prevalent construct in machine learning. This complex structure, akin to a Russian nesting doll, involves the pursuit of optimal model parameters that minimize a specific loss function. Despite its initial complexity, we will systematically dissect it for a clearer understanding.
 
-$$\argmin_{\mathcal{G} \in \mathcal{G}_b} \argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}} \argmin_{Z}$$
+$$
+\min_{\mathcal{G} \in G_b}{} \min_{f_{\mathcal{G}} \in \mathcal{F}}{} \min_{Z}{}
+$$
 
 The target objective comes in the form of a triple nested optimization problem, which is common in machine learning when we're trying to find the best model parameters that minimize a certain loss function. Let's start from the inside and work our way out:
 
-1. The First $\argmin$ selects the optimal graph $\mathcal{G}$: 
+1. The First $\min$ selects the optimal graph $\mathcal{G}$: 
 
     $$
-    \argmin_{\mathcal{G} \in \mathcal{G}_b}
+    \min_{\mathcal{G} \in \mathcal{G}_b}
     $$
 
-    At the core of Reverse Graph Embeddings lies a graph $\mathcal{G}$ that captures the relationships between data points. However, not all graphs are created equal. The first $\argmin$ allows us to explore different graphs within the set $\mathcal{G}_b$ and identify the one that best represents the underlying structure of the data.
+    At the core of Reverse Graph Embeddings lies a graph $\mathcal{G}$ that captures the relationships between data points. However, not all graphs are created equal. The first $\min$ allows us to explore different graphs within the set $\mathcal{G}_b$ and identify the one that best represents the underlying structure of the data.
 
-2. The Second $\argmin$ optimizes the embedding function $\mathcal{f}_{\mathcal{G}}$:
+2. The Second $\min$ optimizes the embedding function $\mathcal{f}_{\mathcal{G}}$:
 
     $$
-    \argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}}
+    \min_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}}
     $$
 
     Once we've identified the optimal graph $\mathcal{G}$, the next step is to determine the most suitable embedding function, denoted as $\mathcal{f}_{\mathcal{G}}$. This function is responsible for mapping data points from a higher-dimensional space to a lower-dimensional one, akin to representing a 3D globe on a 2D map. The challenge lies in preserving the relationships between data points and the graph's structure during this transformation.
 
-    The second $\argmin$ guides us through the set $\mathcal{F}$ of potential embedding functions, helping us find the optimal $\mathcal{f}_{\mathcal{G}}$ that simplifies our data while maintaining its inherent structure and relationships. This balancing act is essential for effective machine learning.
+    The second $\min$ guides us through the set $\mathcal{F}$ of potential embedding functions, helping us find the optimal $\mathcal{f}_{\mathcal{G}}$ that simplifies our data while maintaining its inherent structure and relationships. This balancing act is essential for effective machine learning.
 
-3. The Third $\argmin$ finds the Optimal Embeddings $Z$:
+3. The Third $\min$ finds the Optimal Embeddings $Z$:
    
     $$
-    \argmin_{Z}
+    \min_{Z}
     $$
 
-   With the graph $\mathcal{G}$ and the embedding function $\mathcal{f}_{\mathcal{G}}$ in place, the third $\argmin$ seeks to identify the optimal low-dimensional embeddings $Z$. These embeddings are representations of the data points in the lower-dimensional space that minimize the loss function defined by the summation in the equation.
+   With the graph $\mathcal{G}$ and the embedding function $\mathcal{f}_{\mathcal{G}}$ in place, the third $\min$ seeks to identify the optimal low-dimensional embeddings $Z$. These embeddings are representations of the data points in the lower-dimensional space that minimize the loss function defined by the summation in the equation.
 
 ## (Simplified) Loss Functions
 
 Now, we get to the simplified loss function, or the part of the equation stated as:
 
 $$
-\sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} || \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_j)||^2
+\sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j}  || f_G (\mathbf{z}_i) - f_G (\mathbf{z}_j) ||^2
 $$
 
 The objective of the loss function is to measure the similarity or dissimilarity between two data points in the graph $\mathcal{G}$. As we traverse the graph's edges represented by $(V_i, V_j)$ in the set $\mathcal{E}$, the loss function computes the difference between the embeddings of these connected data points.
@@ -190,19 +192,19 @@ This is a simplified version of the complete Reverse Graph Embedding, *only* con
 1. The image under the function $\mathcal{f}_{\mathcal{G}}$ (points in the high-dimensional space as a *function* of the low-dimensional space) are close to one another as we described previously, multiplied by the weigbht of the associated edge $\mathcal{E}$, but save for the $\lambda$ hyperparameter which will be explained later on:
 
 $$
-\frac{\lambda}{2}\sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} || \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_j)||^2
+\frac{\lambda}{2} \sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j}  || f_G (\mathbf{z}_i) - f_G (\mathbf{z}_j) ||^2
 $$
 
 2. An addended portion states that points which are neighbors on the low-dimensional principal graph are also "neighbors" in the input dimension, meaning for a given $\mathbf{z}_i$ (where $i$ is the index of the vector associated with a specific cell), the *estimated* phenotypes expressed must also be similar to the *real* phenotypes expressed by the cell in the high-dimension:
 
 $$
-\sum_{i=1}^{N} || \mathbf{x}_i - \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i) ||^2
+\sum_{i=1}^{N} || \mathbf{x}_i - f_G (\mathbf{z}_i) ||^2
 $$
 
 Resulting in the combined equation:
 
 $$
-\argmin_{\mathcal{G} \in \mathcal{G}_b} \argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}} \argmin_{Z} \sum_{i=1}^{N} || \mathbf{x}_i - \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i) ||^2 + \frac{\lambda}{2}\sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} || \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_j)||^2
+\min_{\mathcal{G} \in G_b}{} \min_{f_{\mathcal{G}} \in \mathcal{F}}{} \min_{Z}{} \sum_{i=1}^{N} || \mathbf{x}_i - f_G (\mathbf{z}_i) ||^2 + \frac{\lambda}{2} \sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j}  || f_G (\mathbf{z}_i) - f_G (\mathbf{z}_j) ||^2
 $$
 
 Which when held together, represents the optimization constraints required to find and reduce a set of vectors associated with the high number of dimensions for each cell to an optimal number of lower dimensions for each cell. The below figure best summarizes the math behind what is taking place:
