@@ -9,7 +9,8 @@ cover:
 ---
 
 $$
-f_{\mathcal{G}} - f_{\mathcal{G}}
+f_{G} \left(\mathbf{z}_i \right) - f_{G} \left(\mathbf{z}_j \right)
+$$
 
 $$
 \min_{\mathcal{G} \in \mathcal{G}_{b}}{} \min_{f_{\mathcal{G}} \in \mathcal{F}}{} \min_{Z}{}
