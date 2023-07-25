@@ -12,6 +12,14 @@ $$
 $$
 
 $$
+\mathcal{G}_{b}
+$$
+
+$$
+\mathcal_{b_{\mathcal{g}}}{G}
+$$
+
+$$
 \mathcal{G}_{b_{\mathcal{g}}}
 $$
 
