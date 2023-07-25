@@ -24,7 +24,7 @@ In the vast and diverse landscape of the medical field, the phenotypes of a part
 
 So, in essence, the world of gene expression is not unlike a magic trick. What we see on the surface is just the tip of the iceberg, with a whole world of complexity hidden beneath. And much like a good magic trick, it's this hidden complexity that makes it all the more fascinating.
 
-# The Analogy of the Soaring Ball: Unraveling Reverse Graph Embeddings
+# The Analogy of the Soaring Ball: Unraveling Reverse Graphs
 
 To demystify the complexities of reverse graph embeddings, let's employ a straightforward yet effective analogy. Picture someone launching a ball into the air. You're armed with a camera, tracking the ball's trajectory from a third-person perspective off the $z$-axis. You capture the journey in a series of snapshots, *click*, *click*, *click*, *click*, ... , *CLICK*. Once the film is developed, you're left with a series of distinct photos.
 
