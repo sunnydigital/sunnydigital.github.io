@@ -7,16 +7,10 @@ math: true
 cover:
     relative: true
 ---
-$$
-|| x ||^2
-$$
 
+???:
 $$
-\mathcal{G}_{b}
-$$
-
-$$
-\mathcal{G}{}_{b_{\mathcal{g}}}
++ \frac{\lambda}{2} \sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} || f_G (\mathbf{z}_i) - f_G (\mathbf{z}_j) ||^2
 $$
 
 ???:
