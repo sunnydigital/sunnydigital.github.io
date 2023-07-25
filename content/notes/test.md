@@ -29,7 +29,7 @@ $$
 $$
 
 $$
-|| f_{G} (\mathbf{z}_i) - f_{G} (\mathbf{z}_j) ||^2
+f_G (\mathbf{z}_i) - f_G (\mathbf{z}_j)
 $$
 
 $$
