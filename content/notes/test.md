@@ -8,7 +8,7 @@ cover:
     relative: true
 ---
 $$
-(V_i, V_j)
+|| x ||^2
 $$
 
 $$
@@ -29,7 +29,7 @@ $$
 $$
 
 $$
-f_G (\mathbf{z}_i) - f_G (\mathbf{z}_j)
+|| f_G (\mathbf{z}_i) - f_G (\mathbf{z}_j) ||^2
 $$
 
 $$
