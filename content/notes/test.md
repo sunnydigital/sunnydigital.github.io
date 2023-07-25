@@ -10,7 +10,7 @@ cover:
 
 Works:
 $$
-\min_{\mathcal{X} \in \mathcal{X}}{ } \min_{Y}{Y} \min_{Z}{Z}
+\min_{\mathcal{X} \in \mathcal{X}}{} \min_{\mathcal{Y} \in \mathcal{Y}}{} \min_{\mathcal{Z} \in \mathcal{Z}}{}
 $$
 
 Works:
