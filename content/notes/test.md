@@ -7,9 +7,29 @@ math: true
 cover:
     relative: true
 ---
+$$
+(V_i, V_j)
+$$
 
 $$
-f_{G} \left(\mathbf{z}_i \right) - f_{G} \left(\mathbf{z}_j \right)
+\mathcal{G}_{b}
+$$
+
+$$
+\mathcal{G}{}_{b_{\mathcal{g}}}
+$$
+
+???:
+$$
+\mathcal{z}_i
+$$
+
+$$
+\sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} 
+$$
+
+$$
+|| f_{G} (\mathbf{z}_i) - f_{G} (\mathbf{z}_j) ||^2
 $$
 
 $$
