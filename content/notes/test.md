@@ -7,8 +7,10 @@ math: true
 cover:
     relative: true
 ---
+
+Works:
 $$
-\min_{X}{X} \min_{Y}{Y} \min{Z}_{Z}
+\min_{\mathcal{X} \in \mathcal{X}}{ } \min_{Y}{Y} \min_{Z}{Z}
 $$
 
 Works:
