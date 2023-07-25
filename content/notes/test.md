@@ -1,43 +1,47 @@
 ---
 title: TEST
 date: 2023-07-23T07:00:00-04:00
-draft: true
+draft: false
 ShowToc: true
 math: true
 cover:
     relative: true
 ---
-Works:
-
 $$
-\argmin_{\mathcal{G} \in \mathcal{G}_{b}}
+\min{X}
 $$
 
 Works:
 
 $$
-\argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}}
+\min_{\mathcal{G} \in \mathcal{G}_{b}}
 $$
 
 Works:
 
 $$
-\argmin_{Z}
+\min_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}}
+$$
+
+Works:
+
+$$
+\min_{Z}
 $$
 
 Doesn't Work:
 
 $$
-\argmin_{\mathcal{G} \in \mathcal{G}_{b}}
-\argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}}
+\min_{\mathcal{G} \in \mathcal{G}_{b}}
+\min_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}}
 $$
 
 Doesn't Work:
 
 $$
-\argmin_{\mathcal{G} \in \mathcal{G}_{b}},
-\argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}},
-\argmin_{Z}
+\min_{\mathcal{G} \in \mathcal{G}_{b}},
+\min_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}},
+\min_{Z}
 $$
 
 Works:
@@ -55,14 +59,14 @@ $$
 Doesn't Work:
 
 $$
-\argmin_{\mathcal{G} \in \mathcal{G}_{b}}, \argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}}, \argmin_{Z}, \sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_{j})
+\min_{\mathcal{G} \in \mathcal{G}_{b}}, \min_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}}, \min_{Z}, \sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_{j})
 $$
 
 Doesn't Work:
 
 $$
 \begin{equation}
-\operatorname{argmin}_{G \in G_{b}} \operatorname{argmin}_{f_{G} \in F} \operatorname{argmin}_{Z} \sum_{(V_i, V_j) \in E}
+\operatorname{min}_{G \in G_{b}} \operatorname{min}_{f_{G} \in F} \operatorname{min}_{Z} \sum_{(V_i, V_j) \in E}
 \end{equation}
 $$
 
