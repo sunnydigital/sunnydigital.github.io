@@ -122,7 +122,7 @@ To put on our math hats for a moment, we can now express that the Graph $\mathca
 Now, let's dive into the actual process of mapping from the higher dimension to the low. For this, we'll employ a nifty tool known as Reverse Graph Embeddings. Here's the equation that makes the magic happen:
 
 $$
-\argmin_{\mathcal{G} \in \mathcal{G}_{b}} \argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}} \argmin_{Z} \sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} || \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_{j})||^2
+\argmin_{\mathcal{G} \in \mathcal{G}_{b}}{} \argmin_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}}{} \argmin_{Z}{} \sum_{(V_i, V_j) \in \mathcal{E}}{} b_{i,j} {|| \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_{j}) ||}^2
 $$
 
 To break it down, this equation is the hero of our adventure that helps us transform (defeat) a complex, high-dimensional data structure into a simpler, low-dimensional representation. It's like turning a spaghetti monster into a neat, orderly pasta. And who doesn't love a good pasta?
