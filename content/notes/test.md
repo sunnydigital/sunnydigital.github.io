@@ -17,7 +17,7 @@ $$
 
 ???:
 $$
-\min_{\mathcal{G} \in {\mathcal{G}_b}}{} \min_{f_G \in \mathcal{F}}{} \min_{Z}{}
+\min_{\mathcal{G} \in {\mathcal{G}_{b}}}{} \min_{f_G \in \mathcal{F}}{} \min_{Z}{}
 $$
 
 ???:
