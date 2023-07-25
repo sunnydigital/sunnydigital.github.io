@@ -35,7 +35,7 @@ $$
 
 ???:
 $$
-\min_{\mathcal{G} \in \mathcal{G}_{b}}{} \min_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}}{} \min_{Z}{} \sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} {|| \mathcal{f}_{\mathcal{G}}(\mathbf{z}_i)-\mathcal{f}_{\mathcal{G}}(\mathbf{z}_{j}) ||}^2
+\min_{\mathcal{G} \in \mathcal{G}_{b}}{} \min_{\mathcal{f}_{\mathcal{G}} \in \mathcal{F}}{} \min_{Z}{} \sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} {|| f_{\mathcal{G}}(\mathbf{z}_i) - f_{\mathcal{G}}(\mathbf{z}_{j}) ||}^2
 $$
 
 Works:
