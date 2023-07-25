@@ -21,7 +21,7 @@ $$
 
 ???:
 $$
-\mathbf{z}_i
+\mathcal{z}_i
 $$
 
 ???:
