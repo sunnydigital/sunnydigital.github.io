@@ -8,7 +8,7 @@ cover:
     relative: true
 ---
 $$
-\min{X}
+\min_{X}{X} \min_{Y}{Y} \min{Z}_{Z}
 $$
 
 Works:
