@@ -16,11 +16,7 @@ $$
 $$
 
 $$
-\mathcal_{b_{\mathcal{g}}}{G}
-$$
-
-$$
-\mathcal{G}_{b_{\mathcal{g}}}
+\mathcal{G}{}_{b_{\mathcal{g}}}
 $$
 
 ???:
