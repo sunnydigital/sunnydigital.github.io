@@ -12,12 +12,12 @@ $$
 $$
 
 $$
-\mathcal{G}_{b_\mathcal{g}}
+\mathcal{G}_{b_{\mathcal{g}}}
 $$
 
 ???:
 $$
-\min_{\mathcal{G} \in G_b}{} \min_{f_G \in \mathcal{F}}{} \min_{Z}{}
+\min_{\mathcal{G} \in {\mathcal{G}_b}}{} \min_{f_G \in \mathcal{F}}{} \min_{Z}{}
 $$
 
 ???:
