@@ -7,10 +7,16 @@ math: true
 cover:
     relative: true
 ---
-
-???:
 $$
-+ \frac{\lambda}{2} \sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} || f_G (\mathbf{z}_i) - f_G (\mathbf{z}_j) ||^2
+\sum_{i=1}^{N} || \mathbf{x}_i - f_G (\mathbf{z}_i) ||^2
+$$
+
+$$
+\frac{\lambda}{2} \sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j}  || f_G (\mathbf{z}_i) - f_G (\mathbf{z}_j) ||^2
+$$
+
+$$
+\mathcal{G}{}_{b_{\mathcal{g}}}
 $$
 
 ???:
