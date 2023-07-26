@@ -259,7 +259,7 @@ Thank you for reading! And, please look forward to the next post that will cover
 Cited as:
 
     Son, Sunny. (Jul 2023). "Monocle - Reverse Graph Embeddings". Sunny's Notes. 
-    https://sunnyson.dev/notes/2023/07/monocle-part1/.
+    https://sunnyson.dev/notes/2023/07/monocle-reverse-graph-embeddings/.
 
 Or, in BibTeX format:
 
@@ -269,7 +269,7 @@ Or, in BibTeX format:
   journal = &quot;sunnyson.dev&quot;,
   year    = &quot;2023&quot;,
   month   = &quot;July&quot;,
-  url     = &quot;https://sunnyson.dev/notes/2023/07/monocle-part1/&quot;
+  url     = &quot;https://sunnyson.dev/notes/2023/07/monocle-reverse-graph-embeddings/&quot;
 }
 </code></pre>
 
