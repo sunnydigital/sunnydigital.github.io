@@ -52,7 +52,10 @@ For a more holistic understanding, we can juxtapose the *discrete* snapshots wit
 To infuse some mathematical intuition into these images, we can use a simple kinematics equation representing a point-like object (our ball):
 
 $$
-x(t) = \frac{1}{2} a_it^2 + v_it + x_i, \ t \in \mathbb{R}; \ x_i, v_i, a_i \in \mathbb{R}^n
+\begin{aligned}
+x(t) & = \frac{1}{2} a_it^2 + v_it + x_i, \\\\ 
+     & t \in \mathbb{R}; \ x_i, v_i, a_i \in \mathbb{R}^n
+\end{aligned}
 $$
 
 Here, $x_i$ is the initial position of the ball, $v_i$ is the initial velocity, and $a_i$ is the initial acceleration, with all variables existing in a *hypothetical* $n$-dimensional space. $t$ represents the time elapsed since the ball was tossed.
@@ -173,15 +176,22 @@ $$
 
 The objective of the loss function is to measure the similarity or dissimilarity between two data points in the graph $\mathcal{G}$. As we traverse the graph's edges represented by $(V_i, V_j)$ in the set $\mathcal{E}$, the loss function computes the difference between the embeddings of these connected data points.
 
-Graph-Based Weights:
+**Graph-Based Weights**:
 
 The loss function incorporates the notion of graph-based weights $b_{i,j}$. These weights allow us to assign different levels of importance to the edges connecting data points within the graph $\mathcal{G}$. By introducing these weights, we can emphasize or de-emphasize certain relationships, depending on their significance in the overall data representation.
 
-Optimizing Low-Dimensional Embeddings:
+<figure style="text-align: center;" id="fig8">
+    <img src="images/fig-08.png" width="70%" alt="Fig. 8" style="display: inline-block;">
+    <figcaption align="center"><i>Fig. 8</i>. A brief overview of how edges and nodes interract</figcaption>
+</figure>
+
+In the above ([Fig. 8](#fig8)), we can define $\varepsilon_{i,j}$ as the edge connecting two nodes $V_i$ and $V_j$. The weight $b_{i,j}$ is a measure of the importance of this edge in the overall graph $\mathcal{G}$. The higher the weight, the more significant the edge, and vice versa. This concept is similar to the notion of *edge strength* in social networks, where the weight of an edge represents the strength of the relationship between any two individuals.
+
+**Optimizing Low-Dimensional Embeddings**:
 
 The central aim of Reverse Graph Embeddings is to minimize the loss function. As the triple nested optimization progresses, the graph $\mathcal{G}$ and the embedding function $\mathcal{f}_{\mathcal{G}}$ are fine-tuned to achieve the optimal low-dimensional embeddings $Z$. These embeddings represent the data in a compact and meaningful manner in the lower-dimensional space.
 
-Preserving Graph Structure:
+**Preserving Graph Structure**:
 
 Through the process of minimizing the loss function, the algorithm ensures that the relationships between data points observed in the original graph $\mathcal{G}$ are maintained in the lower-dimensional space. This preservation of graph structure is essential for extracting meaningful insights and knowledge from the data.
 
@@ -213,9 +223,9 @@ $$
 
 Which when held together, represents the optimization constraints required to find and reduce a set of vectors associated with the high number of dimensions for each cell to an optimal number of lower dimensions for each cell. The below figure best summarizes the math behind what is taking place:
 
-<figure style="text-align: center;" id="fig8">
-    <img src="images/fig-08.png" width="100%" alt="Fig. 8" style="display: inline-block;">
-    <figcaption align="center"><i>Fig. 8</i>. Our completed, mathematically sound model of webs to waves</figcaption>
+<figure style="text-align: center;" id="fig9">
+    <img src="images/fig-09.png" width="100%" alt="Fig. 9" style="display: inline-block;">
+    <figcaption align="center"><i>Fig. 9</i>. Our completed, mathematically sound model of webs to waves</figcaption>
 </figure>
 
 The image essentially illustrates that there is a function $\mathcal{f}_{\mathcal{G}}$ that maps lower-dimensional vectors in $\mathbb{R}^G$ (meaning they have $G$ number of dimensions) to a higher-dimensional space $\mathbb{R}^P$ (meaning they have $P$ number of expressed genes). The lower-dimensional graph, represented as a simpler web, is mapped to the higher-dimensional manifold (a smooth collection of points), depicted as a wave. This is a characteristic process in Monocle, a tool used for single-cell RNA-seq analysis.
