@@ -86,7 +86,7 @@ Beyond its aesthetic appeal, this image carries a metaphorical significance. The
 So, where does the genotype fit into this picture? Think of the genotype as a spider web, subtly fluctuating under the force of the wind, yet never so erratic as to lose its structural integrity. In many ways, it's more stable than the phenotype, thanks to the codified nature of DNA. However, it's also *simpler*, given the relatively minor variation between one instance of genotype and another (as seen when comparing gene expression in cells).
 
 <figure style="text-align: center;" id="fig5">
-    <img src="images/fig-05.gif" width="50%" alt="Fig. 5" style="display: inline-block;">
+    <img src="images/fig-05.gif" width="70%" alt="Fig. 5" style="display: inline-block;">
     <figcaption align="center"><i>Fig. 5</i>. The simplicity of a spider web in comparison to water waves</figcaption>
 </figure>
 
@@ -97,14 +97,14 @@ With a deeper understanding of this metaphor, we're now ready to introduce mathe
 As previously discussed, waves can represent the high-dimensional output of genes that are expressed as a phenotype.
 
 <figure style="text-align: center;" id="fig6">
-    <img src="images/fig-06.png" width="50%" alt="Fig. 6" style="display: inline-block;">
+    <img src="images/fig-06.png" width="70%" alt="Fig. 6" style="display: inline-block;">
     <figcaption align="center"><i>Fig. 6</i>. Our mathematical model of high-dimensional waves</figcaption>
 </figure>
 
 In this mathematical model, we assume there's a method to sequentially number all states of the expressed genes (phenotypes) in the high-dimensional space, denoted as $\mathcal{X}=\{\mathbf{x}_1,\mathbf{x}_2,...,\mathbf{x}_N\}$, where $N \in \mathbb{I}$ is the total number of cells. Essentially, this is a comprehensive list of the dimensions associated with each cell (i.e., the vector of genes expressed per cell) for every cell in the sampled tissue.
 
 <figure style="text-align: center;" id="fig7">
-    <img src="images/fig-07.png" width="50%" alt="Fig. 7" style="display: inline-block;">
+    <img src="images/fig-07.png" width="70%" alt="Fig. 7" style="display: inline-block;">
     <figcaption align="center"><i>Fig. 7</i>. Our mathematical model of low-dimensional webs</figcaption>
 </figure>
 
@@ -187,7 +187,7 @@ The objective of the loss function is to measure the similarity or dissimilarity
 The loss function incorporates the notion of graph-based weights $b_{i,j}$. These weights allow us to assign different levels of importance to the edges connecting data points within the graph $\mathcal{G}$. By introducing these weights, we can emphasize or de-emphasize certain relationships, depending on their significance in the overall data representation.
 
 <figure style="text-align: center;" id="fig8">
-    <img src="images/fig-08.png" width="50%" alt="Fig. 8" style="display: inline-block;">
+    <img src="images/fig-08.png" width="70%" alt="Fig. 8" style="display: inline-block;">
     <figcaption align="center"><i>Fig. 8</i>. A brief overview of how edges and nodes interract</figcaption>
 </figure>
 
@@ -247,7 +247,7 @@ In this post, we've journeyed through concepts surrounding latent models, gene e
 We've delved into the mathematical ocean of Reverse Graph Embeddings, a powerful tool for dimensionality reduction. We've seen how these techniques can illuminate the relationship between genotypes and phenotypes, and how they can map high-dimensional data onto a lower-dimensional space while preserving the underlying structure. It's like fitting an elephant into a phone booth, but without violating any animal rights!
 
 <figure style="text-align: center;" id="elephant-phone-booth">
-    <img src="images/elephant-phone-booth.jpg" width="50%" alt="Fig. 9" style="display: inline-block;">
+    <img src="images/elephant-phone-booth.jpg" width="70%" alt="Fig. 9" style="display: inline-block;">
     <figcaption align="center">You probably can't fit an elephant in a phone booth like this, so this elephant was probably dimensionally reduced!</figcaption>
 </figure>
 
@@ -256,7 +256,7 @@ We've also explored how these techniques help us identify the optimal graph, the
 And let's not forget how the algorithm ensures that the relationships between data points observed in the original graph are maintained in the lower-dimensional space, like moving across the country but still finding the bandwith to keep in touch with your old friends.
 
 <figure style="text-align: center;" id="keeping-up">
-    <img src="images/keeping-up.jpg" width="50%" alt="Fig. 9" style="display: inline-block;">
+    <img src="images/keeping-up.jpg" width="70%" alt="Fig. 9" style="display: inline-block;">
     <figcaption align="center">Keeping up with friends is important when you are somewhere different</figcaption>
 </figure>
 
@@ -265,7 +265,7 @@ The main paper on Monocle ([Qiu et al.](https://cole-trapnell-lab.github.io/pdfs
 Thank you for reading! And, please look forward to the next post that will set sail for high-dimensional oceans once more, when we cover the rest of graph learning for monocle. I promise it will be worth the wait!
 
 <figure style="text-align: center;" id="pirate-captain">
-    <img src="images/pirate-captain.jpg" width="50%" alt="Fig. 9" style="display: inline-block;">
+    <img src="images/pirate-captain.jpg" width="70%" alt="Fig. 9" style="display: inline-block;">
     <figcaption align="center">Who doesn't love the imagery of a cute pirate captain sailing the high seas?</figcaption>
 </figure>
 
