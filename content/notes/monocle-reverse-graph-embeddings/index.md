@@ -244,15 +244,30 @@ This will take us back, to revisit and understand further the analogy of the bal
 
 In this post, we've journeyed through concepts surrounding latent models, gene expression, and the intricate systems that govern these phenomena. We've used analogies that (I hope) would make even the most hardened scientist crack a smile, and visual aids that might make my high school art teacher finally be proud of me, all to help us understand these complex concepts.
 
-We've delved into the mathematical wonderland of Reverse Graph Embeddings, a powerful tool for dimensionality reduction. We've seen how these techniques can illuminate the relationship between genotypes and phenotypes, and how they can map high-dimensional data onto a lower-dimensional space while preserving the underlying structure of the data. It's like fitting an elephant into a phone booth, but without violating any animal rights!
+We've delved into the mathematical ocean of Reverse Graph Embeddings, a powerful tool for dimensionality reduction. We've seen how these techniques can illuminate the relationship between genotypes and phenotypes, and how they can map high-dimensional data onto a lower-dimensional space while preserving the underlying structure. It's like fitting an elephant into a phone booth, but without violating any animal rights!
+
+<figure style="text-align: center;" id="elephant-phone-booth">
+    <img src="images/elephant-phone-booth.jpg" width="50%" alt="Fig. 9" style="display: inline-block;">
+    <figcaption align="center">You probably can't fit an elephant in a phone booth like this, so this elephant was probably dimensionally reduced!</figcaption>
+</figure>
 
 We've also explored how these techniques help us identify the optimal graph, the most suitable embedding function, and the best low-dimensional embeddings that represent the data. We've looked at the role of graph-based weights in assigning different levels of importance to the edges connecting data points within the graph.
 
 And let's not forget how the algorithm ensures that the relationships between data points observed in the original graph are maintained in the lower-dimensional space, like moving across the country but still finding the bandwith to keep in touch with your old friends.
 
+<figure style="text-align: center;" id="keeping-up">
+    <img src="images/keeping-up.jpg" width="50%" alt="Fig. 9" style="display: inline-block;">
+    <figcaption align="center">Keeping up with friends is important when you are somewhere different</figcaption>
+</figure>
+
 The main paper on Monocle ([Qiu et al.](https://cole-trapnell-lab.github.io/pdfs/papers/qiu-monocle2.pdf)), takes this concept even further. It explores how *trees* are employed to create a pseudo-temporal map of cells in various states of division, a journey which I will save for my next post. Yes, I'm leaving you on a cliffhanger and sorry, not sorry.
 
-Thank you for reading! And, please look forward to the next post that will cover the rest of graph learning for bioinformatic analysis. I promise it will be worth the wait!
+Thank you for reading! And, please look forward to the next post that will set sail for high-dimensional oceans once more, when we cover the rest of graph learning for monocle. I promise it will be worth the wait!
+
+<figure style="text-align: center;" id="pirate-captain">
+    <img src="images/pirate-captain.jpg" width="50%" alt="Fig. 9" style="display: inline-block;">
+    <figcaption align="center">Who doesn't love the imagery of a cute pirate captain sailing the high seas?</figcaption>
+</figure>
 
 ## Citation
 
@@ -263,7 +278,7 @@ Cited as:
 
 Or, in BibTeX format:
 
-<pre tabindex="0"><code>@article{son2023monocle1,
+<pre tabindex="0"><code>@article{son-2023-monocle-pt1,
   title   = &quot;Monocle - Reverse Graph Embeddings&quot;,
   author  = &quot;Son, Sunny&quot;,
   journal = &quot;sunnyson.dev&quot;,
@@ -277,4 +292,4 @@ Or, in BibTeX format:
 
 [1] Trapnell, C. et al. <a href="https://www.nature.com/articles/nbt.2859">&ldquo;The dynamics and regulators of cell fate decisions are revealed by pseudotemporal ordering of single cells.&quot;</a> Nature Biotechnology 2014
 
-[2] Qiu, Xiaojie. et al. <a href="https://www.nature.com/articles/nmeth.4402">&ldquo;Reversed graph embedding resolves complex single-cell trajectories&quot;</a> Nature methods 2017
+[2] Qiu, Xiaojie. et al. <a href="https://www.nature.com/articles/nmeth.4402">&ldquo;Reversed graph embedding resolves complex single-cell trajectories&quot;</a> Nature Methods 2017
