@@ -1,5 +1,5 @@
 ---
-title: Monocle Part 1 | Reverse Graph Embeddings
+title: Monocle - Reverse Graph Embeddings
 date: 2023-07-23T07:00:00-04:00
 draft: false
 ShowToc: true
@@ -14,25 +14,25 @@ cover:
     relative: true # To use relative path for cover image, used in hugo Page-bundles
 ---
 
-# Everything is Not What They Seem
+## Everything is Not What They Seem
 
-More than just a throwback to Wizards of Waverly Place, I really do think latent models are quite neat. They hint at the idea that there exists a fundamental discrepancy between *what* is overtly shown and *how* these patterns come to be.
+More than just a throwback to Wizards of Waverly Place, this statement is fundamental to the way our world operates. Specifically, it hints at the existance of a hidden dimension, a *latent* space that exists beneath the surface of our reality. And in my opinion, I think that the models surrounding these latent spaces are quite neat: they hint at the idea that there exists a fundamental discrepancy between *what* is overtly shown and *how* these patterns come to be.
 
-This concept shines brightly in the intricate systems governing gene expression. Here, phenotypes (the observable traits of an organism, such as the fiery red versus raven black hair in humans, or the varying petal lengths among different iris species) aren't always directly correlated with genotypes (the specific sequence of *ATCG*: *Adenine*, *Thymine*, *Cytosine*, and *Guanine* in DNA). 
+This concept shines brightly in the intricate systems governing gene expression. Here, phenotypes (the observable traits of an organism, i.e. the fiery red versus raven black hair in humans, or the varying petal lengths among different iris species) aren't always directly correlated with genotypes (the specific sequence of *ATCG*: *Adenine*, *Thymine*, *Cytosine*, and *Guanine* in DNA). 
 
-In the vast and diverse landscape of the medical field, the phenotypes of a particular organism can sometimes seem like a cryptic puzzle when viewed in the context of the genes involved. As it turns out, the experimental observations of cellular expression (in terms of the genes active in each cell) exist in a lower dimensional *latent* space. This is in stark contrast to the more complex, higher dimensional variables that we might initially expect.
+In the diverse landscape of the medical field, the phenotypes of a particular organism can sometimes seem cryptic when viewed in the context of the genes involved. Not to mention, there is much *translational* difference in the process governing *what* genes are expressed, *how* the expression arises, and *when*. To uncover the mechanisms that govern these processes, we would need to dive into the unknown, and as it turns out, the experimental observations of cellular expression (in terms of the genes active in each cell) exist in a lower dimensional *latent* space ([Trapnell et al.](https://www.nature.com/articles/nbt.2859)). This is in stark contrast to the more complex, higher dimensional variables that we might initially expect.
 
-So, in essence, the world of gene expression is not unlike a magic trick. What we see on the surface is just the tip of the iceberg, with a whole world of complexity hidden beneath. And much like a good magic trick, it's this hidden complexity that makes it all the more fascinating.
+Gene expression is not unlike a magic trick. What we see on the surface is just the tip of the iceberg, with what we think is a world of complexity hidden beneath, but is actually simpler than what we might actually expect. But more importantly, like a good magic trick, it's this hidden complexity that makes it all the more fascinating.
 
-# The Analogy of the Soaring Ball: Unraveling Reverse Graphs
+## The Analogy of the Ball: Unraveling Reverse Graphs
 
-To demystify the complexities of reverse graph embeddings, let's employ a straightforward yet effective analogy. Picture someone launching a ball into the air. You're armed with a camera, tracking the ball's trajectory from a third-person perspective off the $z$-axis. You capture the journey in a series of snapshots, *click*, *click*, *click*, *click*, ... , *CLICK*. Once the film is developed, you're left with a series of distinct photos.
+To demystify the complexities of reverse graph embeddings, let's employ a straightforward yet effective analogy. Picture someone launching a ball into the air. You're armed with a camera, tracking the ball's trajectory from a third-person perspective off the $z$-axis. You capture the journey in a series of snapshots, *snap*, *snap*, *snap*, *snap*, ... , *SNAP*. Once the film is developed, you're left with a series of distinct photos.
 
 These snapshots serve as frozen moments in time, each providing a unique perspective on the ball's position relative to its surroundings. The photos might resemble something like this:
 
 <figure id="fig1">
     <img src="images/fig-02.png" alt="Fig. 1">
-    <figcaption align="center"><i>Fig. 1</i>. The five distinct photos capturing the ball's trajectory through the air... Ohhh <i>Snaap</i></figcaption>
+    <figcaption align="center"><i>Fig. 1</i>. Five distinct photos capturing the ball's trajectory through the air </figcaption>
 </figure>
 
 While you've captured a total of five images, this number can be generalized to *N*, allowing for as many or as few snapshots as desired. Each snapshot provides an accurate representation of the ball's location at that specific moment. A more comprehensive view emerges when we zoom out to consider the bigger picture:
@@ -41,6 +41,8 @@ While you've captured a total of five images, this number can be generalized to 
     <img src="images/fig-01.png" width="70%" alt="Fig. 2" style="display: inline-block;">
     <figcaption align="center"><i>Fig. 2</i>. Perspective from the z-axis of a ball being thrown into the air, with each ball representing a snapshot in time</figcaption>
 </figure>
+
+The above image ([Fig. 2](#fig2)) is a *continuous* representation of the ball's trajectory, showing it moving through space and time.
 
 For a more holistic understanding, we can juxtapose the *discrete* snapshots with the *continuous* trajectory of the ball. The image below illustrates this, overlaying the snapshots at each time point:
 
@@ -54,21 +56,21 @@ To infuse some mathematical intuition into these images, we can use a simple kin
 $$
 \begin{aligned}
 x(t) & = \frac{1}{2} a_it^2 + v_it + x_i, \\\\ 
-     & t \in \mathbb{R}; \ x_i, v_i, a_i \in \mathbb{R}^n
+     & t \in \mathbb{R}; \ x_i, v_i, a_i \in \mathbb{R}^3
 \end{aligned}
 $$
 
-Here, $x_i$ is the initial position of the ball, $v_i$ is the initial velocity, and $a_i$ is the initial acceleration, with all variables existing in a *hypothetical* $n$-dimensional space. $t$ represents the time elapsed since the ball was tossed.
+Here, $x_i$ is the initial position of the ball, $v_i$ is the initial velocity, and $a_i$ is the initial acceleration, with all variables existing in a *hypothetical* $n$-dimensional space (our world). $t$ represents the time elapsed since the ball was tossed. $x(t)$ is the height of the ball at any timepoint $t$.
 
 For a moment, let's pretend we know nothing about the *continuous* path that the ball takes, what we consider to be the [*closed-form solution*](https://en.wikipedia.org/wiki/Closed-form_expression), or the above equation that represents the ball's position ($x_i$). Instead, let's ponder: how can we piece together the ball's trajectory from the discrete images shown in [Fig. 1](#fig1)?
 
 Drawing inspiration from the combined discrete/continuous image ([Fig. 3](#fig3)), which bridges the time-agnostic ([Fig. 1](#fig1)) and time-aware ([Fig. 2](#fig2)) figures, we notice that the most significant difference in each discrete image is the background (with the *ball* serving as a constant reference). 
 
-Can we now quantify this difference of background? The answer lies in the change in the *position* of the ball, which alters the background from the perspective of a third-party observer. This insight is precisely the foundation of dimensionality reduction through graph learning: to find the *path* of the ball (the closed equation) that best describes all the images of the ball, given its position (the discrete images) at different timepoints when we know nothing about the realities of our world, specifically how we live in a $3$d world or the laws of physics (kinematics) that need to be followed.
+Can we now quantify this difference of background? The answer lies in the change of the *position* of the ball, which alters the background from the perspective of a third-party observer. This insight is precisely the foundation of dimensionality reduction through graph learning: to find the *path* of the ball (the closed equation) that best describes all the images of the ball, given its position (the discrete images) at different timepoints when we know nothing about the realities of our world, specifically how we live in a $3$d world or the laws of physics (kinematics) that need to be followed.
 
-This analogy serves as a bridge between a simpler, physical representation and the complex biological processes it aims to explain. By generalizing, we can align this analogy with what the algorithm was designed to represent: cells and their expressed genes. In this context, gene expression can be likened to the snapshots of individual cells, and the latent distribution of *possible* outcomes (moderated by time) can be viewed as the continuous trajectory. This continuous trajectory (which will be completed in a following post) exists in a lower dimension than the number of dimensions for the expressed phenotype (the total number of expressed genes). But how do we determine this optimal lower dimension to reduce our entire dataset to?
+This analogy serves as a bridge between a simpler, physical representation and the complex biological processes it aims to explain. By generalizing, we can align this analogy with what the algorithm was designed to represent: cells and their expressed genes. In this context, gene expression can be likened to the snapshots of individual cells, and the latent distribution of *possible* outcomes (moderated by time) can be viewed as the continuous trajectory. This continuous trajectory (which will be completed in a following post) exists in a lower dimension than the number of dimensions for the expressed phenotype (the total number of expressed genes). But how do we determine this optimal lower dimension to reduce our dataset to?
 
-# Riding the Waves and Webs: A Dive into Genotypes and Phenotypes
+## Riding the Waves and Webs: A Dive into Genotypes and Phenotypes
 
 The previous analogy, while effective as a broad concept, is somewhat *deterministic*. Given the parameters $x_i$, $v_i$, and $a_i$, the height $x(t)$ can be calculated with precision. However, this approach doesn't quite capture the randomness inherent in our genotype vs. phenotype conundrum.
 
@@ -90,7 +92,7 @@ So, where does the genotype fit into this picture? Think of the genotype as a sp
 
 With a deeper understanding of this metaphor, we're now ready to introduce mathematical concepts and numbers into our discussion.
 
-# The Peaks and Valleys: A Mathematical Perspective
+## The Peaks and Valleys: A Mathematical Perspective
 
 As previously discussed, waves can represent the high-dimensional output of genes that are expressed as a phenotype.
 
@@ -108,7 +110,7 @@ In this mathematical model, we assume there's a method to sequentially number al
 
 In the lower-dimensional space, we define the variables associated with the diversity of gene expressions (genotypes) across individual cells as $\mathcal{Z}=\{\mathbf{z}_1, \mathbf{z}_2,...,\mathbf{z}_N\}$, where $N \in \mathbb{I}$ is the total number of cells. However, in this context, the representation of each variable is less clear. They consist of *latent* (unseen) nodes, each representing a cell's true phenotype-generating distribution. In simpler terms, these latent variables are not directly observed but are inferred from the observed gene expressions. They serve as a representation of the underlying biological states or properties of each cell.
 
-## Charting the Course: A Map(ping) to Guide Us
+### Charting the Course: A Map(ping) to Guide Us
 
 As we stand on the precipice of defining the structured relationship between the web and the wave, we're essentially trying to distill a high-dimensional output into a low-dimensional insight. The first step in this journey is to visualize *how* we define this low-dimensional web that we're aiming to describe. In other words, we need to identify the abstract qualities that our web should possess. 
 
@@ -120,7 +122,7 @@ If we take a gander at [Fig. 7](#fig7), a few initial qualities jump out at us:
 
 To put on our math hats for a moment, we can now express that the Graph $\mathcal{G}=(\mathcal{V}, \mathcal{E})$ comprises a set of vertices $\mathcal{V}=\{\mathcal{V}_1, \mathcal{V}_2,...,\mathcal{V}_N\}$ and a set of weighted, undirected edges $\mathcal{E}$. This is a far cry from unweighted and directed edges. The former lacks a mechanism to represent the numerical degree of connection between any two vertices, while the latter implies a sense of directionality or pointing from one node vertex to another. 
 
-# Reverse Graph Embeddings: Setting Sail with Our Captain
+## Reverse Graph Embeddings: Setting Sail with Our Captain
 
 Now, let's dive into the actual process of mapping from the higher dimension to the low. For this, we'll employ a nifty tool known as Reverse Graph Embeddings. Here's the equation that makes the magic happen:
 
@@ -130,15 +132,19 @@ $$
 
 To break it down, this equation is the hero of our adventure that helps us transform (defeat) a complex, high-dimensional data structure into a simpler, low-dimensional representation. It's like turning a spaghetti monster into a neat, orderly pasta. And who doesn't love a good pasta?
 
-## Frustrating Minimums (Argghh Mins)
+### Frustrating Minimums (Argghh Mins)
 
-Let's delve into the intricacies of a triple nested optimization problem, a prevalent construct in machine learning. This complex structure, akin to a Russian nesting doll, involves the pursuit of optimal model parameters that minimize a specific loss function. Despite its initial complexity, we will systematically dissect it for a clearer understanding.
+Let's delve into the intricacies of a triple nested optimization problem, a prevalent construct in machine learning. This complex structure, akin to a Russian nesting doll, involves the pursuit of optimal model parameters that minimize a specific loss function. 
+
+What *is* a loss function? In essence, it's a measure of how well a model can predict the expected outcome. The lower the loss, the better the model. In our case, the loss function is the summation in the equation, which we'll explore in greater detail later on.
+
+Despite its initial complexity, we will systematically dissect all of the annoying minimums for a more in-depth look at what the model selects for.
 
 $$
 \min_{\mathcal{G} \in G_b}{} \min_{f_{\mathcal{G}} \in \mathcal{F}}{} \min_{Z}{}
 $$
 
-The target objective comes in the form of a triple nested optimization problem, which is common in machine learning when we're trying to find the best model parameters that minimize a certain loss function. Let's start from the inside and work our way out:
+The target objective (what we are minimizing for) comes in the form of a triple nested optimization problem, which is common in machine learning when we're trying to find the best model parameters that minimize a certain loss function. Let's start from the inside and work our way out:
 
 1. The First $\min$ selects the optimal graph $\mathcal{G}$: 
 
@@ -166,7 +172,7 @@ The target objective comes in the form of a triple nested optimization problem, 
 
    With the graph $\mathcal{G}$ and the embedding function $\mathcal{f}_{\mathcal{G}}$ in place, the third $\min$ seeks to identify the optimal low-dimensional embeddings $Z$. These embeddings are representations of the data points in the lower-dimensional space that minimize the loss function defined by the summation in the equation.
 
-## (Simplified) Loss Functions
+### (Simplified) Loss Functions
 
 Now, we get to the simplified loss function, or the part of the equation stated as:
 
@@ -181,7 +187,7 @@ The objective of the loss function is to measure the similarity or dissimilarity
 The loss function incorporates the notion of graph-based weights $b_{i,j}$. These weights allow us to assign different levels of importance to the edges connecting data points within the graph $\mathcal{G}$. By introducing these weights, we can emphasize or de-emphasize certain relationships, depending on their significance in the overall data representation.
 
 <figure style="text-align: center;" id="fig8">
-    <img src="images/fig-08.png" width="70%" alt="Fig. 8" style="display: inline-block;">
+    <img src="images/fig-08.png" width="50%" alt="Fig. 8" style="display: inline-block;">
     <figcaption align="center"><i>Fig. 8</i>. A brief overview of how edges and nodes interract</figcaption>
 </figure>
 
@@ -195,7 +201,7 @@ The central aim of Reverse Graph Embeddings is to minimize the loss function. As
 
 Through the process of minimizing the loss function, the algorithm ensures that the relationships between data points observed in the original graph $\mathcal{G}$ are maintained in the lower-dimensional space. This preservation of graph structure is essential for extracting meaningful insights and knowledge from the data.
 
-## Complete Loss Function and Visualization
+### Complete Loss Function and Visualization
 
 This is a simplified version of the complete Reverse Graph Embedding, *only* considering graph structures in the latent (genotype) state, but not the observed phenotypes within the optimization parameters. To find a way to connect the high and low dimensions, RGE both ensures that
 
@@ -234,7 +240,7 @@ And where does this lead in the end? In all honesty, the battle is only half ove
 
 This will take us back, to revisit and understand further the analogy of the ball toss and how time can be used as a red-thread of fate to tie together the disparate destinies of each individual cell.
 
-# The Conclusion?
+## The Conclusion?
 
 In this post, we've journeyed through concepts surrounding latent models, gene expression, and the intricate systems that govern these phenomena. We've used analogies that (I hope) would make even the most hardened scientist crack a smile, and visual aids that might make my high school art teacher finally be proud of me, all to help us understand these complex concepts.
 
@@ -244,6 +250,31 @@ We've also explored how these techniques help us identify the optimal graph, the
 
 And let's not forget how the algorithm ensures that the relationships between data points observed in the original graph are maintained in the lower-dimensional space, like moving across the country but still finding the bandwith to keep in touch with your old friends.
 
-The main paper on Monocle, which you can find [here](https://cole-trapnell-lab.github.io/pdfs/papers/qiu-monocle2.pdf), takes this concept even further. It explores how *trees* are employed to create a pseudo-temporal map of cells in various states of division, a thrilling adventure which will be saved for our next post. (Yes, I'm leaving you on a cliffhanger and no, I'm not sorry).
+The main paper on Monocle ([Qiu et al.](https://cole-trapnell-lab.github.io/pdfs/papers/qiu-monocle2.pdf)), takes this concept even further. It explores how *trees* are employed to create a pseudo-temporal map of cells in various states of division, a journey which I will save for my next post. Yes, I'm leaving you on a cliffhanger and sorry, not sorry.
 
-Thank you for reading, and please look forward to the next post that will cover the rest of graph embeddings for bioinformatic analysis. I promise it'll be worth the wait!
+Thank you for reading! And, please look forward to the next post that will cover the rest of graph learning for bioinformatic analysis. I promise it will be worth the wait!
+
+## Citation
+
+Cited as:
+
+    Son, Sunny. (Jul 2023). "Monocle - Reverse Graph Embeddings". Sunny's Notes. 
+    https://sunnyson.dev/notes/2023/07/monocle-part1/.
+
+Or, in BibTeX format:
+
+<pre tabindex="0"><code>@article{son2023monocle1,
+  title   = &quot;Monocle - Reverse Graph Embeddings&quot;,
+  author  = &quot;Son, Sunny&quot;,
+  journal = &quot;sunnyson.dev&quot;,
+  year    = &quot;2023&quot;,
+  month   = &quot;July&quot;,
+  url     = &quot;https://sunnyson.dev/notes/2023/07/monocle-part1/&quot;
+}
+</code></pre>
+
+## References
+
+[1] Trapnell, C. et al. <a href="https://www.nature.com/articles/nbt.2859">&ldquo;The dynamics and regulators of cell fate decisions are revealed by pseudotemporal ordering of single cells.&quot;</a> Nature Biotechnology 2014
+
+[2] Qiu, Xiaojie. et al. <a href="https://www.nature.com/articles/nmeth.4402">&ldquo;Reversed graph embedding resolves complex single-cell trajectories&quot;</a> Nature methods 2017
