@@ -210,8 +210,8 @@ markup:
     renderer:
       unsafe: true
   highlight:
-    anchorLineNos: true
-    codeFences: false
+    anchorLineNos: false
+    codeFences: true
     guessSyntax: false
     hl_Lines: ""
     hl_inline: false
