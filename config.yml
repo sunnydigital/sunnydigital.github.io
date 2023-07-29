@@ -222,7 +222,7 @@ markup:
     noClasses: true
     noHl: false
     style: monokai
-    tabWidth: 4
+    tabWidth: 2
 
 pygmentsUseClasses:
   true
