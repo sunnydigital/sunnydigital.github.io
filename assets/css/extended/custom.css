@@ -6,3 +6,9 @@
 .post-content p {
     text-align: justify;
 }
+
+table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
