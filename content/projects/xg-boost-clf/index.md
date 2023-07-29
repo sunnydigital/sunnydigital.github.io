@@ -14,8 +14,6 @@ cover:
     relative: true # To use relative path for cover image, used in hugo Page-bundles
 ---
 
-# Please **DO NOT** run any cells as everything (all final images, graphs, etc. are preloaded)
-
 # Section 0 Preface for Imports, Data Handling, & Methodologies 
 
 ## Section 0.1 Preface for Write-Up Interpretation & Acknowledgements

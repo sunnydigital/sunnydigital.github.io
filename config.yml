@@ -111,7 +111,7 @@ params:
   
   # Misc
   assets:
-    disableHLJS: true
+    disableHLJS: false
   monoDarkIcon: false
   math: true
 
