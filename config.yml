@@ -209,8 +209,15 @@ markup:
   goldmark:
     renderer:
       unsafe: true
-  highlight:
+  # highlight:
     # anchorLineNos: true
-    style: dracula
-    lineNos: true
+    # style: dracula
+    # lineNos: true
     # noClasses: false
+    highlight:
+      anchorLineNos: true
+      codeFences: true
+      guessSyntax: true
+      lineNos: true
+      noClasses: false
+      style: monokai
