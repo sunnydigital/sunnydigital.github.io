@@ -224,7 +224,7 @@ markup:
     style: monokai
     tabWidth: 4
 
-pygmentsUseClasses:
-  true
-pygmentsCodefences:
-  true
+# pygmentsUseClasses:
+  # true
+# pygmentsCodefences:
+  # true
