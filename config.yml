@@ -211,7 +211,7 @@ markup:
       unsafe: true
   highlight:
     anchorLineNos: false
-    codeFences: true
+    codeFences: false
     guessSyntax: false
     hl_Lines: ""
     hl_inline: false
