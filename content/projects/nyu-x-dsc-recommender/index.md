@@ -73,9 +73,9 @@ import sys
 ```python
 if 'google.colab' in sys.modules:
     %cd /content
-!rm -rf Datathon_F22
-!git clone https://github.com/sunnydigital/Datathon_F22
-%cd Datathon_F22
+    !rm -rf Datathon_F22
+    !git clone https://github.com/sunnydigital/Datathon_F22
+    %cd Datathon_F22
 ```
 
 
