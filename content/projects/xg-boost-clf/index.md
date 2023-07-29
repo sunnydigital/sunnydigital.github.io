@@ -25,7 +25,7 @@ Code was used from my own Github repository, found at `www.github.com/sunnydigit
 Below we set the random seed to the numeric portion of my ID: `N12345678` import packages & libraries as well as set the settings for `seaborn` plots
 
 
-```python
+```unix
 !pip install xgboost
 !pip install impyute
 !pip install missingno
@@ -101,33 +101,19 @@ Below we set the random seed to the numeric portion of my ID: `N12345678` import
     Requirement already satisfied: param>=1.7.0 in /Users/sunnyson/opt/anaconda3/lib/python3.9/site-packages (from colorcet==3.0.0) (1.12.0)
     Requirement already satisfied: pyct>=0.4.4 in /Users/sunnyson/opt/anaconda3/lib/python3.9/site-packages (from colorcet==3.0.0) (0.4.6)
     Requirement already satisfied: yellowbrick in /Users/sunnyson/opt/anaconda3/lib/python3.9/site-packages (1.5)
-
     Requirement already satisfied: scikit-learn>=1.0.0 in /Users/sunnyson/opt/anaconda3/lib/python3.9/site-packages (from yellowbrick) (1.0.2)
-
     Requirement already satisfied: numpy>=1.16.0 in /Users/sunnyson/opt/anaconda3/lib/python3.9/site-packages (from yellowbrick) (1.21.5)
-
     Requirement already satisfied: matplotlib!=3.0.0,>=2.0.2 in /Users/sunnyson/opt/anaconda3/lib/python3.9/site-packages (from yellowbrick) (3.5.1)
-
     Requirement already satisfied: cycler>=0.10.0 in /Users/sunnyson/opt/anaconda3/lib/python3.9/site-packages (from yellowbrick) (0.11.0)
-
     Requirement already satisfied: scipy>=1.0.0 in /Users/sunnyson/opt/anaconda3/lib/python3.9/site-packages (from yellowbrick) (1.7.3)
-
     Requirement already satisfied: packaging>=20.0 in /Users/sunnyson/opt/anaconda3/lib/python3.9/site-packages (from matplotlib!=3.0.0,>=2.0.2->yellowbrick) (21.3)
-
     Requirement already satisfied: fonttools>=4.22.0 in /Users/sunnyson/opt/anaconda3/lib/python3.9/site-packages (from matplotlib!=3.0.0,>=2.0.2->yellowbrick) (4.25.0)
-
     Requirement already satisfied: kiwisolver>=1.0.1 in /Users/sunnyson/opt/anaconda3/lib/python3.9/site-packages (from matplotlib!=3.0.0,>=2.0.2->yellowbrick) (1.4.2)
-
     Requirement already satisfied: python-dateutil>=2.7 in /Users/sunnyson/opt/anaconda3/lib/python3.9/site-packages (from matplotlib!=3.0.0,>=2.0.2->yellowbrick) (2.8.2)
-
     Requirement already satisfied: pillow>=6.2.0 in /Users/sunnyson/opt/anaconda3/lib/python3.9/site-packages (from matplotlib!=3.0.0,>=2.0.2->yellowbrick) (9.0.1)
-
     Requirement already satisfied: pyparsing>=2.2.1 in /Users/sunnyson/opt/anaconda3/lib/python3.9/site-packages (from matplotlib!=3.0.0,>=2.0.2->yellowbrick) (3.0.4)
-
     Requirement already satisfied: six>=1.5 in /Users/sunnyson/opt/anaconda3/lib/python3.9/site-packages (from python-dateutil>=2.7->matplotlib!=3.0.0,>=2.0.2->yellowbrick) (1.16.0)
-
     Requirement already satisfied: joblib>=0.11 in /Users/sunnyson/opt/anaconda3/lib/python3.9/site-packages (from scikit-learn>=1.0.0->yellowbrick) (1.1.0)
-
     Requirement already satisfied: threadpoolctl>=2.0.0 in /Users/sunnyson/opt/anaconda3/lib/python3.9/site-packages (from scikit-learn>=1.0.0->yellowbrick) (2.2.0)
 
 
@@ -183,8 +169,8 @@ from skopt.space import Real, Categorical, Integer
 from skopt.plots import plot_objective
 from skopt import BayesSearchCV
 
-'''from tune_sklearn import TuneSearchCV, TuneGridSearchCV
-import ray.tune as tune'''
+from tune_sklearn import TuneSearchCV, TuneGridSearchCV
+import ray.tune as tune
 
 from tqdm import tqdm
 
@@ -614,7 +600,9 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, stratif
 
 For this dataset, (and the applicable functions of dimensionality reduction through PCA and clustering through k-means), I have chosen to standardize through the below mapping:
 
-$$ \vec{X}_{\textrm{Z-Score}} = \frac{\vec{X} - \mu_{\vec{X}}}{\sigma_{\vec{X}}} $$
+$$
+\vec{X}_{\textrm{Z-Score}} = \frac{\vec{X} - \mu_{\vec{X}}}{\sigma_{\vec{X}}}
+$$
 
 where each $\vec{X}$ is a given column of data.
 
