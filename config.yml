@@ -83,7 +83,7 @@ params:
       
       Thoughts are my own.
 
-    imageUrl: "https://en.gravatar.com/userimage/237046188/62122b946d153a7018b666085c8ae6b1?size=original" # optional
+    imageUrl: https://en.gravatar.com/userimage/237046188/1957e87d84666901ba82a68a32bdfb8c?size=original # optional
     imageTitle: "Feelin' Sunny" # optional
     imageWidth: 156 # custom size
     imageHeight: 156 # custom size
