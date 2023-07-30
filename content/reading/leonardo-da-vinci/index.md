@@ -14,11 +14,9 @@ cover:
     relative: true
 ---
 
-## Leonardo da Vinci: The Quintessential Renaissance Man
-
 Walter Isaacson’s page-turning biography *Leonardo da Vinci* offers an intimate glimpse into the mind and world of one of history’s most endlessly fascinating polymaths. Spanning over 600 pages, Isaacson takes readers on a journey through da Vinci’s exhilarating imagination, shedding light on his artistic talents, scientific endeavors, and philosophical perspectives.
 
-### A Childhood Spent Exploring Nature
+## A Childhood Spent Exploring Nature
 Born out of wedlock in 1452 in Vinci, Italy, Leonardo spent his childhood roaming the countryside and observing nature with a curiosity that bordered on obsessive. His keen eye for minute details, from the flow of water to the flight of birds, provided endless inspiration for his artworks and inventions later in life. 
 
 In fact, his fascination with the natural world was so intense that it once compelled him to by a cage full of mice just to set them free.  
@@ -31,11 +29,11 @@ From a young age, Leonardo poured these observations into his notebooks, which e
 
 Da Vinci described his childhood explorations as “having been impelled by natural curiosity, observing an infinity of forms produced by the artificers of nature.” For him, close study of nature was the foundation of all learning.
 
-### Mastering Multiple Fields
+## Mastering Multiple Fields
 
 Da Vinci pursued a dizzying array of interests over his lifetime. Here are some highlights of his contributions across diverse fields:
 
-#### Science
+### Science
 Through meticulous (and slightly nauseating) dissections of human cadavers, da Vinci produced highly detailed anatomical drawings of various body systems, including muscles, bones, organs, and embryological development. 
 
 These studies informed his masterful and physiologically accurate depictions of the human form in paintings like the Mona Lisa and The Last Supper. He even designed imaginative instruments like contact lenses and mechanical knights centuries before the technology existed to build them. 
@@ -52,7 +50,7 @@ Da Vinci relished his dissections partly because they allowed him to study the b
 
 These studies also led da Vinci to create the first accurate depictions of human skeletons and fetal development in utero. He produced over 240 anatomical drawings that would only find modern anatomical equivalents centuries later.
 
-#### Art
+### Art
 Da Vinci is still best known for his art, especially iconic works like the Mona Lisa and The Last Supper. 
 
 Isaacson provides enthralling backstories to many of da Vinci’s paintings and the painstaking process behind each masterpiece. 
@@ -71,7 +69,7 @@ Though da Vinci is best known for his paintings, he considered sculpture to be t
 
 He believed sculpture came closest to nature itself by capturing three-dimensional form. Unfortunately, da Vinci completed only a handful of sculptures, including the breathtaking yet restored Jesus Christ and Saint Thomas.
 
-#### Architecture 
+### Architecture 
 One of da Vinci's great passions was architecture, though few of his building designs ever made it off the page. 
 
 He brought an engineer's eye to his architectural studies, sketching fantastical structures like self-supported bridges and mechanized churches. His plans often included innovative features like concealed gutters, revolving doors, and special foundations to protect against earthquakes.
@@ -82,14 +80,14 @@ He was also fascinated by geometry and proportion, creating visual analyses like
 
 Nonetheless, his writings and sketches influenced generations of architects with their emphasis on balance, symmetry, and mathematical consistency. The dome of St. Peter's Basilica in Rome was partially inspired by da Vinci's designs.
 
-#### Music and Theatre
+### Music and Theatre
 In addition to visual arts, da Vinci pioneered innovations in music and theatre. He devised novel string and wind instruments based on mathematical principles. To cultivate the perfect acoustics, he studied how sound resonates in auditoriums.
 
 For theatre, da Vinci applied his mastery of optics, set design, and mechanics. He helped develop theatrical techniques like scenic lighting and programmed set pieces still used today. 
 
 According to da Vinci, combining music, art, and performance created the ideal spectacle because it immersed audiences' senses fully into another world.
 
-#### Hydraulics and Civil Engineering  
+### Hydraulics and Civil Engineering  
 Beyond architecture, da Vinci made significant contributions as a civil and military engineer. His extensive studies of hydraulics led him to improve locks, canals, dams, and aqueducts.
 
 He conceived the idea of moveable barricades and modular components to quickly construct militarized architecture. As a consultant to Cesare Borgia, da Vinci helped design defenses and siege weapons.
@@ -98,7 +96,7 @@ Leonardo even served as chief engineer to the Duke of Milan, devising ways to de
 
 As with his other endeavors, da Vinci approached engineering through an imaginative scientific lens, seeking to improve upon existing conventions.
 
-### Philosophical Outlook
+## Philosophical Outlook
 
 In addition to artistic and scientific pursuits, da Vinci ruminated extensively on philosophy and metaphysics. His notebooks reveal a sharp intellect grasping at the very structure of existence.
 
@@ -112,7 +110,7 @@ His philosophical musings reveal a profound thinker attempting to discern the un
 
 Leonardo believed the interfaces between branches of learning often yield the greatest insights. "The greatest geniuses," he wrote, "are those who have an analogy with Nature."
 
-### Renaissance Spirit of Humanism
+## Renaissance Spirit of Humanism
 
 The Renaissance marked a cultural revival promoting humanism, science, and art. Da Vinci's multifaceted accomplishments embodied this transition toward rationality and balance over Medieval superstition.
 
@@ -128,7 +126,7 @@ Isaacson cheekily suggests that da Vinci’s tendency to get perpetually distrac
 
 Nonetheless, da Vinci saw connections that others missed and brought an artistic sensibility to his scientific pursuits. His personal notebooks reveal a mind brimming with energy and imagination.
 
-### Enduring Legends
+## Enduring Legends
 
 Isaacson’s biography transports readers right into da Vinci’s world through vivid storytelling and fun asides. It underscores how da Vinci's multifaceted talents and interdisciplinary mindset made him the consummate Renaissance man. 
 
