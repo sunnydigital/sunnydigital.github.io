@@ -19,7 +19,8 @@ params:
   author: Sunny Son
   images:
     - sun-with-face-emoji.png
-  favicon: favicon.ico
+  favicon: 
+    - favicon.ico
 
   label:
     text: Sunny's Digital
