@@ -46,19 +46,19 @@ params:
   # Social icon URLs
   socialIcons:
     - name: twitter
-      url: "https://twitter.com/__sunnyson__"
+      url: https://twitter.com/__sunnyson__
     - name: github
-      url: "https://github.com/sunnydigital"
+      url: https://github.com/sunnydigital
     - name: linkedin
-      url: "https://www.linkedin.com/in/sunny-son/"
+      url: https://www.linkedin.com/in/sunny-son/
     - name: googlescholar
-      url: "https://scholar.google.com/citations?user=tGaMcikAAAAJ&hl=en"
+      url: https://scholar.google.com/citations?user=tGaMcikAAAAJ&hl=en
     - name: huggingface
-      url: "https://huggingface.co/sunnydigital"
+      url: https://huggingface.co/sunnydigital
     - name: kaggle
-      url: "https://www.kaggle.com/sunnyson"
+      url: https://www.kaggle.com/sunnyson
     - name: rss
-      url: "feed.xml"
+      url: feed.xml
 
   socialAccounts:
     twitter:
@@ -72,6 +72,8 @@ params:
     huggingface:
       username: sunnydigital
     kaggle: 
+      username: sunnyson
+    wandb:
       username: sunnyson
 
   profileMode:
