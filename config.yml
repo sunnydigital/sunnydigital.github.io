@@ -1,5 +1,5 @@
 title: Sunny's Digital
-baseURL: 'https://sunnyson.dev/'
+baseURL: https://sunnyson.dev/
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -57,6 +57,8 @@ params:
       url: https://huggingface.co/sunnydigital
     - name: kaggle
       url: https://www.kaggle.com/sunnyson
+    - name: wandb
+      url: https://wandb.ai/sunnyson
     - name: rss
       url: feed.xml
 
