@@ -188,12 +188,6 @@ menu:
     - name: Reading
       url: /reading/
       weight: 4
-#    - name: PC Builds
-#      url: /pcbuilds/
-#      weight: 5
-#    - name: Newsletter
-#      url: /newsletter/
-#      weight: 6
     - name: Search
       url: /search/
       weight: 4
@@ -203,9 +197,6 @@ menu:
     - name: Tags
       url: /tags/
       weight: 6
-#    - name: FAQ
-#      url: /faq/
-#      weight: 10
     - name: Web-Sum Plugin
       url: https://web-sum.sunnyson.dev/
       weight: 7
