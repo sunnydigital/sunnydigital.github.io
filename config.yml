@@ -20,7 +20,7 @@ params:
   images:
     - sun-with-face-emoji.png
   favicon: 
-    - favicon.ico
+    - favicon.png
 
   label:
     text: Sunny's Digital
