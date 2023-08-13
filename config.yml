@@ -24,7 +24,7 @@ params:
 
   label:
     text: Sunny's Digital
-    icon: sun-with-face-emoji.gif
+    icon: sun-with-face-emoji.png
     iconHeight: 35
 
   # Themes params
