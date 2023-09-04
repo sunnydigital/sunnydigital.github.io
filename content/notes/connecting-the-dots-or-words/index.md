@@ -32,13 +32,11 @@ We would first need a way to represent words as numbers. However, the problem ar
 
 In the case of words, this is done by training a model to predict the next word in a sequence given a series of previous words. The model is then trained to minimize the error between the predicted word and the actual word. The model is then able to learn the relationship between words and their context, and thus, the embedding is created.
 
-We implement this through the use of a pretrained *embedding*, which for the purposes of this article, simply 
+We implement this through the use of a pretrained *embedding*, which for the purposes of this article, simply creates a vocabulary (set of words), quantizing each word (mapping each to an integer) and finally projects all the words into a lower dimension (GloVe-50d does just this in 50 dimensions). Finally, to visualize this in the 30dimensions available to us, we use dimensionality reduction to project the total number of dimensions to 3.
 
 {{< gist spf13 7896402 >}}
 
-The below diagram shows a hypothetical embedding of words in a 3-dimensional space made using the above method.
-
-
+The below diagram shows a hypothetical embedding of words in a 3-dimensional space made using the above code.
 
 In effect, the embedding takes a vocabulary (set) of words and through tokenization, indexes each to an integer. 
 
