@@ -43,7 +43,7 @@ As a throwback of sorts, this type of branching mechanism is exactly what was de
 
 ## Diving into DDRTree
 
-Remember that the algorithm that Monocle attempts to optimize is described as follows:
+Recall that the algorithm that Monocle attempts to optimize is described as follows:
 
 $$
 \min_{\mathcal{G} \in G_b}{} \min_{f_{\mathcal{G}} \in \mathcal{F}}{} \min_{Z}{} \sum_{i=1}^{N} || \mathbf{x}_i - f_G (\mathbf{z}_i) ||^2
@@ -53,5 +53,4 @@ $$
 \text{+} \frac{\lambda}{2} \sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} || f_G (\mathbf{z}_i) - f_G (\mathbf{z}_j) ||^2
 $$
 
-Where it attempts to triply optimize over three factors of every graph $\mathcal{G}$, every projecting function $\mathcal{f_G}$, and every low-dimensional latent point $Z$. But how does it achieve this goal, and to what end/using what methods does it do this?
-
+Where it attempts to triply optimize over three factors of every graph $\mathcal{G}$, every projection function $\mathcal{f_G}$, and every low-dimensional latent point $Z$. But how does it achieve this goal, and to what end/using what methods does it do this? While the above only provides for the vague function $f_\mathcal{G}$, its specific definition is never provided.

@@ -130,7 +130,9 @@ $$
 \min_{\mathcal{G} \in G_b}{} \min_{f_{\mathcal{G}} \in \mathcal{F}}{} \min_{Z}{} \sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j}  || f_G (\mathbf{z}_i) - f_G (\mathbf{z}_j) ||^2
 $$
 
-To break it down, this equation is the hero of our adventure that helps us transform (defeat) a complex, high-dimensional data structure into a simpler, low-dimensional representation. It's like turning a spaghetti monster into a neat, orderly pasta. And who doesn't love a good pasta?
+To break it down, this equation is the hero of our adventure that helps us transform (defeat) a complex, high-dimensional data structure into a simpler, low-dimensional representation. It's like turning a spaghetti monster into a neat, orderly pasta. And who doesn't love a good pasta? 
+
+It does so through a yet-to-be named function, a mapping between the high dimensional expressions and the low dimensional representation of the genes in question (hint, we will name it in another post!)
 
 ### Frustrating Minimums (Argghh Mins)
 
