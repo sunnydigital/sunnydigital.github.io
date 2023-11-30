@@ -1,7 +1,7 @@
 ---
 title: Leonardo da Vinci by Walter Isaacson
 date: 2023-07-30T07:00:00-04:00
-draft: false
+draft: true
 ShowToc: true
 math: true
 tags:
