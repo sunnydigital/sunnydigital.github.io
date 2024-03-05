@@ -53,4 +53,4 @@ $$
 \text{+} \frac{\lambda}{2} \sum_{(V_i, V_j) \in \mathcal{E}} b_{i,j} || f_G (\mathbf{z}_i) - f_G (\mathbf{z}_j) ||^2
 $$
 
-Where it attempts to triply optimize over three factors of every graph $\mathcal{G}$, every projection function $\mathcal{f_G}$, and every low-dimensional latent point $Z$. But how does it achieve this goal, and to what end/using what methods does it do this? While the above only provides for the vague function $f_\mathcal{G}$, its specific definition is never provided.
+Where it attempts to triply optimize over three factors of every graph $\mathcal{G}$, every projection function $\mathcal{f_G}$, and every low-dimensional latent point $Z$. But how does it achieve this goal, and to what end/using what methods does it do this? While the above only provides for the vague function $f_\mathcal{G}$, its specific definition is never provided. Furthermore, 
