@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>gaming-pc on Sunny&#39;s Digital</title>
+    <link>https://sunnyson.dev/tags/gaming-pc/</link>
+    <description>Recent content in gaming-pc on Sunny&#39;s Digital</description>
+    <image>
+      <title>Sunny&#39;s Digital</title>
+      <url>https://sunnyson.dev/sun-with-face-emoji.png</url>
+      <link>https://sunnyson.dev/sun-with-face-emoji.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 04 Jul 2023 05:00:00 -0400</lastBuildDate><atom:link href="https://sunnyson.dev/tags/gaming-pc/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PC Build | IEGSIL</title>
+      <link>https://sunnyson.dev/projects/iegsil/</link>
+      <pubDate>Tue, 04 Jul 2023 05:00:00 -0400</pubDate>
+      
+      <guid>https://sunnyson.dev/projects/iegsil/</guid>
+      <description>Reduce, reuse? In all honesty, whilst building RIEGSIL v2 for ML applications, I just happened to have leftover graphics processors, a CPU, and power supply
+With the GPUs having already been fitted with waterblocks, they were made very difficult to sell and as in the interest of reusability, I headed over to the local Micro Center (and a quick browse of the web) and bought a few parts to assemble a smaller form-factor PC than the original RIEGSIL v1.</description>
+    </item>
+    
+  </channel>
+</rss>

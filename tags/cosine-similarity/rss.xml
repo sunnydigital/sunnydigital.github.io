@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>cosine-similarity on Sunny&#39;s Digital</title>
+    <link>https://sunnyson.dev/tags/cosine-similarity/</link>
+    <description>Recent content in cosine-similarity on Sunny&#39;s Digital</description>
+    <image>
+      <title>Sunny&#39;s Digital</title>
+      <url>https://sunnyson.dev/sun-with-face-emoji.png</url>
+      <link>https://sunnyson.dev/sun-with-face-emoji.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 29 Jul 2023 07:00:00 -0400</lastBuildDate><atom:link href="https://sunnyson.dev/tags/cosine-similarity/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NYU x DSC Datathon Olist Recommender System</title>
+      <link>https://sunnyson.dev/projects/nyu-x-dsc-recommender/</link>
+      <pubDate>Sat, 29 Jul 2023 07:00:00 -0400</pubDate>
+      
+      <guid>https://sunnyson.dev/projects/nyu-x-dsc-recommender/</guid>
+      <description>1 | Initial Setup 1.1 | Package Installation
+numpy and pandas for basic data-manipulation sklearn and associated modules to run our machine learning algorithms scipy associated modules (norm) to compute the cosime similarity later on seaborn to output graphs Miscellaneous packages for flow of the notebook 1 2 ! pip install utils ! pip install scikit-learn 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 import pandas as pd import numpy as np from numpy.</description>
+    </item>
+    
+  </channel>
+</rss>
