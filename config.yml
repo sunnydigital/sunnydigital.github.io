@@ -18,13 +18,13 @@ params:
   description: Sunny's website
   author: Sunny Son
   images:
-    - apple-touch-icon-120x120.png
+    - sun-with-face-emoji.png
   favicon: 
-    - apple-touch-icon-120x120.png
+    - sun-with-face-emoji.png
 
   label:
     text: Sunny's Digital
-    icon: apple-touch-icon-120x120.png
+    icon: sun-with-face-emoji.gif
     iconHeight: 30
 
   # Themes params
