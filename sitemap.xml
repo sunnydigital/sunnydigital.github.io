@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sunnyson.dev/</loc>
+    <lastmod>2023-07-29T07:00:00-04:00</lastmod>
+  </url><url>
     <loc>https://sunnyson.dev/tags/cosine-similarity/</loc>
     <lastmod>2023-07-29T07:00:00-04:00</lastmod>
   </url><url>
@@ -18,9 +21,6 @@
     <lastmod>2023-07-29T07:00:00-04:00</lastmod>
   </url><url>
     <loc>https://sunnyson.dev/tags/shopping-recommender/</loc>
-    <lastmod>2023-07-29T07:00:00-04:00</lastmod>
-  </url><url>
-    <loc>https://sunnyson.dev/</loc>
     <lastmod>2023-07-29T07:00:00-04:00</lastmod>
   </url><url>
     <loc>https://sunnyson.dev/tags/</loc>
@@ -47,7 +47,7 @@
     <loc>https://sunnyson.dev/tags/monocle/</loc>
     <lastmod>2023-07-23T07:00:00-04:00</lastmod>
   </url><url>
-    <loc>https://sunnyson.dev/notes/2023/07/monocle-reverse-graph-embeddings/</loc>
+    <loc>https://sunnyson.dev/notes/monocle-reverse-graph-embeddings/</loc>
     <lastmod>2023-07-23T07:00:00-04:00</lastmod>
   </url><url>
     <loc>https://sunnyson.dev/notes/</loc>
