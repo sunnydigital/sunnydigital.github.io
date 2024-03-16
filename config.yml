@@ -17,10 +17,8 @@ params:
 
   description: Sunny's website
   author: Sunny Son
-  images:
-    - sun-with-face-emoji.png
-  favicon: 
-    - sun-with-face-emoji.png
+  images: sun-with-face-emoji.png
+  favicon: sun-with-face-emoji.png
 
   label:
     text: Sunny's Digital
